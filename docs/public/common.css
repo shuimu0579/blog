@@ -14,3 +14,7 @@ img {
 .page-item.active .page-link{
   color: #083537!important;
 }
+
+.logo{
+  width: 24px;
+}
