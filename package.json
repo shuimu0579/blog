@@ -1,7 +1,7 @@
 {
   "name": "front-end-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "覆盖前端测试方向的所有内容，包含 - 单元测试 - 组件测试 - 端对端测试",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -12,6 +12,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.45"
-  }
+    "vitepress": "^1.0.0-alpha.74"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuimu0579/blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shuimu0579/blog/issues"
+  },
+  "homepage": "https://github.com/shuimu0579/blog#readme"
 }
