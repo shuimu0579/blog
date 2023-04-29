@@ -9,8 +9,8 @@ const { Layout } = DefaultTheme;
     <template #aside-ads-before>
       <div class="advertising">
         <div>
-          <a href="https://learn.cuixueshe.com/p/t_pc/goods_pc_detail/goods_detail/p_63f3795ee4b06159f73e6452?product_id=p_63f3795ee4b06159f73e6452">
-            课程预售ing
+          <a href="https://twitter.com/shuimu19">
+            联系我
           </a>
         </div>
       </div>

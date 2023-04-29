@@ -1,5 +1,5 @@
 {
-  "name": "front-end-testing",
+  "name": "blog",
   "version": "1.0.0",
   "description": "覆盖前端测试方向的所有内容，包含 - 单元测试 - 组件测试 - 端对端测试",
   "main": "index.js",

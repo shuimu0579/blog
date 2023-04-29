@@ -1,7 +1,7 @@
 export default {
-  title: "FrontEndTesting",
-  description: "front end testing",
-  base: "/unittest/",
+  title: "suimu blog",
+  description: "suimu blog",
+  base: "/blog/",
   themeConfig: {
     logo: "/logo.png",
     sidebar: [
