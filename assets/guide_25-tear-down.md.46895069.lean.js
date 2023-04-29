@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,O as o}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"拆卸","description":"","frontmatter":{},"headers":[],"relativePath":"guide/25-tear-down.md"}'),r={name:"guide/25-tear-down.md"},i=o("",5),l=[i];function n(_,s,c,d,h,u){return e(),t("div",null,l)}const f=a(r,[["render",n]]);export{p as __pageData,f as default};

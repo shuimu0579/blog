@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,O as r}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"一个 TDD 项目","description":"","frontmatter":{},"headers":[],"relativePath":"guide/59-tdd-args.md"}'),o={name:"guide/59-tdd-args.md"},d=r("",4),s=[d];function i(_,n,c,l,h,u){return e(),t("div",null,s)}const f=a(o,[["render",i]]);export{p as __pageData,f as default};

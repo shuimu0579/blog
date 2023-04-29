@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as r}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"分层测试","description":"","frontmatter":{},"headers":[],"relativePath":"guide/19-layer-test.md"}'),i={name:"guide/19-layer-test.md"},l=r("",5),o=[l];function s(_,n,c,d,h,u){return a(),t("div",null,o)}const f=e(i,[["render",s]]);export{p as __pageData,f as default};

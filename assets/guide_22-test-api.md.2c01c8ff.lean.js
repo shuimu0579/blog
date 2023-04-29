@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,O as i}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"测试 api","description":"","frontmatter":{},"headers":[],"relativePath":"guide/22-test-api.md"}'),o={name:"guide/22-test-api.md"},l=i("",5),r=[l];function s(_,n,c,d,h,p){return e(),t("div",null,r)}const f=a(o,[["render",s]]);export{m as __pageData,f as default};

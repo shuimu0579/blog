@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as i}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"重复","description":"","frontmatter":{},"headers":[],"relativePath":"guide/41-repetition.md"}'),o={name:"guide/41-repetition.md"},r=i("",4),n=[r];function l(_,s,c,d,h,u){return a(),t("div",null,n)}const f=e(o,[["render",l]]);export{m as __pageData,f as default};

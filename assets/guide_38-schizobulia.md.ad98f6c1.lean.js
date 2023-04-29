@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,O as o}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"人格分裂","description":"","frontmatter":{},"headers":[],"relativePath":"guide/38-schizobulia.md"}'),i={name:"guide/38-schizobulia.md"},r=o("",4),s=[r];function c(_,l,n,d,h,u){return e(),t("div",null,s)}const f=a(i,[["render",c]]);export{p as __pageData,f as default};

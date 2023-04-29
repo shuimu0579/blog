@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as e,O as i}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"程序的输入和输出","description":"","frontmatter":{},"headers":[],"relativePath":"guide/13-input-and-output.md"}'),l={name:"guide/13-input-and-output.md"},o=i("",5),n=[o];function r(u,_,s,d,c,h){return a(),e("div",null,n)}const f=t(l,[["render",r]]);export{m as __pageData,f as default};

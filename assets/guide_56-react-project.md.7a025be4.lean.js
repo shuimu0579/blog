@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as r}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"React 页面应用","description":"","frontmatter":{},"headers":[],"relativePath":"guide/56-react-project.md"}'),o={name:"guide/56-react-project.md"},c=r("",3),_=[c];function n(s,i,d,h,l,p){return a(),t("div",null,_)}const f=e(o,[["render",n]]);export{m as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as r}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"永不失败的测试","description":"","frontmatter":{},"headers":[],"relativePath":"guide/46-never-failed-test.md"}'),o={name:"guide/46-never-failed-test.md"},s=r("",3),i=[s];function n(_,d,c,l,h,u){return a(),t("div",null,i)}const p=e(o,[["render",n]]);export{m as __pageData,p as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as o}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"说谎的测试","description":"","frontmatter":{},"headers":[],"relativePath":"guide/47-the-test-of-lying.md"}'),r={name:"guide/47-the-test-of-lying.md"},i=o("",4),n=[i];function s(l,_,c,d,h,u){return a(),t("div",null,n)}const p=e(r,[["render",s]]);export{m as __pageData,p as default};

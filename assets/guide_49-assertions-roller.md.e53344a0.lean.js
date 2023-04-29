@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as r}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"断言滚轮","description":"","frontmatter":{},"headers":[],"relativePath":"guide/49-assertions-roller.md"}'),o={name:"guide/49-assertions-roller.md"},s=r("",4),i=[s];function l(n,_,c,d,h,u){return a(),t("div",null,i)}const f=e(o,[["render",l]]);export{p as __pageData,f as default};

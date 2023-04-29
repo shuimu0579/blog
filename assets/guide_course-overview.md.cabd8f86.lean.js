@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,O as r}from"./chunks/framework.ce94e18e.js";const q=JSON.parse('{"title":"课程概述","description":"","frontmatter":{},"headers":[],"relativePath":"guide/course-overview.md"}'),i={name:"guide/course-overview.md"},o=r("",47),h=[o];function l(p,s,n,d,c,u){return e(),t("div",null,h)}const _=a(i,[["render",l]]);export{q as __pageData,_ as default};

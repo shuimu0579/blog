@@ -1,0 +1,1 @@
+import{_ as a,o as i,c as e,O as l}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"验证哪些内容","description":"","frontmatter":{},"headers":[],"relativePath":"guide/15-verify-what.md"}'),t={name:"guide/15-verify-what.md"},r=l("",7),o=[r];function n(s,h,_,c,d,u){return i(),e("div",null,o)}const p=a(t,[["render",n]]);export{m as __pageData,p as default};

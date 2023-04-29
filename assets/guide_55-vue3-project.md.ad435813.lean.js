@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as o}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"Vue3 的页面应用","description":"","frontmatter":{},"headers":[],"relativePath":"guide/55-vue3-project.md"}'),r={name:"guide/55-vue3-project.md"},c=o("",3),_=[c];function n(s,i,d,u,h,l){return a(),t("div",null,_)}const f=e(r,[["render",n]]);export{m as __pageData,f as default};

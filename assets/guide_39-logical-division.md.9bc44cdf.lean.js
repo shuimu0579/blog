@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,O as i}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"逻辑分裂","description":"","frontmatter":{},"headers":[],"relativePath":"guide/39-logical-division.md"}'),o={name:"guide/39-logical-division.md"},r=i("",4),n=[r];function s(l,c,_,d,h,u){return e(),t("div",null,n)}const f=a(o,[["render",s]]);export{p as __pageData,f as default};

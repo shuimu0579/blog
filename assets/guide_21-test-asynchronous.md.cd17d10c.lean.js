@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as i}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"测试异步逻辑","description":"","frontmatter":{},"headers":[],"relativePath":"guide/21-test-asynchronous.md"}'),o={name:"guide/21-test-asynchronous.md"},l=i("",5),s=[l];function r(n,c,_,h,u,d){return a(),t("div",null,s)}const f=e(o,[["render",r]]);export{p as __pageData,f as default};

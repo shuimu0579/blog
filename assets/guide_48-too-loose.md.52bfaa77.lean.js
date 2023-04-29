@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as o,O as t}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"过于宽松","description":"","frontmatter":{},"headers":[],"relativePath":"guide/48-too-loose.md"}'),r={name:"guide/48-too-loose.md"},s=t("",4),i=[s];function _(n,l,c,d,h,u){return a(),o("div",null,i)}const f=e(r,[["render",_]]);export{p as __pageData,f as default};

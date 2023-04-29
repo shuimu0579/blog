@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as r}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"参数化验证","description":"","frontmatter":{},"headers":[],"relativePath":"guide/20-parameterized-test.md"}'),i={name:"guide/20-parameterized-test.md"},o=r("",4),l=[o];function s(_,n,d,c,h,u){return a(),t("div",null,l)}const f=e(i,[["render",s]]);export{p as __pageData,f as default};

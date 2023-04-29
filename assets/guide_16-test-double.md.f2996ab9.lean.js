@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as l,O as a}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"测试替身 Test Double","description":"","frontmatter":{},"headers":[],"relativePath":"guide/16-test-double.md"}'),i={name:"guide/16-test-double.md"},o=a("",5),s=[o];function r(_,d,n,u,c,h){return t(),l("div",null,s)}const p=e(i,[["render",r]]);export{m as __pageData,p as default};

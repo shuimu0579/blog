@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as s,O as a}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"Vitest VS Jest","description":"","frontmatter":{},"headers":[],"relativePath":"guide/09-vitest-vs-jest.md"}'),i={name:"guide/09-vitest-vs-jest.md"},o=a("",5),r=[o];function l(_,n,c,d,h,u){return e(),s("div",null,r)}const m=t(i,[["render",l]]);export{p as __pageData,m as default};

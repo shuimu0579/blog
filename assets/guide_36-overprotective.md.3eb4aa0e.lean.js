@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as r}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"过分保护","description":"","frontmatter":{},"headers":[],"relativePath":"guide/36-overprotective.md"}'),o={name:"guide/36-overprotective.md"},i=r("",3),c=[i];function _(n,s,d,h,l,p){return a(),t("div",null,c)}const f=e(o,[["render",_]]);export{m as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as r}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"Vue3 版本的俄罗斯方块","description":"","frontmatter":{},"headers":[],"relativePath":"guide/57-vue3-tetris.md"}'),o={name:"guide/57-vue3-tetris.md"},i=r("",4),s=[i];function _(n,c,l,d,u,h){return a(),t("div",null,s)}const f=e(o,[["render",_]]);export{p as __pageData,f as default};

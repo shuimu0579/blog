@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,O as l}from"./chunks/framework.ce94e18e.js";const m=JSON.parse('{"title":"准备数据","description":"","frontmatter":{},"headers":[],"relativePath":"guide/11-to-prepare-data.md"}'),i={name:"guide/11-to-prepare-data.md"},r=l("",5),o=[r];function s(_,n,d,c,u,h){return e(),t("div",null,o)}const f=a(i,[["render",s]]);export{m as __pageData,f as default};

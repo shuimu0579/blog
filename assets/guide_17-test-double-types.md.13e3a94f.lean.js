@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,O as l}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"测试替身的类型","description":"","frontmatter":{},"headers":[],"relativePath":"guide/17-test-double-types.md"}'),o={name:"guide/17-test-double-types.md"},i=l("",5),s=[i];function r(c,_,n,d,u,h){return t(),a("div",null,s)}const b=e(o,[["render",r]]);export{p as __pageData,b as default};

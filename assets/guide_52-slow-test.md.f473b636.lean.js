@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,O as o}from"./chunks/framework.ce94e18e.js";const p=JSON.parse('{"title":"缓慢测试","description":"","frontmatter":{},"headers":[],"relativePath":"guide/52-slow-test.md"}'),r={name:"guide/52-slow-test.md"},s=o("",3),_=[s];function n(i,c,d,l,h,u){return a(),t("div",null,_)}const f=e(r,[["render",n]]);export{p as __pageData,f as default};
