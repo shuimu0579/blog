@@ -21,8 +21,8 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/00-introduction
+      link: /guide/心理偏差--查理芒格
     - theme: alt
       text: View on GitHub
-      link: https://github.com/cuixiaorui/front-end-testing
+      link: https://github.com/shuimu0579/blog
 ---

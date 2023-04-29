@@ -6,265 +6,81 @@ export default {
     logo: "/logo.png",
     sidebar: [
       {
-        text: "Why&What",
-        items: [
-          // {
-          //   text: "前端单元测试课",
-          //   link: "/guide/course-overview",
-          // },
-          {
-            text: "概述",
-            link: "/guide/00-introduction",
-          },
-          {
-            text: "为什么要写测试",
-            link: "/guide/01-why-write-testing",
-          },
-          { text: "自动化思维的体现", link: "/guide/02-automatic-thinking" },
-          { text: "单元测试的定义", link: "/guide/03-unit-test-definition" },
-          { text: "在什么时候写测试", link: "/guide/04-when-writing-tests" },
-          { text: "不写测试的原因", link: "/guide/05-why-not-write-tests" },
-        ],
-      },
-      {
-        text: "初识 Vitest",
+        text: "文字摘录",
         items: [
           {
-            text: "编写第一个单元测试",
-            link: "/guide/06-write-first-unit-test",
+            text: "心理偏差--查理芒格",
+            link: "/guide/心理偏差--查理芒格",
           },
           {
-            text: "Vitest Test Api",
-            link: "/guide/07-vitest-test-api",
+            text: "孙子兵法全篇及思想精要",
+            link: "/guide/孙子兵法全篇及思想精要",
           },
           {
-            text: "Vitest Debug",
-            link: "/guide/08-vitest-debug",
+            text: "毛选中的经典语录",
+            link: "/guide/毛选中的经典语录",
           },
           {
-            text: "Vitest VS Jest",
-            link: "/guide/09-vitest-vs-jest",
-          },
-          {
-            text: "实现 mini test runner",
-            link: "/guide/10-mini-test-runner",
+            text: "怎么学习一个新的东西",
+            link: "/guide/怎么学习一个新的东西",
           },
         ],
       },
       {
-        text: "测试四部曲",
+        text: "趁手的工具",
         items: [
           {
-            text: "准备数据",
-            link: "/guide/11-to-prepare-data",
+            text: "常用工具汇总",
+            link: "/guide/常用工具汇总",
           },
           {
-            text: "放置测试数据的策略",
-            link: "/guide/12-where-put-test-data",
+            text: "1Password 注册使用教程",
+            link: "/guide/1Password 注册使用教程",
           },
           {
-            text: "程序的输入和输出",
-            link: "/guide/13-input-and-output",
+            text: "Chrome浏览器以及其暗黑模式的使用",
+            link: "/guide/Chrome浏览器以及其暗黑模式的使用",
           },
           {
-            text: "验证的方式",
-            link: "/guide/14-verify-way",
+            text: "GitHub使用教程",
+            link: "/guide/GitHub使用教程",
           },
           {
-            text: "验证哪些内容",
-            link: "/guide/15-verify-what",
+            text: "Gmail邮箱的注册与使用",
+            link: "/guide/Gmail邮箱的注册与使用",
           },
           {
-            text: "测试替身 Test Double",
-            link: "/guide/16-test-double",
+            text: "OneDrive跨平台云存储",
+            link: "/guide/OneDrive跨平台云存储",
+          },
+
+          {
+            text: "个人笔记工具Obsidian",
+            link: "/guide/个人笔记工具Obsidian",
           },
           {
-            text: "测试替身的类型",
-            link: "/guide/17-test-double-types",
+            text: "如何用Netflix观看《鱿鱼游戏》",
+            link: "/guide/如何用Netflix观看《鱿鱼游戏》",
           },
           {
-            text: "Setup 测试替身",
-            link: "/guide/18-setup-test-double",
+            text: "微信读书和zlibrary的双剑合璧",
+            link: "/guide/微信读书和zlibrary的双剑合璧",
           },
           {
-            text: "分层测试",
-            link: "/guide/19-layer-test",
+            text: "思考工具Hepta",
+            link: "/guide/思考工具Hepta",
           },
           {
-            text: "参数化验证",
-            link: "/guide/20-parameterized-test",
+            text: "找到想要的电子书",
+            link: "/guide/找到想要的电子书",
           },
           {
-            text: "测试异步逻辑",
-            link: "/guide/21-test-asynchronous",
+            text: "搭建个人Z-library电子书机器人",
+            link: "/guide/搭建个人Z-library电子书机器人",
           },
           {
-            text: "测试 api",
-            link: "/guide/22-test-api",
-          },
-          {
-            text: "测试第三方库",
-            link: "/guide/23-test-third-party-library",
-          },
-          {
-            text: "测试日期",
-            link: "/guide/24-test-date",
-          },
-          {
-            text: "拆卸",
-            link: "/guide/25-tear-down",
-          },
-        ],
-      },
-      {
-        text: "测试原则",
-        items: [
-          {
-            text: "只测试一个关注点",
-            link: "/guide/26-test-only-one-focus",
-          },
-          {
-            text: "避免条件测试逻辑",
-            link: "/guide/27-avoid-condition-test-logic",
-          },
-          {
-            text: "保持测试独立",
-            link: "/guide/28-keeping-test-independent",
-          },
-          {
-            text: "保持简单易读",
-            link: "/guide/29-easy-and-read",
-          },
-          {
-            text: "易测性设计",
-            link: "/guide/30-testable-design",
-          },
-          {
-            text: "使用前门优先",
-            link: "/guide/31-use-the-front-door-first",
-          },
-          {
-            text: "隔离 SUT",
-            link: "/guide/32-isolation-SUT",
-          },
-          {
-            text: "完备而不重复",
-            link: "/guide/53-mature-and-not-repeat",
-          },
-        ],
-      },
-      {
-        text: "测试坏味道",
-        items: [
-          {
-            text: "低层次的断言",
-            link: "/guide/33-low-levels-of-assertions",
-          },
-          {
-            text: "过渡断言",
-            link: "/guide/34-transition-assertion",
-          },
-          {
-            text: "魔法字符串",
-            link: "/guide/35-magic-string",
-          },
-          {
-            text: "过分保护",
-            link: "/guide/36-overprotective",
-          },
-          {
-            text: "冗长安装",
-            link: "/guide/37-lengthy-installation",
-          },
-          {
-            text: "人格分裂",
-            link: "/guide/38-schizobulia",
-          },
-          {
-            text: "无关附加的细节",
-            link: "/guide/40-immaterial-details",
-          },
-          {
-            text: "重复",
-            link: "/guide/41-repetition",
-          },
-          {
-            text: "脆弱的测试",
-            link: "/guide/42-the-fragile-test",
-          },
-          {
-            text: "缺乏内聚",
-            link: "/guide/43-the-lack-of-cohesion",
-          },
-          {
-            text: "注释掉的测试",
-            link: "/guide/44-comment-out-the-test",
-          },
-          {
-            text: "歧义注释",
-            link: "/guide/45-ambiguity-annotation",
-          },
-          {
-            text: "永不失败的测试",
-            link: "/guide/46-never-failed-test",
-          },
-          {
-            text: "说谎的测试",
-            link: "/guide/47-the-test-of-lying",
-          },
-          {
-            text: "过于宽松",
-            link: "/guide/48-too-loose",
-          },
-          {
-            text: "断言滚轮",
-            link: "/guide/49-assertions-roller",
-          },
-          {
-            text: "手动调试",
-            link: "/guide/50-manual-debugging",
-          },
-          {
-            text: "手动干预",
-            link: "/guide/51-manual-intervention",
-          },
-          {
-            text: "缓慢测试",
-            link: "/guide/52-slow-test",
-          },
-        ],
-      },
-      {
-        text: "设计和可测试性",
-        items: [
-          {
-            text: "面向对象原则 SOLID 和可测试性",
-            link: "/guide/54-oop-and-SOLID",
-          },
-        ],
-      },
-      {
-        text: "项目实战",
-        items: [
-          {
-            text: "Vue3 的页面应用",
-            link: "/guide/55-vue3-project",
-          },
-          {
-            text: "Vue3 版本的俄罗斯方块",
-            link: "/guide/57-vue3-tetris",
-          },
-          {
-            text: "给 mini-vue 的 runtime core 添加测试",
-            link: "/guide/58-mini-vue-runtime-core-add-test",
-          },
-          {
-            text: "一个 TDD 项目",
-            link: "/guide/59-tdd-args",
-          },
-          {
-            text: "React 页面应用",
-            link: "/guide/56-react-project",
+            text: "这个工具，我用了三年",
+            link: "/guide/这个工具，我用了三年",
           },
         ],
       },
