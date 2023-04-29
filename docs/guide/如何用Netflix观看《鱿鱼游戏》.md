@@ -2,7 +2,7 @@
 title: "如何用Netflix观看《鱿鱼游戏》"
 date: 2022-11-05
 ---
-<link rel="stylesheet" type="text/css" href="/common.css">
+<link rel="stylesheet" type="text/css" href="/common01.css">
 
 这篇讲的是如何下载 Netflix（中文名：网飞或奈飞），从而顺利观看 Netflix 上的剧集，特别是其中的一些原创剧集，比如前两个月开始大火的《鱿鱼游戏》。
 

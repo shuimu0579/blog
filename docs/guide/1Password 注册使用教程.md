@@ -2,7 +2,7 @@
 title: "1Password 注册使用教程"
 date: 2022-11-05
 ---
-<link rel="stylesheet" type="text/css" href="/common.css">
+<link rel="stylesheet" type="text/css" href="/common01.css">
 
 
 工具类第四篇我们讲的是 1Password 的使用。讲到这篇的时候，我们终于可以轻松一点了，因为操作这篇的时候，不用科学上网也可以搞定。

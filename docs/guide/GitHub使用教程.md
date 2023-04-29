@@ -2,7 +2,7 @@
 title: "GitHub使用教程"
 date: 2022-11-05
 ---
-<link rel="stylesheet" type="text/css" href="/common.css">
+<link rel="stylesheet" type="text/css" href="/common01.css">
 
 这篇主要讲的是 GitHub 的使用，我将通过图文的形式展现 GitHub 的使用。  
 
