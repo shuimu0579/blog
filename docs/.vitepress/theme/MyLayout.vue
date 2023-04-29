@@ -23,13 +23,31 @@ const { Layout } = DefaultTheme;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px;
-  border-radius: 12px;
-  min-height: 256px;
+  width: 80px;
+  height: 80px;
+  padding: 6px;
+  border-radius: 40px;
   text-align: center;
   line-height: 18px;
   font-size: 12px;
   font-weight: 500;
-  background-color: rgb(25, 25, 29);
+  background-color: #999;
+  cursor: pointer;
+  animation: buildingWarningMarker 1.5s infinite ease-in-out;
+}
+
+@keyframes buildingWarningMarker {
+  0% {
+    background-color: hsl(126, 41%, 10%);
+    color: hsl(126, 41%, 30%);
+  }
+  50% {
+    background-color: hsl(126, 41%, 30%);
+    color: hsl(126, 41%, 80%);
+  }
+  100% {
+    background-color: hsl(126, 41%, 10%);
+    color: hsl(126, 41%, 30%);
+  }
 }
 </style>

@@ -3,29 +3,8 @@ export default {
   description: "suimu blog",
   base: "/blog/",
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/avatar.jpeg",
     sidebar: [
-      {
-        text: "文字摘录",
-        items: [
-          {
-            text: "心理偏差--查理芒格",
-            link: "/guide/心理偏差--查理芒格",
-          },
-          {
-            text: "孙子兵法全篇及思想精要",
-            link: "/guide/孙子兵法全篇及思想精要",
-          },
-          {
-            text: "毛选中的经典语录",
-            link: "/guide/毛选中的经典语录",
-          },
-          {
-            text: "怎么学习一个新的东西",
-            link: "/guide/怎么学习一个新的东西",
-          },
-        ],
-      },
       {
         text: "趁手的工具",
         items: [
@@ -81,6 +60,27 @@ export default {
           {
             text: "这个工具，我用了三年",
             link: "/guide/这个工具，我用了三年",
+          },
+        ],
+      },
+      {
+        text: "文字摘录",
+        items: [
+          {
+            text: "心理偏差--查理芒格",
+            link: "/guide/心理偏差--查理芒格",
+          },
+          {
+            text: "孙子兵法全篇及思想精要",
+            link: "/guide/孙子兵法全篇及思想精要",
+          },
+          {
+            text: "毛选中的经典语录",
+            link: "/guide/毛选中的经典语录",
+          },
+          {
+            text: "怎么学习一个新的东西",
+            link: "/guide/怎么学习一个新的东西",
           },
         ],
       },
