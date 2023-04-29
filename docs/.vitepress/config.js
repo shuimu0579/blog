@@ -1,7 +1,7 @@
 export default {
   title: "FrontEndTesting",
   description: "front end testing",
-  base: "/blog/",
+  base: "/unittest/",
   themeConfig: {
     logo: "/logo.png",
     sidebar: [
