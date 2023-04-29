@@ -1,2 +1,2 @@
-# resume--https://vitepress.dev/guide/deploy
+# suimu blog
 
