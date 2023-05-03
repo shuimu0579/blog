@@ -7,9 +7,6 @@ export default {
   lastUpdated: true,
   cleanUrls: true,
   base: "/blog/",
-  alias: {
-    "/baseAlias/": path.resolve(__dirname, "../public"),
-  },
   themeConfig: {
     logo: "/avatar.jpeg",
     sidebar: [
