@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import MyLayout from './MyLayout.vue'
-import "/blog/common.css";
+import "/public/common.css";
 
 export default {
   ...DefaultTheme,

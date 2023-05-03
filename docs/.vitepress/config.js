@@ -1,3 +1,5 @@
+const path = require("path");
+
 export default {
   lang: "zh-CN",
   title: "suimu blog",
@@ -5,6 +7,9 @@ export default {
   lastUpdated: true,
   cleanUrls: true,
   base: "/blog/",
+  alias: {
+    "/public/": path.resolve(__dirname, "../public"),
+  },
   themeConfig: {
     logo: "/avatar.jpeg",
     sidebar: [
