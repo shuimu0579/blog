@@ -1,4 +1,5 @@
 export default {
+  lang: "zh-CN",
   title: "suimu blog",
   description: "suimu blog",
   lastUpdated: true,

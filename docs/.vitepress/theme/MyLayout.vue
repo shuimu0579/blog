@@ -9,7 +9,7 @@ const { Layout } = DefaultTheme;
     <template #aside-ads-before>
       <div class="advertising">
         <div>
-          <a href="https://twitter.com/shuimu19">
+          <a href="https://twitter.com/shuimu19" target="_blank">
             联系我
           </a>
         </div>
