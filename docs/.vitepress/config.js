@@ -1,12 +1,15 @@
 export default {
   title: "suimu blog",
   description: "suimu blog",
+  lastUpdated: true,
+  cleanUrls: true,
   base: "/blog/",
   themeConfig: {
     logo: "/avatar.jpeg",
     sidebar: [
       {
         text: "趁手的工具",
+        collapsed: false,
         items: [
           {
             text: "常用工具汇总",
@@ -65,6 +68,7 @@ export default {
       },
       {
         text: "文字摘录",
+        collapsed: false,
         items: [
           {
             text: "心理偏差--查理芒格",
