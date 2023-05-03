@@ -13,7 +13,7 @@ hero:
       text: 趁手的工具
       link: /guide/常用工具汇总
     - theme: alt
-      text: 文字摘录
+      text: 闲言碎语
       link: /guide/心理偏差--查理芒格
 
 # features:
