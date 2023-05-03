@@ -8,7 +8,7 @@ export default {
   cleanUrls: true,
   base: "/blog/",
   alias: {
-    "/baseaLias/": path.resolve(__dirname, "../public"),
+    "/baseAlias/": path.resolve(__dirname, "../public"),
   },
   themeConfig: {
     logo: "/avatar.jpeg",
