@@ -70,7 +70,7 @@ export default {
         ],
       },
       {
-        text: "文字摘录",
+        text: "闲言碎语",
         collapsed: false,
         items: [
           {
@@ -88,6 +88,10 @@ export default {
           {
             text: "怎么学习一个新的东西",
             link: "/guide/怎么学习一个新的东西",
+          },
+          {
+            text: "科目三考了三次有感",
+            link: "/guide/科目三考了三次有感",
           },
         ],
       },
