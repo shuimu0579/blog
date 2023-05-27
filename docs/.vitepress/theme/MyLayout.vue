@@ -12,9 +12,7 @@ const { Layout } = DefaultTheme;
         target="_blank"
         class="advertising"
       >
-        <div>
-          <a> 联系我 </a>
-        </div>
+        <span> 联系我 </span>
       </a>
     </template>
   </Layout>
