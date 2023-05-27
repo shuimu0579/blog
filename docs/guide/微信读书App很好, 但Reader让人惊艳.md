@@ -4,12 +4,22 @@ date: 2023-05-27
 ---
 
 <style>
+/* Light theme */
 :root {
   --link-blue-hsl: hsl(183, 75%, 12%);
   --border-hsl: hsl(175, 82%, 32%);
   --border-background-hsl: hsla(175, 82%, 32%, 0.1);
   --border-color-hsl: hsla(240, 6%, 25%, 1);
 }
+
+/* Dark theme */
+.dark {
+  --link-blue-hsl: hsl(183, 75%, 12%);
+  --border-hsl: hsl(175, 82%, 32%);
+  --border-background-hsl: hsla(175, 82%, 32%, 0.1);
+  --border-color-hsl: hsla(60, 100%, 98%, 0.86);
+}
+
 .blockquote {
   padding: 0.5em 1.2em !important;
   border-left: 3px solid var(--border-hsl) !important;
