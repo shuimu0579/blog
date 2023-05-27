@@ -15,8 +15,8 @@ export default {
         collapsed: false,
         items: [
           {
-            text: "readerwise-reader",
-            link: "/guide/readerwise-reader",
+            text: "微信读书App很好，但Reader让人惊艳",
+            link: "/tools/readwise-reader",
           },
           {
             text: "常用工具汇总",
