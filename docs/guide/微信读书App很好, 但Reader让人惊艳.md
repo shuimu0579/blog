@@ -3,6 +3,24 @@ title: "微信读书App很好, 但Reader让人惊艳"
 date: 2023-05-27
 ---
 
+<style>
+.blockquote {
+  padding: 0.5em 1.2em !important;
+  border-left: 3px solid var(--border-hsl) !important;
+  width: 100%;
+  box-sizing: border-box !important;
+  background-color: var(--border-background-hsl) !important;
+  color: var(--border-color-hsl) !important;
+}
+img {
+  display: inline-block;
+}
+.page-item.active .page-link {
+  color: var(--link-blue-hsl) !important;
+}
+</style>
+
+![Ri_esrgan-v1-x2plus](../public/image/0_A%20Brazilian%20Werewolf%20moster%20walking%20through%20the%20Ri_esrgan-v1-x2plus.png)
 大概半年前，我写了篇文章--微信读书和 z-library 的双剑合璧 (https://mp.weixin.qq.com/s/JkB6jaRXhBUN3H0IAvItaA)，这篇文章里面讲到怎么使用微信读书App看各种电子书。
 
 现在我已经不用微信读书 App，取而代之的是 ReaderWise + Reader 阅读器(https://readwise.io/read)。 ReaderWise 和 Reader 是由一个团队开发的两款 App， 我个人用的是这个团队最新开发的 Reader App， 这个 Reader App 现在还处于 Bata 版本阶段， 早鸟价是 7.99 美元/月(https://readwise.io/pricing)，Web、iOS、Android 端同步。
