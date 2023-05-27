@@ -15,6 +15,10 @@ export default {
         collapsed: false,
         items: [
           {
+            text: "微信读书App很好, 但Reader让人惊艳",
+            link: "/guide/微信读书App很好, 但Reader让人惊艳",
+          },
+          {
             text: "常用工具汇总",
             link: "/guide/常用工具汇总",
           },
@@ -66,10 +70,6 @@ export default {
           {
             text: "这个工具，我用了三年",
             link: "/guide/这个工具，我用了三年",
-          },
-          {
-            text: "微信读书App很好, 但Reader让人惊艳",
-            link: "/guide/微信读书App很好, 但Reader让人惊艳",
           },
         ],
       },

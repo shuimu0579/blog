@@ -3,47 +3,6 @@ title: "微信读书App很好, 但Reader让人惊艳"
 date: 2023-05-27
 ---
 
-<style>
-/* Light theme */
-:root {
-  --link-blue-hsl: hsl(183, 75%, 12%);
-  --border-hsl: hsl(175, 82%, 32%);
-  --border-background-hsl: hsla(175, 82%, 32%, 0.1);
-  --border-color-hsl: hsla(240, 6%, 25%, 1);
-}
-
-/* Dark theme */
-.dark {
-  --link-blue-hsl: hsl(183, 75%, 12%);
-  --border-hsl: hsl(175, 82%, 32%);
-  --border-background-hsl: hsla(175, 82%, 32%, 0.1);
-  --border-color-hsl: hsla(60, 100%, 98%, 0.86);
-}
-
-.blockquote {
-  padding: 0.5em 1.2em !important;
-  border-left: 3px solid var(--border-hsl) !important;
-  width: 100%;
-  box-sizing: border-box !important;
-  background-color: var(--border-background-hsl) !important;
-  color: var(--border-color-hsl) !important;
-}
-img {
-  display: inline-block;
-}
-.page-item.active .page-link {
-  color: var(--link-blue-hsl) !important;
-}
-h2 {
-  text-align:left !important;
-  margin-block-start: 0.83em !important;
-  margin-block-end: 0.83em !important;
-  margin-inline-start: 0px !important;
-  margin-inline-end: 0px !important;
-  color: var(--border-hsl) !important;
-}
-</style>
-
 ![Ri_esrgan-v1-x2plus](../public/image/0_A%20Brazilian%20Werewolf%20moster%20walking%20through%20the%20Ri_esrgan-v1-x2plus.png)
 大概半年前，我写了篇文章--微信读书和 z-library 的双剑合璧 ( https://mp.weixin.qq.com/s/JkB6jaRXhBUN3H0IAvItaA )。 这篇文章里面讲到怎么使用微信读书 App 看各种电子书。
 
