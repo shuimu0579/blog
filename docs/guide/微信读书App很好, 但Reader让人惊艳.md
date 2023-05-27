@@ -4,6 +4,12 @@ date: 2023-05-27
 ---
 
 <style>
+:root {
+  --link-blue-hsl: hsl(183, 75%, 12%);
+  --border-hsl: hsl(175, 82%, 32%);
+  --border-background-hsl: hsla(175, 82%, 32%, 0.1);
+  --border-color-hsl: hsla(240, 6%, 25%, 1);
+}
 .blockquote {
   padding: 0.5em 1.2em !important;
   border-left: 3px solid var(--border-hsl) !important;
@@ -18,10 +24,18 @@ img {
 .page-item.active .page-link {
   color: var(--link-blue-hsl) !important;
 }
+h2 {
+  text-align:left !important;
+  margin-block-start: 0.83em !important;
+  margin-block-end: 0.83em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  color: var(--border-hsl) !important;
+}
 </style>
 
 ![Ri_esrgan-v1-x2plus](../public/image/0_A%20Brazilian%20Werewolf%20moster%20walking%20through%20the%20Ri_esrgan-v1-x2plus.png)
-大概半年前，我写了篇文章--微信读书和 z-library 的双剑合璧 (https://mp.weixin.qq.com/s/JkB6jaRXhBUN3H0IAvItaA)，这篇文章里面讲到怎么使用微信读书App看各种电子书。
+大概半年前，我写了篇文章--微信读书和 z-library 的双剑合璧 ( https://mp.weixin.qq.com/s/JkB6jaRXhBUN3H0IAvItaA )。 这篇文章里面讲到怎么使用微信读书 App 看各种电子书。
 
 现在我已经不用微信读书 App，取而代之的是 ReaderWise + Reader 阅读器(https://readwise.io/read)。 ReaderWise 和 Reader 是由一个团队开发的两款 App， 我个人用的是这个团队最新开发的 Reader App， 这个 Reader App 现在还处于 Bata 版本阶段， 早鸟价是 7.99 美元/月(https://readwise.io/pricing)，Web、iOS、Android 端同步。
 
@@ -53,7 +67,7 @@ Reader 号称 All in One 阅读器， 我觉得它没有吹牛逼。 以下是�
 
 ## EPUB 阅读器
 
-用个人 Z-library 电子书机器人(https://mp.weixin.qq.com/s/IXBOAQBoS25bcRXiPLWcdA) 下载 EPUB 格式的电子书， 在 Reader App 中阅读， 遇到有启发的内容就可以高亮标注，同时高亮标注在 HeptaBase(https://mp.weixin.qq.com/s/6q5YonGckU-YRy-vG0vfUA) 里面可以展示， 为以后内容的迭代打下基础，这个过程不要太丝滑。
+用个人 Z-library 电子书机器人( https://mp.weixin.qq.com/s/IXBOAQBoS25bcRXiPLWcdA ) 下载 EPUB 格式的电子书， 在 Reader App 中阅读， 遇到有启发的内容就可以高亮标注，同时高亮标注在 HeptaBase( https://mp.weixin.qq.com/s/6q5YonGckU-YRy-vG0vfUA ) 里面可以展示， 为以后内容的迭代打下基础，这个过程不要太丝滑。
 
 用 Reader 作为电子书阅读器，可以方便的看英文原版书，不用和别人比读书时长，默默的看，慢一点也没关系，《Beyong Feelings》和 《Animal Farm》这两本一直以来都想啃下来的书，在靠着英文翻译的过程中，用 Reader 看完了，这个过程也没有多么痛苦。
 
