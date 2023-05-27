@@ -9,6 +9,8 @@ date: 2023-05-27
 
 现在我已经不用微信读书 App，取而代之的是 ReaderWise + Reader 阅读器(https://readwise.io/read)。 ReaderWise 和 Reader 是由一个团队开发的两款 App， 我个人用的是这个团队最新开发的 Reader App， 这个 Reader App 现在还处于 Bata 版本阶段， 早鸟价是 7.99 美元/月(https://readwise.io/pricing)，Web、iOS、Android 端同步。
 
+## All in One 阅读器
+
 Reader 号称 All in One 阅读器， 我觉得它没有吹牛逼。 以下是它提供的特色功能:
 
 <blockquote class="blockquote">
