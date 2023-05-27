@@ -15,8 +15,8 @@ export default {
         collapsed: false,
         items: [
           {
-            text: "微信读书App很好, 但Reader让人惊艳",
-            link: "/guide/微信读书App很好, 但Reader让人惊艳",
+            text: "微信读书App很好，但Reader让人惊艳",
+            link: "/guide/微信读书App很好，但Reader让人惊艳",
           },
           {
             text: "常用工具汇总",
