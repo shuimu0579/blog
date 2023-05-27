@@ -48,6 +48,8 @@ Card Library 卡片模块
 
 Tag 标签模块
 
+HighLight 高亮模块
+
 <blockquote class="blockquote">决定购买之前的提醒</blockquote>
 
 在决定是否购买并使用 Hepta 之前，强烈建议先做两件事，不然花了钱没买到自己想要的就亏了。
