@@ -3,8 +3,7 @@ title: "Chrome浏览器以及其暗黑模式的使用"
 date: 2022-11-05
 ---
 
-
-这篇主要讲的是Chrome浏览器以及其暗黑模式的使用。
+这篇主要讲的是 Chrome 浏览器以及其暗黑模式的使用。
 
 <blockquote class="blockquote">为什么要使用谷歌浏览器--Chrome</blockquote>
 
@@ -16,7 +15,7 @@ date: 2022-11-05
 
 - 用谷歌搜索时搜到的广告已经很少了，而用百度搜索时就会有大量的广告，可以用`鲜花`、`衣服`等词汇搜索，他们之间的搜索质量，一对比就知道了。
 - 谷歌搜索可以方便的搜索到全球范围内的网页，而百度搜索更偏重于国内的网页。比如 youtube、netflix、github、stackoverflow 等可能会登录的国外网站，谷歌浏览器的谷歌搜索还是要更稳定不少。
-- 谷歌浏览器中有丰富的应用扩展插件( https://github.com/shuimu0579/ChromeAppHeroes )，这些插件可以大大增强Chrome浏览器的功能。在最后一段我会介绍自己很喜欢的Dark Reader 这款暗黑主题插件，它可以缓解眼睛的疲劳。
+- 谷歌浏览器中有丰富的应用扩展插件( https://github.com/shuimu0579/ChromeAppHeroes )，这些插件可以大大增强 Chrome 浏览器的功能。在最后一段我会介绍自己很喜欢的 Dark Reader 这款暗黑主题插件，它可以缓解眼睛的疲劳。
 - 谷歌浏览器有一些使用谷歌搜索的技巧( https://github.com/reng99/blogs/issues/9 )，这样能帮助我们准确快速的搜索到信息。
 
 <blockquote class="blockquote">怎么下载 Chrome 浏览器</blockquote>

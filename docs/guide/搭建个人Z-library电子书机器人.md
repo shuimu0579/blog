@@ -3,14 +3,13 @@ title: "搭建个人Z-library电子书机器人"
 date: 2023-02-12
 ---
 
-
-搭建个人Z-library电子书机器人，是使用Z-library下载电子书的终极解决方案之一。一旦搭建好这个机器人，下载电子书会非常的方便。
+搭建个人 Z-library 电子书机器人，是使用 Z-library 下载电子书的终极解决方案之一。一旦搭建好这个机器人，下载电子书会非常的方便。
 
 <blockquote class="blockquote">搭建个人Z-library电子书机器人，需要用到Telegram</blockquote>
 
-Telegram的安装方法。
+Telegram 的安装方法。
 
-下载 Telegram（需要科学上网）：首先，你可以在Google网页中下载 Telegram网页版。
+下载 Telegram（需要科学上网）：首先，你可以在 Google 网页中下载 Telegram 网页版。
 
 完善信息，验证电话号码：打开 Telegram 后，请按照提示进行操作，输入你的电话号码以创建帐户。Telegram 会向你的手机发送验证码，请输入验证码以完成验证。
 
@@ -37,8 +36,8 @@ Telegram的安装方法。
 按提示，给你的聊天机器人指定一个名称，可随意命名。
 ![image.png](https://s2.loli.net/2023/02/12/9oPcmkpsZ7irjBh.jpg)
 
-为机器人选择一个用户名，必须以 bot 结尾，例如：suimu_bot
-![image _1_.png](https://s2.loli.net/2023/02/12/FbmHGYuZwDCpv5x.jpg)
+为机器人选择一个用户名，必须以 bot 结尾，例如：suimu*bot
+![image \_1*.png](https://s2.loli.net/2023/02/12/FbmHGYuZwDCpv5x.jpg)
 
 从 BotFather 复制 HTTP API，是一串长长的字符。
 ![image _2_.png](https://s2.loli.net/2023/02/12/MNs48HAvce1tCjS.jpg)
@@ -48,10 +47,6 @@ Telegram的安装方法。
 ![Screenshot_202023-02-12_20at_2018.05.31.png](https://s2.loli.net/2023/02/12/6v4fUKIxJRCSnae.png)
 ![Screenshot_202023-02-12_20at_2018.09.28.png](https://s2.loli.net/2023/02/12/PpKyEvfH4C6OnXN.png)
 
-然后点击 `Link to Telegram bot`（连接 TG 机器人），在弹框中粘贴你复制的 HTTP API （这个HTTP API从BotFather机器人里复制）并连接。这就完成了 Telegram 机器人的连接。
+然后点击 `Link to Telegram bot`（连接 TG 机器人），在弹框中粘贴你复制的 HTTP API （这个 HTTP API 从 BotFather 机器人里复制）并连接。这就完成了 Telegram 机器人的连接。
 
-现在，在telegram里面搜索并打开你的 Z-Library 机器人，即可和机器人对话，进行图书检索和下载了。
-
-
-
-
+现在，在 telegram 里面搜索并打开你的 Z-Library 机器人，即可和机器人对话，进行图书检索和下载了。
