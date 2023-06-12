@@ -1,5 +1,5 @@
 ---
-title: "思考工具Hepta"
+title: "思考工具HeptaBase"
 date: 2022-11-05
 ---
 
@@ -14,7 +14,7 @@ date: 2022-11-05
 
 这个软件是付费的，早鸟价是 6.99 美元/月，现在不支持月付，只支持年付，也就是一年的订阅价格是 83.88 美元。
 
-HeptaBase 采用云同步的方式同步数据，现在只有电脑端可用，暂无 [移动端 App](https://heptaplatforms.notion.site/Heptabase-Public-Roadmap-3f4fa6e915b1419487514a268e0a26c5)，不过移动端 App 也在官方的迭代计划之内。
+HeptaBase 采用云同步的方式同步数据，现在电脑端和 App 端均可用。
 
 另外 HeptaBase 的使用和同步，不依赖于科学上网，平常网络就可以顺利使用。
 
