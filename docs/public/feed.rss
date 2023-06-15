@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>suimu blog</title>
+        <link>https://suimulearn.cn</link>
+        <description>suimu blog</description>
+        <lastBuildDate>Thu, 15 Jun 2023 14:28:14 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-CN</language>
+        <image>
+            <title>suimu blog</title>
+            <url>/avatar.jpeg</url>
+            <link>https://suimulearn.cn</link>
+        </image>
+        <copyright>Copyright (c) 2023-present, suimu</copyright>
+        <item>
+            <link>https://suimulearn.cn/index</link>
+            <guid>https://suimulearn.cn/index</guid>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+    </channel>
+</rss>
