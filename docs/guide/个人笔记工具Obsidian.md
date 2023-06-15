@@ -1,5 +1,6 @@
 ---
 title: "个人笔记工具Obsidian"
+description: "个人笔记工具Obsidian"
 date: 2022-08-07
 ---
 

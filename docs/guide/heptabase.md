@@ -1,5 +1,6 @@
 ---
 title: "思考工具HeptaBase"
+description: "思考工具HeptaBase"
 date: 2022-11-05
 ---
 
