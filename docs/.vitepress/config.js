@@ -1,6 +1,6 @@
 const path = require("path");
 import { writeFileSync } from "fs";
-import { Feed } from "feed";
+import RSS from "rss";
 import { defineConfig, createContentLoader } from "vitepress";
 
 const hostname = "https://suimulearn.cn";
@@ -125,29 +125,28 @@ export default defineConfig({
     ],
   },
   buildEnd: async (config) => {
-    const feed = new Feed({
+    const feed = new RSS({
       title: "suimu blog",
       description: "suimu blog",
-      id: hostname,
-      link: hostname,
+      site_url: hostname,
+      feed_url: `${hostname}/blog/feed.xml`,
       language: "zh-CN",
-      image: "/avatar.jpeg",
+      image_url: "${hostname}/blog/avatar.jpeg",
       favicon: `${hostname}/blog/favicon.ico`,
-      copyright: "Copyright (c) 2023-present, suimu",
     });
     // You might need to adjust this if your Markdown files
     // are located in a subfolder
-    const posts = await createContentLoader("*/*.md", {
+    const data = await createContentLoader("*/*.md", {
       excerpt: true,
       render: true,
     }).load();
 
-    console.log("posts", posts);
-    posts.sort(
+    console.log("data", data);
+    data.sort(
       (a, b) => +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
     );
-    for (const { url, frontmatter, html } of posts) {
-      feed.addItem({
+    for (const { url, frontmatter, html } of data) {
+      feed.item({
         title: frontmatter.title,
         id: `${hostname}/blog/${url}`,
         link: `${hostname}/blog/${url}`,
@@ -163,6 +162,6 @@ export default defineConfig({
         date: frontmatter.date,
       });
     }
-    writeFileSync(path.join(config.outDir, "feed.rss"), feed.rss2());
+    writeFileSync(path.join(config.outDir, "feed.xml"), feed.xml());
   },
 });

@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/rss": "^0.0.30",
     "feed": "^4.2.2",
     "vitepress": "^1.0.0-alpha.74"
   },
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/shuimu0579/blog/issues"
   },
-  "homepage": "https://github.com/shuimu0579/blog#readme"
+  "homepage": "https://github.com/shuimu0579/blog#readme",
+  "dependencies": {
+    "rss": "^1.2.2"
+  }
 }
