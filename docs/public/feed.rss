@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>suimu blog</title>
         <link>https://suimulearn.cn</link>
         <description>suimu blog</description>
-        <lastBuildDate>Thu, 15 Jun 2023 14:28:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Jun 2023 13:41:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -15,8 +15,1273 @@
         </image>
         <copyright>Copyright (c) 2023-present, suimu</copyright>
         <item>
-            <link>https://suimulearn.cn/index</link>
-            <guid>https://suimulearn.cn/index</guid>
+            <title><![CDATA[微信读书App很好，但Reader让人惊艳]]></title>
+            <link>https://suimulearn.cn/blog//tools/readwise-reader</link>
+            <guid>https://suimulearn.cn/blog//tools/readwise-reader</guid>
+            <pubDate>Sat, 27 May 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="./../public/image/reader.png" alt="Ri_esrgan-v1-x2plus"></p>
+<p>大概半年前，我写了篇文章--微信读书和 z-library 的双剑合璧 ( <a href="https://mp.weixin.qq.com/s/JkB6jaRXhBUN3H0IAvItaA" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/JkB6jaRXhBUN3H0IAvItaA</a> )。 这篇文章里面讲到怎么使用微信读书 App 看各种电子书。</p>
+<p>现在我已经不用微信读书 App，取而代之的是 ReaderWise + Reader 阅读器(<a href="https://readwise.io/read" target="_blank" rel="noreferrer">https://readwise.io/read</a>)。 ReaderWise 和 Reader 是由一个团队开发的两款 App， 我个人用的是这个团队最新开发的 Reader App， 这个 Reader App 现在还处于 Bata 版本阶段， 早鸟价是 7.99 美元/月(<a href="https://readwise.io/pricing" target="_blank" rel="noreferrer">https://readwise.io/pricing</a>)，Web、iOS、Android 端同步。</p>
+<h2 id="all-in-one-阅读器" tabindex="-1">All in One 阅读器 <a class="header-anchor" href="#all-in-one-阅读器" aria-label="Permalink to &quot;All in One 阅读器&quot;">&ZeroWidthSpace;</a></h2>
+<p>Reader 号称 All in One 阅读器， 我觉得它没有吹牛逼。 以下是它提供的特色功能:</p>
+<blockquote class="blockquote">
+<ol>
+<li>Web highlighting--Sometimes you need to highlight on the spot. Freely highlight and annotate the open web using the Reader browser extension.</li>
+<li>RSS--RSS is in a renaissance. Easily subscribe to the RSS feeds of your favorite websites in Reader to never miss a post.</li>
+<li>PDFs--Everyone has a forgotten folder of PDFs. Upload yours to Reader to finally integrate PDFs into your reading workflow.</li>
+<li>YouTube--YouTube has become one of the best learning platforms out there. Watch YouTube videos and highlight the transcript in Reader.</li>
+<li>Twitter threads--Twitter threads are the new blog posts. Compile hard-to-read threads into proper long-form articles inside Reader.</li>
+<li>Read-it-later--Most websites aren’t made for reading. Save articles to Reader for a distraction-free reading experience with powerful highlighting.</li>
+<li>EPUBs Readwise was built on a foundation of ebook highlights. Upload EPUBs to Reader to enjoy ebooks alongside everything else.</li>
+<li>Newsletters Newsletters connect you directly to your favorite writers. Subscribe to your newsletters in Reader to spare your email inbox.</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol>
+<li>网页高亮 - 有时您需要立即进行高亮。使用 Reader 浏览器扩展程序，自由地突出显示和注释开放的网络。</li>
+<li>RSS - RSS 正在复兴。在 Reader 中轻松订阅您最喜爱的网站的 RSS 源，以便不错过任何文章。</li>
+<li>PDF 文件 - 每个人都有一个被遗忘的 PDF 文件夹。将您的 PDF 文件上传到 Reader 中，最终将 PDF 文件整合到您的阅读工作流程中。</li>
+<li>YouTube - YouTube 已成为最好的学习平台之一。在 Reader 中观看 YouTube 视频并突出显示转录。</li>
+<li>Twitter 线程 - Twitter 线程是新的博客文章。在 Reader 中将难以阅读的线程编译成适当的长篇文章。</li>
+<li>阅读稍后 - 大多数网站不适合阅读。将文章保存到 Reader 中，以获得无干扰的阅读体验和强大的高亮功能。</li>
+<li>EPUB - Readwise 是基于电子书亮点构建的。将 EPUB 上传到 Reader 中，以便在享受其他所有内容的同时阅读电子书。</li>
+<li>通讯 - 通讯将您直接连接到您最喜欢的作家。在 Reader 中订阅您的通讯，以免打扰您的电子邮件收件箱。</li>
+</ol>
+</blockquote>
+<h2 id="epub-阅读器" tabindex="-1">EPUB 阅读器 <a class="header-anchor" href="#epub-阅读器" aria-label="Permalink to &quot;EPUB 阅读器&quot;">&ZeroWidthSpace;</a></h2>
+<p>用个人 Z-library 电子书机器人( <a href="https://mp.weixin.qq.com/s/IXBOAQBoS25bcRXiPLWcdA" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/IXBOAQBoS25bcRXiPLWcdA</a> ) 下载 EPUB 格式的电子书， 在 Reader App 中阅读， 遇到有启发的内容就可以高亮标注，同时高亮标注在 HeptaBase( <a href="https://mp.weixin.qq.com/s/6q5YonGckU-YRy-vG0vfUA" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/6q5YonGckU-YRy-vG0vfUA</a> ) 里面可以展示， 为以后内容的迭代打下基础，这个过程不要太丝滑。</p>
+<p>用 Reader 作为电子书阅读器，可以方便的看英文原版书，不用和别人比读书时长，默默的看，慢一点也没关系，《Beyong Feelings》和 《Animal Farm》这两本一直以来都想啃下来的书，在靠着英文翻译的过程中，用 Reader 看完了，这个过程也没有多么痛苦。</p>
+<h2 id="rss-newsletters-订阅器" tabindex="-1">RSS/Newsletters 订阅器 <a class="header-anchor" href="#rss-newsletters-订阅器" aria-label="Permalink to &quot;RSS/Newsletters 订阅器&quot;">&ZeroWidthSpace;</a></h2>
+<p>Reader 作为 RSS/Newsletters 的订阅器， 我们就可以第一时间订阅喜欢的作者，一旦他们的博客有更新，就能第一时间看到。</p>
+<p>怎么获取到 RSS 源， 这个工具能够帮到你 <a href="https://docs.rsshub.app/en/" target="_blank" rel="noreferrer">https://docs.rsshub.app/en/</a></p>
+<h2 id="highlighting-高亮标注" tabindex="-1">HighLighting 高亮标注 <a class="header-anchor" href="#highlighting-高亮标注" aria-label="Permalink to &quot;HighLighting 高亮标注&quot;">&ZeroWidthSpace;</a></h2>
+<p>Reader 里面自带高亮标注， 不过 Reader 做的更好的是--它开放了高亮逻辑相关的 API，供第三方软件调用， 而 HeptaBase 软件接入了 Reader 团队提供的高亮 API， 所以在 Reader 阅读中标注的高亮信息，也会同步到 HeptaBase。 HeptaBase 就可以接续处理这些高亮信息。</p>
+<h2 id="twitter-youtube-内容收集" tabindex="-1">Twitter/YouTube 内容收集 <a class="header-anchor" href="#twitter-youtube-内容收集" aria-label="Permalink to &quot;Twitter/YouTube 内容收集&quot;">&ZeroWidthSpace;</a></h2>
+<p>这里面好的内容可以存到 Reader 里面查看， 以后要用到的时候，不用在信息的汪洋大海里面苦苦寻找之前看过现在又想看的资讯--因为 Reader 里面有全局搜索。</p>
+<h2 id="再啰嗦一点" tabindex="-1">再啰嗦一点 <a class="header-anchor" href="#再啰嗦一点" aria-label="Permalink to &quot;再啰嗦一点&quot;">&ZeroWidthSpace;</a></h2>
+<p>人生处处都是镜像世界，对于同一个事物，有的趋之若鹜，有的弃之如敝履。</p>
+<p>对于 Reader 这样的工具，在没用它之前，是无法感受到它的好， 再加上一年近 700 块钱的订阅费用， 真的能劝退一波又一波的人。但是用过了之后，只会暗暗庆幸，幸亏我付费用了它，不然我都不知道我失去了什么。</p>
+<p>被召唤者众多， 被选中者寥寥。你敢吗？你来吗？</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[常用工具汇总]]></title>
+            <link>https://suimulearn.cn/blog//guide/常用工具汇总</link>
+            <guid>https://suimulearn.cn/blog//guide/常用工具汇总</guid>
+            <pubDate>Sat, 04 Mar 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>美国顶级投资人查理芒格在《人类误判心理学》中讲到过 25 种心里偏差，其中最后一种心理偏差就是，lollapalooza 倾向——数种心理倾向共同作用造成极端后果的倾向。</p>
+<p>许多的心理偏差累加起来会造成非线性的极端后果；同样的，许多的工具聚合起来，也会造成非线性的效率提升。</p>
+<p>相信最近火遍全球的 ChatGPT 这个工具给大家带来了不一样的感受。买工具的钱不能省，用好了工具提升了效率，宝贵的时间省下了，钱也能赚回来。</p>
+<blockquote class="blockquote">基础工具</blockquote>
+<p>Shadowrocket(<a href="https://www.shadowrocketdownload.com/" target="_blank" rel="noreferrer">https://www.shadowrocketdownload.com/</a>)—坊间叫做小火箭，是一款iOS 系统上的科学上网代理软件。桔子云( <a href="https://juzi80.net/user" target="_blank" rel="noreferrer">https://juzi80.net/user</a> )—Shadowrocket 小火箭节点服务商之一，也就是科学上网机场。 小火箭需要配合科学上网机场(比如桔子云 )一起，才能顺利科学上网。</p>
+<p>Veee(<a href="https://ko1.club/20cd504" target="_blank" rel="noreferrer">https://ko1.club/20cd504</a>)，也是一款科学上网工具，不需要小火箭和机场，就能顺利科学上网</p>
+<p>1Password(<a href="https://1password.com/" target="_blank" rel="noreferrer">https://1password.com/</a>)， 一款密码管理的工具，只需要记住一个密码，就能管理许多的密码。</p>
+<p>注册一个非大陆地区的 appleId</p>
+<blockquote class="blockquote">免费工具</blockquote>
+<p>谷歌邮箱 Gmail(<a href="https://mail.google.com" target="_blank" rel="noreferrer">https://mail.google.com</a>)</p>
+<p>谷歌浏览器 Chrome(<a href="https://www.google.com/chrome/" target="_blank" rel="noreferrer">https://www.google.com/chrome/</a>)</p>
+<p>Arc 浏览器(<a href="https://arc.net/" target="_blank" rel="noreferrer">https://arc.net/</a>) —2022 年出来的浏览器，个人感觉颜值颇高，交互流畅。</p>
+<p>推特 Twitter(<a href="https://twitter.com" target="_blank" rel="noreferrer">https://twitter.com</a>)</p>
+<p>Discord(<a href="https://discord.com/" target="_blank" rel="noreferrer">https://discord.com/</a>)</p>
+<p>电报 Telegram(<a href="https://telegram.org/" target="_blank" rel="noreferrer">https://telegram.org/</a>)</p>
+<p>Z-library 电子图书馆(<a href="https://singlelogin.me/" target="_blank" rel="noreferrer">https://singlelogin.me/</a>)</p>
+<p>Obsidian( <a href="https://obsidian.md/" target="_blank" rel="noreferrer">https://obsidian.md/</a> )</p>
+<blockquote class="blockquote">付费的工具</blockquote>
+<p>Readwise ( <a href="https://readwise.io/" target="_blank" rel="noreferrer">https://readwise.io/</a> )—号称 Read All In One，有了他我再也不需要微信读书 App 了。</p>
+<p>HeptaBase(<a href="https://heptabase.com/" target="_blank" rel="noreferrer">https://heptabase.com/</a>)—基于卡片盒笔记法的可视化的笔记工具。已经和Readwise Api 打通，Readwise 里面的高亮标注，会同步到 HeptaBase。</p>
+<p>Relingo (<a href="https://relingo.net/en/index" target="_blank" rel="noreferrer">https://relingo.net/en/index</a>) 英文阅读的插件—在阅读英文文档的过程的渐进式的记单词。</p>
+<p>想看 Netflix 剧集？想 Youtubu 看视频无广告？想尝鲜 ChatGPT Plus? 可以试试拼车方案：<a href="https://nf.video/yinhe/web?sharedId=47617" target="_blank" rel="noreferrer">https://nf.video/yinhe/web?sharedId=47617</a></p>
+<p>为什么要花钱花时间去折腾各种工具，我能想到的答案是：为了自由。</p>
+<p>是的，为了自由。为了不被束缚在信息茧房里面，为了接触这个世界上最即时最优秀最广阔的人类文明成果。</p>
+<p>如果要说最重要的工具，我个人觉得还是英语，这是打开新世界大门的钥匙。然后配合其他的工具，就可以在信息的海洋里尽情遨游。</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[搭建个人Z-library电子书机器人]]></title>
+            <link>https://suimulearn.cn/blog//guide/搭建个人Z-library电子书机器人</link>
+            <guid>https://suimulearn.cn/blog//guide/搭建个人Z-library电子书机器人</guid>
+            <pubDate>Sun, 12 Feb 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>搭建个人 Z-library 电子书机器人，是使用 Z-library 下载电子书的终极解决方案之一。一旦搭建好这个机器人，下载电子书会非常的方便。</p>
+<blockquote class="blockquote">搭建个人Z-library电子书机器人，需要用到Telegram</blockquote>
+<p>Telegram 的安装方法。</p>
+<p>下载 Telegram（需要科学上网）：首先，你可以在 Google 网页中下载 Telegram 网页版。</p>
+<p>完善信息，验证电话号码：打开 Telegram 后，请按照提示进行操作，输入你的电话号码以创建帐户。Telegram 会向你的手机发送验证码，请输入验证码以完成验证。</p>
+<p>完成注册：最后，请输入您的名字和头像，完成 Telegram 的注册。</p>
+<blockquote class="blockquote">搭建z-library电子书机器人，需要注册Z-library账号(推荐Gmail邮箱)</blockquote>
+<p>注册流程如下所示：</p>
+<p>打开网址：请打开 <a href="https://singlelogin.me/" target="_blank" rel="noreferrer">https://singlelogin.me/</a> 网址。</p>
+<p>点击注册：如果你还没有 Z-Library 账号，请点击页面上的“注册”按钮。</p>
+<p>填写信息：请填写你的用户名、电子邮件地址和密码，并确认你已阅读并同意 Z-Library 的条款和条件。</p>
+<p>验证电子邮件：点击注册后，Z-Library 会向你的电子邮件地址发送一封验证邮件。请检查你的电子邮件并点击邮件中的链接以验证你的电子邮件地址。</p>
+<blockquote class="blockquote">有了Telegram账号和Z-library账号，怎么搭建个人Z-library电子书机器人？</blockquote>
+<p>点击此链接(<a href="https://t.me/BotFather" target="_blank" rel="noreferrer">https://t.me/BotFather</a>)或在 Telegram 上搜索 “@BotFather” 机器人</p>
+<p>向 <code>@BotFather</code> 发送创建机器人命令：<code>/newbot</code></p>
+<p>按提示，给你的聊天机器人指定一个名称，可随意命名。
+<img src="https://s2.loli.net/2023/02/12/9oPcmkpsZ7irjBh.jpg" alt="image.png"></p>
+<p>为机器人选择一个用户名，必须以 bot 结尾，例如：suimu*bot
+<img src="https://s2.loli.net/2023/02/12/FbmHGYuZwDCpv5x.jpg" alt="image 1*.png"></p>
+<p>从 BotFather 复制 HTTP API，是一串长长的字符。
+<img src="https://s2.loli.net/2023/02/12/MNs48HAvce1tCjS.jpg" alt="image 2.png"></p>
+<p>在浏览器上访问 Z-Library 的登录页面：<a href="https://singlelogin.me/%EF%BC%8C%E7%99%BB%E5%BD%95%E4%BD%A0%E7%9A%84" target="_blank" rel="noreferrer">https://singlelogin.me/，登录你的</a> Z-Library 账号。登录成功之后，找到 Link to Telegram bot 按钮
+<img src="https://s2.loli.net/2023/02/12/ANhxwVELIzSdR12.png" alt="Screenshot_202023-02-12_20at_2018.07.08.png">
+<img src="https://s2.loli.net/2023/02/12/6v4fUKIxJRCSnae.png" alt="Screenshot_202023-02-12_20at_2018.05.31.png">
+<img src="https://s2.loli.net/2023/02/12/PpKyEvfH4C6OnXN.png" alt="Screenshot_202023-02-12_20at_2018.09.28.png"></p>
+<p>然后点击 <code>Link to Telegram bot</code>（连接 TG 机器人），在弹框中粘贴你复制的 HTTP API （这个 HTTP API 从 BotFather 机器人里复制）并连接。这就完成了 Telegram 机器人的连接。</p>
+<p>现在，在 telegram 里面搜索并打开你的 Z-Library 机器人，即可和机器人对话，进行图书检索和下载了。</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[怎么学习一个新的东西]]></title>
+            <link>https://suimulearn.cn/blog//guide/how-to-learn</link>
+            <guid>https://suimulearn.cn/blog//guide/how-to-learn</guid>
+            <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>怎么学习一个新的东西，这确实是一个很急切的问题，现在新的知识的层出不穷，大家都感觉学不过来。</p>
+<p>可是保持终生学习，在 2023 年的今天，绝不是一句空话套话，这是我们需要面对的。不管我们愿意不愿意，终生学习都是我们这代人的宿命，挥散不去的宿命。</p>
+<p>在终生学习的大背景下，怎么有效率的学习新的东西，需要我们有强大的心理建设、有科学的方法论、有趁手的工具、有良好的习惯。</p>
+<p>下面从 6 个方面讲述怎么学习新的东西。</p>
+<h2 id="选择具有成长性的心智模型" tabindex="-1">选择具有成长性的心智模型 <a class="header-anchor" href="#选择具有成长性的心智模型" aria-label="Permalink to &quot;选择具有成长性的心智模型&quot;">&ZeroWidthSpace;</a></h2>
+<p>当我们学一个新东西的时候，在最开始极大概率是做不好的，这时候我们有两种不同的方式来看待自己。</p>
+<ul>
+<li>我就是笨就是蠢，这个东西这么难，我再怎么努力也不可能学会的，我看还是不要瞎耽误功夫了。</li>
+<li>这个东西我现在确实没学好，也做不好，可是谁又能一下就学会这种东西呢？人群中的天才毕竟是少数。不过我相信像我这样的普通人，只要肯花时间、给自己更多的耐心，最终一定还是能学会的。退一万步讲，哪怕就学成了个半吊子，也比一窍不通的强。</li>
+</ul>
+<p>这样看待自己的两种方式，就代表着两种不同的思维模式，一种是固守型思维模式，一种是成长型思维模式。只有培养自己的成长型思维模式，才能让我们不断地进步。</p>
+<p>有句话说的好，以一般人努力程度之低，根本轮不到拼天赋的地步。在遇到困难的时候，人们更多的是将事情定义为不能改变的事情，而不是经过一番挣扎，将事情变得可以改变。而一点点将貌似不可改变的事情，变成可以改变的事情的过程，也是不断挣扎的过程；而人生所有的挣扎，都是这些了。</p>
+<h2 id="有指引的学习和无指引的学习相结合" tabindex="-1">有指引的学习和无指引的学习相结合 <a class="header-anchor" href="#有指引的学习和无指引的学习相结合" aria-label="Permalink to &quot;有指引的学习和无指引的学习相结合&quot;">&ZeroWidthSpace;</a></h2>
+<p>教程、课程、B 站或者 YouTube 视频、官方文档、技术博客等，这些都是有指引的学习。</p>
+<p>创造自己的作品、基于现有资料的独自扩展、在现有文档中提出自己的独特观察，这些都是没有指引的学习。</p>
+<p>如果仅仅是在指引下学习，会陷入教程地狱模式(tutorial hell)，也就是看过了许许多多的教程，只是收获了知识增长的幻觉，解决实际问题能力，其实并没有得到提高。</p>
+<p>另一方面来讲，如果仅仅依靠自己的独自摸索、不参考网上丰富资源，在没有指引的情况下蒙头学习，解决问题的过程，很有可能是漫长也是低效的。因为我们遇到的许多问题，其实在 Google 上都是有解决方案的。</p>
+<p>更好的方式就是，有指引的学习和无指引的学习相结合。以提高效率为抓手、以解决问题为目的，只有这样，终生学习终生成长才不是一句空话。有了这么强大的学习能力，面向未来也会更加的从容。</p>
+<h2 id="编织自己的知识网络" tabindex="-1">编织自己的知识网络 <a class="header-anchor" href="#编织自己的知识网络" aria-label="Permalink to &quot;编织自己的知识网络&quot;">&ZeroWidthSpace;</a></h2>
+<p>有一个不可否认的事实，有的人学习新的东西，就是比其他人快。为什么会有这样的情况呢？</p>
+<p>也许一个重要的原因就是，这个人的大脑里面已经有了许多的知识和概念，并且在我们的大脑里这些知识和概念之间，已经建立了清晰、准确、必要的联系。当他们在学习新东西的时候，并不是于平地处垒高台，而是将新的知识缝合进已经存在的知识网络中。你说这样的学习效率是不是比没有搭建知识网络的人更高效？</p>
+<p>越是学的慢就越不想学，越是不想学就越是学得慢，这就是恶性循环；越是使劲学就越学得快，越是学得快就越是想学，这就是正向反馈。</p>
+<p>打破恶性循环，拥抱正向反馈，就需要我们像织网一样，一针一线的织就我们的知识网络，给自己的更多的耐心，刚开始慢一点不要紧的，持续不断地进步，我们必将抵达。</p>
+<h2 id="维护自己的知识网络" tabindex="-1">维护自己的知识网络 <a class="header-anchor" href="#维护自己的知识网络" aria-label="Permalink to &quot;维护自己的知识网络&quot;">&ZeroWidthSpace;</a></h2>
+<p>编织自己的知识网络是很重要的，现在我们都有这样的共识。</p>
+<p>现在的问题是我们怎么去编织自己的知识网络？更进一步的，我们应该怎么去维护、更新我们的知识网络？</p>
+<p>如果仅仅只有宏大的目标—编织属于自己的知识网络,是远远不够，只有目标没有具体的实现路径，也不可能达成目标。</p>
+<p>除了宏大的目标，现在我们需要抓手—也就是实现宏大目标的具体举措。在这里我强烈推荐两个工具，一个是 Obsidian，一个是 HeptaBase，这两个工具既是笔记工具，也是思考工具，他们的主要目的，就是将我们零散的知识，编制进我们的知识网络的，而且这张网络还是不断更新迭代的。</p>
+<p>Heptabase 的可视化白板功能是特色，它的愿景是打造这样一个知识的闭环：知识的探索 → 知识的收集 → 知识的整理 → 知识的输出 → 输出后继续供自己或供其他人探索。<a href="https://mp.weixin.qq.com/s/6q5YonGckU-YRy-vG0vfUA" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/6q5YonGckU-YRy-vG0vfUA</a></p>
+<p>Obsidian 现在也推出了 canvas 画布功能，类似于 HeptaBase 的可视化白板功能，关键 canvas 画布功能，对个人用户还是免费的。 <a href="https://mp.weixin.qq.com/s/WJsP3eNDs8L21galR-h2fg" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/WJsP3eNDs8L21galR-h2fg</a></p>
+<h2 id="养成每天学习一点点的习惯" tabindex="-1">养成每天学习一点点的习惯 <a class="header-anchor" href="#养成每天学习一点点的习惯" aria-label="Permalink to &quot;养成每天学习一点点的习惯&quot;">&ZeroWidthSpace;</a></h2>
+<p>在学习新东西的时候，我们可以采用两种不同的方式：</p>
+<ul>
+<li>每天晚上抽空学习一个小时，一周 7 天</li>
+<li>平时不学习，周末腾出大段的时间，一次性学习 7 个小时</li>
+</ul>
+<p>上面哪种方式更好？个人觉得每天学习一个小时这种方式更好。</p>
+<ul>
+<li>首先每天学习一会儿，这样就能养成学习的习惯，一旦养成了习惯，每天学习一会儿，真的就不会累，更谈不上需要毅力去坚持下去，就跟每天吃饭喝水一样自然了。</li>
+<li>每天学习一会儿，到了晚上睡觉的时候，白天工作生活的时候，其实在我们的潜意识里面，也在不断地消化我们学到的知识。换句话说，每天学习一点点，其实我们每天都在这样的学习语境和氛围下学习，这样的学习效率，是不是比周末突击学习的效率来得高。</li>
+</ul>
+<p>怕什么真理无穷，进一寸有一寸的欢喜。其实学习新东西也要有这样的心态，每天进步一点点，咱们不怕慢，就怕停。</p>
+<h2 id="在公共场合学习" tabindex="-1">在公共场合学习 <a class="header-anchor" href="#在公共场合学习" aria-label="Permalink to &quot;在公共场合学习&quot;">&ZeroWidthSpace;</a></h2>
+<p>写微信公众号、写博客、发布视频、直播写代码、甚至直接和别人面对面讲授，都属于在公共场合学习。</p>
+<p>不管是面授，还是写微信公众号、写博客、发布视频、直播写代码之类的，都需要你能给别人讲通一个东西。以上这些都是费曼学习法的实现方式，而这样在公共场合教会别的方式，首先教会的是我们自己，因为一个东西你自己没想明白没理解透彻，是不可能真的教会别人的。</p>
+<p>在公共场合学习，或者说用费曼学习法教别人，这种教会自己也启发别人的好方法，却为什么实施的人却不多呢？一句话，破除心魔，你就成功了大半。</p>
+<ul>
+<li>有的人觉得自己的水平不行，分享出来就是打自己的脸。不可否认的是，我们分享的东西，不管自己觉得多牛，对于有的大神来说，也是毫无意义的，因为大神比你知道的更多更全面；同样的，我们分享的东西，不管你觉得多么的基础，对不了解这一块的人来说，也是未知的新事物，你的分享很有可能给他们带来启发。</li>
+<li>还有一些人觉得公开分享自己的所见所闻所思所想，很不习惯，感觉就像自己在人群中狂奔，容易被其他人看的透透的。确实，刚开始的时候，自己分享的东西，感觉会分分钟被别人洞穿，那种慌张的感觉人人都有。只是当我们分享的东西对人们有用的时候，那种油然而生的快乐也是实打实的。分享不但启发了别人更是治愈了自己，让自我的价值感效能感更足了，这是一种充实的快乐。</li>
+</ul>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[找到想要的电子书]]></title>
+            <link>https://suimulearn.cn/blog//guide/找到想要的电子书</link>
+            <guid>https://suimulearn.cn/blog//guide/找到想要的电子书</guid>
+            <pubDate>Thu, 10 Nov 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>最近 z-library 这个全球最大的在线数字图书馆被封禁了，一般的途径是获取不到免费的电子书资源。</p>
+<p>z-library 的注册安装，可以参考这篇，这里就不再赘述 <a href="https://mp.weixin.qq.com/s/JkB6jaRXhBUN3H0IAvItaA" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/JkB6jaRXhBUN3H0IAvItaA</a></p>
+<p>不过按照下面的步骤可以继续下载电子书，亲测有效</p>
+<p>下载洋葱浏览器 <a href="https://www.torproject.org/zh-CN/download/" target="_blank" rel="noreferrer">https://www.torproject.org/zh-CN/download/</a></p>
+<p>kexue 上网工具 <a href="https://lk11.net/?ref%5C=20cd504" target="_blank" rel="noreferrer">https://lk11.net/?ref\=20cd504</a></p>
+<p>洋葱浏览器中输入 z-library 书籍下载地址
+<a href="http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/" target="_blank" rel="noreferrer">http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/</a>
+或者
+<a href="http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion/" target="_blank" rel="noreferrer">http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion/</a></p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[1Password 注册使用教程]]></title>
+            <link>https://suimulearn.cn/blog//guide/1Password 注册使用教程</link>
+            <guid>https://suimulearn.cn/blog//guide/1Password 注册使用教程</guid>
+            <pubDate>Sat, 05 Nov 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>工具类第四篇我们讲的是 1Password 的使用。讲到这篇的时候，我们终于可以轻松一点了，因为操作这篇的时候，不用科学上网也可以搞定。</p>
+<p>用了 1Password 之后，密码管理变得更加简单，也是一款用了就离不开的工具。</p>
+<blockquote class="blockquote">我们平时是怎么管理密码的</blockquote>
+<p>我们平时需要记住的有支付宝、微信、12306 等 App 的密码，有银行账户密码等等，你们都是怎么管理自己密码的？</p>
+<p>如果给每个 App 和银行账户设置不同的密码，同时不把这些密码记混淆的话，一般人是很难做到的。有人会说，这么多密码谁会自己一个一个记住啊，写到自己的手机备忘录或者印象笔记、有道云笔记之类的软件里面不就省事了嘛？</p>
+<p>确实，省事是省事了，就是一旦存储这些密码的数据库被攻击了，就很难保证密码不被泄露了；还有就是，上面列举出来的软件，如果软件公司内部的有人作恶，窃取或者爬取用户的数据，也是相当危险的；更重要的是，1Password 里面的密码可以随机生成，生成之后也是用<code>*</code>号代替明文密码，这样你在操作的时候，其他人哪怕偷瞄看到了,也是一串串<code>*</code>号，相较之下，手机备忘录之类的软件，是很难做到像 1Password 这样的。</p>
+<p>既然自己记住这么多密码很麻烦，那我就所有的 app 密码都用一样的，银行卡 6 位数字也用一样的，不就省事了嘛？想想也知道，一旦某一个 app 的密码泄露了，相当于其他 app 的安全防线也被一同攻破了，想想是不是很后怕？</p>
+<blockquote class="blockquote">为什么要用 1Password</blockquote>
+<p>1Password 官方号称对用户数据采用 AES-256 对称加密算法，并通过多种方式加密并保护数据。1Password 即使被黑客攻击，用户的数据也绝对安全。</p>
+<p>1Password 顾名思义，就是只要牢牢记住 1 个密码--也就是 1Password 软件的这个密码，就记住了其他所有存储在 1Passwprd 里面的所有密码。本人用了<code>1Password</code>将近一年的时间，它是我毫不犹豫想要续订的应用，因为我已经离不开它了...</p>
+<blockquote class="blockquote">怎么创建 1Password</blockquote>
+<ul>
+<li>首先在应用商店里面下载<code>1Password</code>,无需科学上网就可以下载。</li>
+<li>进入 app,点击<code>注册</code>按钮，进入到注册页面（qq/163/126/gmail 邮箱均可），输入可用的电子邮箱，点击<code>继续</code>按钮</li>
+<li>将收到的邮件里面的 6 位验证码填进输入框，点击<code>继续</code>按钮</li>
+<li>进入新页面，输入自己的称呼，点击<code>继续</code>按钮</li>
+<li>输入自己的主密码，<strong>划重点！！！</strong>，这个主密码就是 1Password 里面需要自己记住的唯一密码，<strong>打死也不能忘记这个密码</strong></li>
+<li>确认你的主密码，完成账户创建，至此就创建好了 1Password 账户</li>
+</ul>
+<blockquote class="blockquote">怎么在 1Password 里面设置各种密码</blockquote>
+<ul>
+<li>app 里面底部自定义导航栏中--点击<code>类别</code>，然后点击右上角的<code>+</code></li>
+<li>进入新页面，给想保存的这组账号密码取个名字，然后点击输入框<code>右侧箭头</code>进入下一步</li>
+<li>进入新页面，输入想要存储账号的用户名，然后点击输入框<code>右侧箭头</code>进入下一步</li>
+<li>然后密码输入框显现，先不急着输入密码，<strong>再一次划重点</strong>，直接点击<code>齿轮状的图标</code>，这时候页面就展开自定义密码界面了，想怎么定义就怎么定义，反正这个密码是不需要自己记住的。</li>
+<li>密码定义好了，就点击弹框右上角的<code>存储</code>按钮，这时候这组账号和密码就设置好了。</li>
+</ul>
+<blockquote class="blockquote">怎么使用 1Password(以登录 12306 为例)</blockquote>
+<ul>
+<li>进入 12306 这个 App,底部自定义按钮中点击<code>我的</code>，点击左上角那个圆圈，弹出登录界面，</li>
+<li>光标聚焦在密码输入框， 此时需要输入密码，去 1Password 复制密码就可以了。</li>
+<li>其实还有一些更加高阶、更加便捷的方法，连去 1Password 那里复制密码的操作都不需要，原来成功过，这次在某些 app 上面没有复现出来。</li>
+</ul>
+<p>1Password 兼顾了安全性和易用性， 一旦把它摸索熟练了，会发现没有它根本不行。</p>
+<p>实在是太好用了！麻麻再也不用担心我泄露密码了！</p>
+<p>题图来源：unsplash.com</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[Chrome浏览器以及其暗黑模式的使用]]></title>
+            <link>https://suimulearn.cn/blog//guide/Chrome浏览器以及其暗黑模式的使用</link>
+            <guid>https://suimulearn.cn/blog//guide/Chrome浏览器以及其暗黑模式的使用</guid>
+            <pubDate>Sat, 05 Nov 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>这篇主要讲的是 Chrome 浏览器以及其暗黑模式的使用。</p>
+<blockquote class="blockquote">为什么要使用谷歌浏览器--Chrome</blockquote>
+<p>我们经常用到的浏览器有好多种：Chrome 谷歌浏览器，Firefox 火狐浏览器，苹果公司的 Safari 浏览器，微软的 IE 和 Edge 浏览器，更不用提还有国内的 360 浏览器、QQ 浏览器、搜狗浏览器之流了。</p>
+<p>既然已经有了这么多的浏览器，为什么还要选择谷歌浏览器呢？首先要搞清楚一个问题，我们用浏览器的目的是什么？我想大多数人用浏览器的主要目的就是一个--<strong>准确快速</strong>的搜索到自己想要的信息。</p>
+<p>这时候谷歌浏览器自带的谷歌搜索就要好过其他浏览器的搜索效果了，更不用说国内的浏览器了。由于国内的浏览器默认的是百度搜索，在我看来，谷歌搜索和百度搜索的优劣根本不在一个维度上， 谷歌浏览器明显 research 的质量更高，便于我们找到想要的信息，解决问题。</p>
+<ul>
+<li>用谷歌搜索时搜到的广告已经很少了，而用百度搜索时就会有大量的广告，可以用<code>鲜花</code>、<code>衣服</code>等词汇搜索，他们之间的搜索质量，一对比就知道了。</li>
+<li>谷歌搜索可以方便的搜索到全球范围内的网页，而百度搜索更偏重于国内的网页。比如 youtube、netflix、github、stackoverflow 等可能会登录的国外网站，谷歌浏览器的谷歌搜索还是要更稳定不少。</li>
+<li>谷歌浏览器中有丰富的应用扩展插件( <a href="https://github.com/shuimu0579/ChromeAppHeroes" target="_blank" rel="noreferrer">https://github.com/shuimu0579/ChromeAppHeroes</a> )，这些插件可以大大增强 Chrome 浏览器的功能。在最后一段我会介绍自己很喜欢的 Dark Reader 这款暗黑主题插件，它可以缓解眼睛的疲劳。</li>
+<li>谷歌浏览器有一些使用谷歌搜索的技巧( <a href="https://github.com/reng99/blogs/issues/9" target="_blank" rel="noreferrer">https://github.com/reng99/blogs/issues/9</a> )，这样能帮助我们准确快速的搜索到信息。</li>
+</ul>
+<blockquote class="blockquote">怎么下载 Chrome 浏览器</blockquote>
+<ul>
+<li><strong>划重点！</strong>,在下载谷歌浏览器之前，最好<strong>科学上网</strong> (科学上网工具教程：<a href="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484225&amp;idx=1&amp;sn=edebb6bed032a24d88dc56eaf45ef007&amp;scene=21#wechat_redirect" title="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484225&amp;idx=1&amp;sn=edebb6bed032a24d88dc56eaf45ef007&amp;scene=21#wechat_redirect" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/q1B0xkLDLUoisi44vXo35w</a> )哪怕现在下载不用，以后用谷歌搜索的时候，还是需要科学上网的，所以科学上网在这里要安排起来。</li>
+<li>谷歌浏览器下载地址 <a href="https://www.google.com/chrome/" target="_blank" rel="noreferrer">https://www.google.com/chrome/</a></li>
+<li>点击<code>Download Chrome</code>下载完成之后，打开浏览器，点击右上角<code>三个点图标</code>左侧的<code>圆形图标</code>，弹出弹框，弹框里面点击蓝底的<code>Turn on sync...</code>按钮</li>
+<li>点击之后进入新页面，接下来就是在新页面里面用自己的邮箱创建 Google Account 了，已经有自己的 gmail 邮箱的话，就直接使用;没有 gmail 邮箱的话，就自己先注册一个 gmail 邮箱(Gmail 邮箱的注册与使用教程：<a href="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484232&amp;idx=1&amp;sn=e4cbab5ba1114c4c385f9b16cb881a0d&amp;scene=21#wechat_redirect" title="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484232&amp;idx=1&amp;sn=e4cbab5ba1114c4c385f9b16cb881a0d&amp;scene=21#wechat_redirect" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/3QT1VpeO60U69t4JYMSzZg</a>)</li>
+<li>最后就可以用 Chrome 浏览器愉快的搜索了，并配合使用谷歌搜索的技巧。</li>
+</ul>
+<blockquote class="blockquote">怎么下载并使用 Chrome 插件，这里以 Dark Reader 这款主题插件为例</blockquote>
+<ul>
+<li>进入 Dark Reader 插件下载链接( <a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh" target="_blank" rel="noreferrer">https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh</a> )</li>
+<li>如果没有登录 Chrome 账户，可以点击右上角<code>sign in</code>按钮，先进行登录。当然不登录，以游客身份进入也是可以的，只是下次在别的设备上就不能同步这个插件了。</li>
+<li>点击<code>Add to Chrome</code>按钮，就成功的将插件加到浏览器里面去了。</li>
+<li>然后新打开一个网址， 比如百度搜索 <a href="https://www.baidu.com" target="_blank" rel="noreferrer">https://www.baidu.com</a> ，你会发现整个页面都是暗黑色了。</li>
+<li>现在网页全部是暗黑色了，那如果不想使用暗黑背景了，应该怎么办？点击浏览器顶部地址栏右侧<code>积木拼图</code>图标，可以看到你加载的插件，点击<code>Dark Reader</code>那一列;就有弹框显示，顶部有<code>On</code>、<code>Off</code>等按钮，就是用来显示或隐藏网页黑暗背景的。</li>
+<li>现在网页全部是暗黑色了，那如果只是某个网页不想用暗黑背景，应该怎么办？还是上面的操作，到了弹框显示这时候就<strong>不是</strong>去找<code>On</code>、<code>Off</code>等按钮，而是在弹框中找到<code>Site list</code>这个按钮，点击之后，默认是<code>Not invert listed</code>,就是你不想应用暗黑背景的网站，比如在这里面输入<code>www.baidu.com</code>,那么其他的网址都是暗黑的，唯独百度搜索的不是暗黑背景的。</li>
+</ul>
+<p>题图来源：unsplash.com</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[GitHub使用教程]]></title>
+            <link>https://suimulearn.cn/blog//guide/GitHub使用教程</link>
+            <guid>https://suimulearn.cn/blog//guide/GitHub使用教程</guid>
+            <pubDate>Sat, 05 Nov 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>这篇主要讲的是 GitHub 的使用，我将通过图文的形式展现 GitHub 的使用。</p>
+<p><strong>划重点！</strong>，使用 github 最好 kexue 上网(kexue 上网工具教程：<a href="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484266&amp;idx=1&amp;sn=05849823bdb9f0bd684f5a87505b15de&amp;scene=21#wechat_redirect" title="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484266&amp;idx=1&amp;sn=05849823bdb9f0bd684f5a87505b15de&amp;scene=21#wechat_redirect" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/Pc8l-PnEWIYYMr0l9CgxOw</a> )。</p>
+<blockquote class="blockquote">为什么要使用GitHub</blockquote>
+<p>GitHub( <a href="https://www.githubs.cn/post/what-is-github" target="_blank" rel="noreferrer">https://www.githubs.cn/post/what-is-github</a> )是一个面向开源及私有软件项目的托管平台，因为只支持 git 作为唯一的版本库格式进行托管，故名 GitHub。</p>
+<p>甚至你可以简单粗暴的<strong>把它当作一个笔记本</strong>，用来存储任何东西。把它当作一个笔记本，看着不起眼的几个字，确是我推荐 GitHub 给你的最主要原因！！！</p>
+<p>对于程序员来说，GitHub 这个项目托管平台太重要了--不仅仅是由于 GitHub 上面有许多的优秀开源项目可供学习，还因为能在 GitHub 上面构建自己的项目或者技术输出文档。它让我们既能输入又能输出，形成输入输出的闭环，也难怪 GitHub 被称为全球最大的同行社交平台--简单来说就是，用你的作品用你的产出来社交。</p>
+<p>对于非程序员来说，不用写代码，也不用写技术文档，GitHub 这个平台是不是就没什么用了？还记得我上面说的那句话不--把它当作一个笔记本。你估计还有疑问--市面上的记事本/笔记本这么多，不写代码的我，为什么还有必要用 GitHub 这个平台呢？</p>
+<p>想必大家都用过<code>有道云笔记</code>、<code>印象笔记</code>这样的云笔记工具，或者<code>记事本</code>、<code>备忘录</code>这样的文本记录工具，甚至<code>百度网盘</code>这样的云盘， 它们都可以有效的存储我们的图文资料。上述的这些工具，随着存入的资料越来越多，就会变得越来越难以管理了--最终的结果就是那些工具成了<code>垃圾场</code>，放在里面的绝大多数内容基本上都不会去看一眼了。想想这样的一种场景吧：工具里面存了几个 G、几十个 G 的学习资料，可是就是没有进去看过几次，这样又有什么什么用呢？不过是增加一点虚幻的自我安慰罢了。</p>
+<p>而在 GitHub 上面，里面的内容是自己一点一点的的输入进去的，在输入的过程中就凝结了自己的思考，很明显的，这样的输出质量是只会一股脑的存资料所不能比的。</p>
+<ul>
+<li>如果你的这些东西，不想让其他任何人看到，你可以将你的项目设为私密的，这样这个项目里面的所有内容都只有你可见了。</li>
+<li>如果你觉得自己写的东西不够好，没关系，先写下来；以后有新思路了再慢慢迭代--就像写代码一样，可以不断的优化你的项目，更难得的是，你的每一次修改或者优化提交，都有相应的提交记录，这样一点一滴的充实和优化你的项目，是一个很有成就感的过程。其实这样一点点的迭代项目，也是符合心理学中&quot;小步子原理&quot;--将一个大目标分解成小的目标，小到不可能失败的小目标，然后这一个个的小目标都有清晰的路径可以实现，最终这样大目标也能顺利的实现--GitHub 平台配合 git 版本管理系统刚好提供了这样的一种方式，让 GitHub 里面的项目不断迭代不断优化。</li>
+<li>GitHub 能够很好的支持 markdowm 语法，有了这样的语法，就能够让我们将注意力完全放在项目内容上，而不是耗时费力的文字格式排版上。</li>
+</ul>
+<blockquote class="blockquote">怎么下载文字编辑工具 Visual Studio Code</blockquote>
+<ul>
+<li>Visual Studio Code 的初衷的作为编写代码的编辑器，但是这款工具真的太好用了，好用到已经不仅仅是写代码的程序员在用了，许多非程序员也会用这个工具，有一些内容创作者会用 markdown 语法创作，而 Visual Studio Code 就完美支持 markdown 语法，还能实时预览效果。</li>
+<li>Visual Studio Code 里面丰富的插件生态，比如写 markdown 的时候，可以用 Markdown All in One 这个插件，就可以轻松的对 markdown 语法的文件进行格式化了。</li>
+<li>Visual Studio Code 编辑器配合 git 这个版本管理工具(下面会讲到这个工具)，让我们的创作每一次提交都有迹可循，哪怕每次只是提交一点点创作内容--聚沙成塔，集腋成裘，在一次次的提交过程中达成当初的大目标。</li>
+<li>Visual Studio Code 编辑器下载地址: <a href="https://code.visualstudio.com/%E3%80%82" target="_blank" rel="noreferrer">https://code.visualstudio.com/。</a></li>
+<li>下载完成之后，打开这个编辑器，就是这个界面了。</li>
+</ul>
+<blockquote class="blockquote">怎么下载git</blockquote>
+<ul>
+<li>
+<p>上面我提到了 git 这个工具，对于程序员来说它是一个有用的版本管理工具，其实对于非程序员来说也是很有用的，比如一篇文章太长，就可以分多次写，可以用 git 多次提交,每次都会生成提交记录，也可以查看自己的提交记录。这样把一个大任务分解为许多的小任务，只要一个个小任务完成了，大任务也完成了，这样就不容易犯拖延症。甚至极端一点的，一篇文章没想好怎么写，先只写个标题踏出第一步，然后提交到远程仓库，下次有时间有思路了，在写了标题的基础上接着写，也是可以的。</p>
+</li>
+<li>
+<p>git 下载地址( <a href="https://git-scm.com/download" target="_blank" rel="noreferrer">https://git-scm.com/download</a> ),根据自己电脑系统的不同，点击不同的 git 下载链接。接下来的下载安装均以 Windows 为例。</p>
+</li>
+<li>
+<p>git 安装包下载之后，接下来就是安装环节了。然后一路 next，**直到！**下面截图这一步，选择 Visual Studio Code 作为 git 的默认编辑器</p>
+</li>
+<li>
+<p>上图设置好之后，又是一通 next,最后点击<code>install</code>按钮。</p>
+</li>
+<li>
+<p>怎么判断 git 是否安装成功了呢？重新打开 Visual Studio Code,有下面截图的内容，就代表 git 安装成功了。</p>
+</li>
+</ul>
+<blockquote class="blockquote">怎么注册GitHub账号</blockquote>
+<ul>
+<li>
+<p>打开链接( <a href="https://github.com/" target="_blank" rel="noreferrer">https://github.com/</a> ), 点击页面右上侧的  <code>Sign in</code>按钮</p>
+</li>
+<li>
+<p>进入注册页面，账号、密码、验证账号等等都填上，然后创建账户，截图如下：</p>
+</li>
+<li>
+<p>进入设置页面，截图如下：</p>
+</li>
+<li>
+<p>进入邮箱验证引导页</p>
+</li>
+<li>
+<p>在邮箱里面验证成功，会跳转到验证确认页，截图如下：</p>
+</li>
+<li>
+<p>至此，账号创建成功，点击<code>Skip this for now</code>按钮，就进入 github 创建项目（仓库）引导页，截图如下：</p>
+</li>
+</ul>
+<blockquote class="blockquote">怎么在github里面创建自己的项目？</blockquote>
+<ul>
+<li>
+<p>在上图里面，点击<code>Create repository</code>按钮，或者点击( <a href="https://github.com/new" target="_blank" rel="noreferrer">https://github.com/new</a> ),就进入创建项目页面了，截图如下：</p>
+</li>
+<li>
+<p>在上图中，点击下方的绿色背景按钮，就跳转到项目详情页了，截图所示：</p>
+</li>
+</ul>
+<blockquote class="blockquote">怎么将github上项目仓库的内容拉取到本地？</blockquote>
+<ul>
+<li>
+<p>现在 github 上的仓库已经创建好了，现在这个仓库里面完全是空的，什么内容都没有。</p>
+</li>
+<li>
+<p>然后是下面这个界面，在这个界面里面点击下面截图中右侧的那个按钮。以我自己创建的这个仓库为例，这时候复制到的内容是  <code>https://github.com/shuimu0579/test.git</code></p>
+</li>
+<li>
+<p>打开 Visual Studio Code，操作步骤如下所示：</p>
+</li>
+<li>
+<p>在 Visual Studio Code 打开 test 这个项目之后，首先新建.gitignore 和 README.md 这两个文件，并打开 TERMINAL 这个终端命令行工具，详细介绍如图所示：</p>
+</li>
+</ul>
+<blockquote class="blockquote">怎么将本地增添或者修改的内容同步到github远程仓库</blockquote>
+<p>现在已经增加了.gitignore 和 README.md 这两个文件,现在怎么将这些修改同步到远程仓库？在<strong>TERMINAL</strong>面板里面,简简单单的几个 git 命令就能搞定了。修改的内容如下截图：</p>
+<ul>
+<li>
+<p><code>git add .</code>，增加所有的修改到 stash 暂存区</p>
+</li>
+<li>
+<p><code>git commit -m 'change'</code>，将暂存区的内容 commit 提交到本地仓库，并生成一次 commitId--也就是生成提交记录。</p>
+</li>
+<li>
+<p>现在内容已经成功的提交到本地仓库，那怎么提交到远程 github 仓库? <code>git push</code></p>
+</li>
+<li>
+<p>确认是否成功，在 github 网站上去看看</p>
+</li>
+</ul>
+<blockquote class="blockquote">怎么拉取github上已经有更新的项目</blockquote>
+<ul>
+<li>
+<p>github 上 test 项目里面已经有自己加的两个文件，那么在另一台电脑设备上也想修改这个 test 项目的内容，应该怎么做呢？•打开 Visual Studio Code，操作步骤如下所示：</p>
+</li>
+<li>
+<p>进去本地 test 项目文件夹之后，首先执行<code>git pull</code>命令，保证拉下来的是最新的内容。</p>
+</li>
+<li>
+<p>本机电脑有了项目文件夹之后（我这里是 test 文件夹），以后就不需要每次<code>Clone Repository</code>了，因为你已经把项目克隆到本地，你要做的仅仅是每次想编辑这个项目的时候，<strong>首先 git pull 一下</strong>，免得不必要的内容冲突。</p>
+</li>
+<li>
+<p>git 常用的一些命令，可以网上搜索一下，参考示例：<a href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html" target="_blank" rel="noreferrer">https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html</a></p>
+</li>
+</ul>
+<p>这篇文章讲到了 Visual Studio Code、git、github 等工具的使用，信息量有点大，能够一路顺利操作下来，收获也将会是很大的。</p>
+<p>题图来源：unsplash.com</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[Gmail邮箱的注册与使用]]></title>
+            <link>https://suimulearn.cn/blog//guide/Gmail邮箱的注册与使用</link>
+            <guid>https://suimulearn.cn/blog//guide/Gmail邮箱的注册与使用</guid>
+            <pubDate>Sat, 05 Nov 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>工具类第二篇我们讲的是 Gmail 邮箱的注册和使用。</p>
+<blockquote class="blockquote">为什么想到使用 Gmail 邮箱</blockquote>
+<p>一听说邮箱的注册，估计大家都不会陌生--在公司办公有企业邮箱；生活中有 QQ 邮箱，还有 163/126 网易邮箱。既然已经有了这么多的邮箱，为什么还需要一个 Gmail 邮箱？</p>
+<p>有人认为使用 Gmail 邮箱就是在装逼，没用 Gmail 邮箱不也好好的嘛？还是那句话，有的工具没用之前感受不到它的好，用上之后发现离不开了。嗯，真香！</p>
+<p>如果你需要和国外进行邮件沟通，那么你最好有一个 Gmail 邮箱；如果你想要注册某些国外的 app,那么最好有一个 Gmail 邮箱；如果你想要让你的简历看起来正式那么一点点，那么最好在邮箱栏里面写上 Gmail 邮箱（至少在程序员群体中，如果写 Gmail 邮箱，个人感觉面试时候印象会好一点点）; 更重要的是，Gmail 邮箱看起来简洁大气，垃圾邮件相对少很多，使用体验会好很多。</p>
+<blockquote class="blockquote">怎么注册 Gmail 邮箱</blockquote>
+<ul>
+<li>
+<p>最开始，把 VPN 打开，科学上网整起来。</p>
+</li>
+<li>
+<p>输入网址(<a href="https://accounts.google.com/signup" target="_blank" rel="noreferrer">https://accounts.google.com/signup</a>), 进入 Gmail 邮箱注册页面。<strong>划重点！！！</strong>,进入页面之后，在页面的最左下方，点击下拉框，选择语言为<code>简体中文</code>。</p>
+</li>
+<li>
+<p>切换好语言之后，输入  <code>姓氏</code> <code>名字</code> <code>用户名</code> <code>密码</code> <code>确认</code>等里面的内容，点击<code>下一步</code>。</p>
+</li>
+<li>
+<p>进入 验证您的手机号码 这一页面，默认是美国的区号图标（也就是有美国国旗的那个图标），选择那个图标下拉框，下拉框划到底，选择'中国 +86'那一列，这时候电话号码输入框里面就有<code>+86</code>这样的文本。</p>
+</li>
+</ul>
+<p>- <strong>再一次划重点！！！</strong>, 首先将电话号码输入框里面的<code>+86</code>删除,这时候输入框里面就是干干净净的；然后呢？在没有任何文本的输入框里面，输入自己的手机号码（11 位）--记得不要加+86 这个区号，最后点击<code>下一步</code>。</p>
+<ul>
+<li>
+<p>然后进入输入验证码页面， 在输入框里面输入发送到你手机的验证码，点击<code>验证</code>按钮就可以了。</p>
+</li>
+<li>
+<p>在下一页里面，输入自己的生日和性别等信息，注意输入的生日信息算下来，保证自己大于 17 岁--这样就是成年人，没有什么限制了；然后点击<code>下一步</code>；进入下一个页面，点击<code>立即启用</code>；进入下一页，点击<code>同意</code>。</p>
+</li>
+</ul>
+<blockquote class="blockquote">怎么使用 Gmail 邮件</blockquote>
+<ul>
+<li>
+<p>输入网址(<a href="https://mail.google.com/mail" target="_blank" rel="noreferrer">https://mail.google.com/mail</a>)，这时就可以打开Gmail邮箱，看到列表里面躺着一份欢迎邮件了。</p>
+</li>
+<li>
+<p>以后还想打开的话，直接 Google 搜索<code>Gmail</code>就可以，然后点击搜索到的第一项<code>Gmail - Google</code>。</p>
+</li>
+</ul>
+<p>题图来源：unsplash.com</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[如何用Netflix观看《鱿鱼游戏》]]></title>
+            <link>https://suimulearn.cn/blog//guide/如何用Netflix观看《鱿鱼游戏》</link>
+            <guid>https://suimulearn.cn/blog//guide/如何用Netflix观看《鱿鱼游戏》</guid>
+            <pubDate>Sat, 05 Nov 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>这篇讲的是如何下载 Netflix（中文名：网飞或奈飞），从而顺利观看 Netflix 上的剧集，特别是其中的一些原创剧集，比如前两个月开始大火的《鱿鱼游戏》。</p>
+<p>以 iPhone 手机为例，使用 Netflix 看剧需要满足两个条件：</p>
+<ul>
+<li>看剧需要 kexue 上网(kexue 上网工具教程：<a href="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484266&amp;idx=1&amp;sn=05849823bdb9f0bd684f5a87505b15de&amp;scene=21#wechat_redirect" title="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484266&amp;idx=1&amp;sn=05849823bdb9f0bd684f5a87505b15de&amp;scene=21#wechat_redirect" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/Pc8l-PnEWIYYMr0l9CgxOw</a> )</li>
+<li>在 App Store 里面下载 Netflix，需要准备一个美区或者港区 AppleID，可以在某宝上购买一个，也可以自己申请一个（美区 AppleID 注册教程：<a href="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484238&amp;idx=1&amp;sn=12449eb81fd966483c60d74a1ab76e2c&amp;scene=21#wechat_redirect" title="https://mp.weixin.qq.com/s?__biz=MzU2ODA3OTM0OQ==&amp;mid=2247484238&amp;idx=1&amp;sn=12449eb81fd966483c60d74a1ab76e2c&amp;scene=21#wechat_redirect" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/IF81NO4soLhgih2LPq12QQ</a> ）</li>
+</ul>
+<p>有了上网工具和美区 AppleID 之后，就可以顺利下载 Netflix App 了。</p>
+<blockquote class="blockquote">注册 Netflix</blockquote>
+<p>顺利注册 Netflix 的前提是已经有了 kexue 上网工具。</p>
+<p>接下来按照截图一步步注册就可以了。</p>
+<blockquote class="blockquote">如何购买礼品卡？</blockquote>
+<p>可以在某宝上购买礼品卡，搜索<code>Netflix Gift Card 美元礼品卡</code>，选择一家店铺进行购买。</p>
+<p>买礼品卡的时候需要注意的是：一张礼品卡 30 美金的话，价格在 200 块人民币左右(本人买的是 170 多的)，根据人民币对美元的汇率乘以 30 大概就能算出来，所以那些几十块就能买到礼品卡的店铺肯定是不靠谱的店。</p>
+<p>购买成功之后，店家会给你礼品卡码和 Zip Code. <strong>划重点</strong>，这个礼品码千万不要告诉其他人，只能自己兑换礼品卡，不然里面的礼品卡里面的充值金额就被别人兑换了。</p>
+<blockquote class="blockquote">会员过期了，应该怎么办？</blockquote>
+<p>可以再次通过 Netflix 礼品卡充会员，首先在某宝上购买 Netflix 礼品卡。</p>
+<p>接下来就是兑换礼品卡( <a href="https://www.netflix.com/redeem" target="_blank" rel="noreferrer">https://www.netflix.com/redeem</a> )</p>
+<blockquote class="blockquote">怎么观看 Netflix</blockquote>
+<p>手机上观看剧集的前提是 kexue 上网和下载好 Netflix App(iPhone 手机需要美区 AppleID)。</p>
+<p>记得先 kexue 上网，路线选择<code>美国</code>或者<code>美国-奈飞专线</code>，然后打开 Netflix App，就可以顺利看剧了。</p>
+<p>Tips：关于 kexue 上网路线选择，有什么讲究？</p>
+<p>由于有的剧集在美国本土有版权限制，比如《纸牌屋》和《绝命毒师》，kexue 上网的时候如果线路选择<code>美国</code>，就无法观看上述的两部剧集。</p>
+<p>这时候应该选择<code>美国-奈飞专线</code>线路，这条线路指向的其实是台湾地区，而台湾地区的 Netflix 是可以顺利观看上述两部剧集的，并没有版权限制。</p>
+<p>题图来源：unsplash.com</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[微信读书和zlibrary的双剑合璧]]></title>
+            <link>https://suimulearn.cn/blog//guide/微信读书和zlibrary的双剑合璧</link>
+            <guid>https://suimulearn.cn/blog//guide/微信读书和zlibrary的双剑合璧</guid>
+            <pubDate>Sat, 05 Nov 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>这篇是《趁手的工具》系列的第八篇，主要是使用微信读书上传电子书，以及，使用 zlibrary 找到相关的电子书资源。</p>
+<p>这篇不用 kexue 上网也能搞定，能够 kexue 上网就更好了。</p>
+<p>只要微信读书和 zlibrary 强强联合，犹如倚天剑屠龙刀合体，体验真的不要太好。</p>
+<blockquote class="blockquote">为什么选择微信读书？</blockquote>
+<p>通过获得免费无限卡，采用这种方式我在微信读书上免费看了近两年。</p>
+<p>今年双十一微信读书买年卡有优惠，白嫖两年都有点不好意思了，这才办了一张年卡。</p>
+<p>微信读书推崇的是一种社交化的读书，可以看到朋友们在阅读哪些书，给自己带来启发。</p>
+<p>微信读书也有周阅读时长排名机制，利用了人们相互比较的心理，促使我们比我们的朋友读的更多一点。</p>
+<p>微信读书在我看来是一款非常优秀的软件，界面清爽，功能好用。</p>
+<p>微信读书基本终结了国内各大读书 App,好用到没朋友。在它之下，寸草不生，所向披靡。</p>
+<blockquote class="blockquote">为什么选择 zlibrary</blockquote>
+<p>谷歌或者百度搜索  <code>zlibrary</code>  你会得到你想要的 pdf 或者 epub 格式的书籍。</p>
+<p>在 zlibrary 里面能够搜到在微信读书里面没有上架的书籍，比如<code>沟通的方法</code>、<code>中县干部</code> 、<code>遥远的救世主</code>、<code>百年孤独</code>、<code>实力、运气与成功</code>等书籍，一般想看的书籍在 zlibrary 里面都能搜索到。</p>
+<blockquote class="blockquote">如何找电子书资源，如何上传资源，如何阅读上传的电子书</blockquote>
+<p>去 zlibrary[ <a href="https://singlelogin.org/" target="_blank" rel="noreferrer">https://singlelogin.org/</a> ] 找到你想要的资源，最好是下载 epub 格式的文件，这种格式非常适合于电子的阅读。</p>
+<p>去微信读书网页版[ <a href="https://weread.qq.com/" target="_blank" rel="noreferrer">https://weread.qq.com/</a> ] 上传你下载好的电子书资源</p>
+<p>去微信读书 App 查看上传的电子书</p>
+<p>阅读的习惯，是我们生活中为数不多的极其重要的习惯之一。</p>
+<p>有了微信读书和 zlibrary 这样的工具，就能在书籍的海洋中尽情的遨游。</p>
+<p>最后的最后，我想以一段话作为结尾，与热爱阅读的你共勉：</p>
+<p>学习是一种行动反射，不是为了晓得些“知识”，要切己体察，代入自己要事上琢磨，落实行动，这就是知行合一。否则，读书也是一种玩物丧志--华杉。</p>
+<p>题图来源：<a href="https://unsplash.com" target="_blank" rel="noreferrer">https://unsplash.com</a></p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[思考工具HeptaBase]]></title>
+            <link>https://suimulearn.cn/blog//tools/heptabase</link>
+            <guid>https://suimulearn.cn/blog//tools/heptabase</guid>
+            <pubDate>Sat, 05 Nov 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>在给这篇文章取标题的时候，没有用笔记软件、记录工具、存储工具等字眼来命名，而是称 HeptaBase 这个软件是一个思考工具，一个基于可视化的卡片式的思考工具。</p>
+<p>是的，HeptaBase 是一个思考工具。</p>
+<p>他能够将我们的灵光乍现和探索到的知识，经过一个如下的过程：知识的探索 → 知识的收集 → 知识的整理 → 知识的输出 → 输出后继续供自己或供其他人探索。
+在这个不断循环迭代的过程中，我们的思考有迹可循，并一点一滴的构建自己整个知识的网络，一个不断发展更新的知识网络。</p>
+<h2 id="heptabase-的基本情况" tabindex="-1">HeptaBase 的基本情况 <a class="header-anchor" href="#heptabase-的基本情况" aria-label="Permalink to &quot;HeptaBase 的基本情况&quot;">&ZeroWidthSpace;</a></h2>
+<p>这个软件是付费的，早鸟价是 6.99 美元/月，现在不支持月付，只支持年付，也就是一年的订阅价格是 83.88 美元。</p>
+<p>HeptaBase 采用云同步的方式同步数据，现在电脑端和 App 端均可用。</p>
+<p>另外 HeptaBase 的使用和同步，不依赖于科学上网，平常网络就可以顺利使用。</p>
+<p>HeptaBase 是以美元支付的，那怎么支付美元？</p>
+<p>有一张招商银行或者中信银行之类的信用卡就可以支付，到了出账单还信用卡的时候，可以直接用 RMB 还款。</p>
+<h2 id="heptabase-主要做了什么" tabindex="-1">HeptaBase 主要做了什么 <a class="header-anchor" href="#heptabase-主要做了什么" aria-label="Permalink to &quot;HeptaBase 主要做了什么&quot;">&ZeroWidthSpace;</a></h2>
+<p>HeptaBase 里面有几大模块，分别对应着不同的功能。</p>
+<p>Journel 模型可以把自己日常的一些灵感和收集到的知识记录下来，类似于记录每天的所思所看所想。待到整理的时候，就可以把有用的信息放到 Card Library 模块里面的卡片里，如果是不想用的信息就可以直接清空。从而做到在 Journel 模块里面无阻力无压力的每日记录。</p>
+<p>Card Library 模块里面存有许多的 markdown 格式的卡片，这个卡片可以拖拉拽，卡片与卡片之间可以建立联系。</p>
+<p>如果把 Card Library 模块里面的卡片作为一个知识网络的一个节点的话，那么 Map 地图模块就是这张知识网络。换句话说，如果一张卡片是一颗树，那么 Map 地图模块就是整个森林。</p>
+<p>在 Map 地图模块里面，可以添加 Whiteboard 白板。在白板里面可以添加 Card Library 模块里面的卡片，并在白板里面建立卡片之间的联系，这就保证了自己的思考过程是可溯源的。如果说卡片呈现的是知识网络的微观视角，Map 地图呈现的是知识网络的宏观视角，那么 Whiteboard 白板则呈现的是知识网络的中观视角。</p>
+<p>从微观视角(Card)到中观视角(Whiteboard)到宏观视角(Map)，这样一来，整个知识网络就更加的立体和全面。</p>
+<h2 id="heptabase-中各模块展示" tabindex="-1">HeptaBase 中各模块展示 <a class="header-anchor" href="#heptabase-中各模块展示" aria-label="Permalink to &quot;HeptaBase 中各模块展示&quot;">&ZeroWidthSpace;</a></h2>
+<p>在 HeptaBase 中个人感觉很好用的就是 kanban 看板、Whiteboard 白板、 Mindmap 思维导图等功能。</p>
+<ul>
+<li>
+<p>Journal 日记模块</p>
+</li>
+<li>
+<p>Map 地图模块</p>
+</li>
+<li>
+<p>Whiteboard 白板</p>
+</li>
+<li>
+<p>Card Library 卡片模块</p>
+</li>
+<li>
+<p>Tag 标签模块</p>
+</li>
+<li>
+<p>HighLight 高亮模块</p>
+</li>
+</ul>
+<h2 id="决定购买之前的提醒" tabindex="-1">决定购买之前的提醒 <a class="header-anchor" href="#决定购买之前的提醒" aria-label="Permalink to &quot;决定购买之前的提醒&quot;">&ZeroWidthSpace;</a></h2>
+<p>在决定是否购买并使用 HeptaBase 之前，强烈建议先做两件事，不然花了钱没买到自己想要的就亏了。</p>
+<p>一是去看看 HeptaBase 创始人 <a href="https://alanchan1209.medium.com/" target="_blank" rel="noreferrer">詹雨安的博客</a> ，了解开发 HeptaBase 的来龙去脉以及未来的愿景。</p>
+<p>二是去看看<a href="https://weread.qq.com/web/bookDetail/3d8326d072552e803d87c41" target="_blank" rel="noreferrer">《卡片笔记写作法》</a> 这本书，Hepta 这个工具就体现了这本书的一些理念。</p>
+<p>如果一个工具能够提高效率节省时间，那么在这个工具上花些钱肯定是值得的。</p>
+<p>做程序员以来深深的感受到好工具的重要性，毕竟节省了时间、提高了效率，就是延长了生命。</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[这个工具，我用了三年]]></title>
+            <link>https://suimulearn.cn/blog//guide/这个工具，我用了三年</link>
+            <guid>https://suimulearn.cn/blog//guide/这个工具，我用了三年</guid>
+            <pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>我自己是程序员的缘故，会关注一些互联网的前辈。其中网名左耳朵耗子，真名叫陈皓的一位程序员，讲过一段话，给我以很大的启发。他在下面这段话中讲到了工具、英语、勤奋的积极意义。</p>
+<blockquote class="blockquote">
+<p>要去经历大多数人经历不到的，要把学习时间花在那些比较难的地方。</p>
+<p>要写文章就要写没有人写过的，或是别人写过，但我能写得更好的。</p>
+<p>更重要的是，技术和知识完全是可以变现的。</p>
+<p>不过，好在现在的人都被微博、微信、知乎、今日头条、抖音等这些 App 消费着（注意：我说的不是人在消费 App，而是人被 App 消费）</p>
+<p>然后英文还不行。</p>
+<p>kexue 上网也不行。</p>
+<p>所以，你真的不需要努力，只需要正常，你就可以超过绝大多数人。</p>
+<p>你真的千万不要以为你订几个专栏，买几本书，听高手讲几次课，你就可以变成高手了。</p>
+<p>这就好像你以为你买了一个高级的机械键盘，27 吋的 4K 屏、高性能的电脑，高级的人体工程学的桌椅，你就可以写出好的代码来一样。</p>
+<p>我们要成为一个好的羽毛球高手，不是买几副好的运动装备，到正规的体育场去打球，而是要付出常人不能付出的汗水甚至伤痛。</p>
+<p>任何行业都是这样的。</p>
+</blockquote>
+<p>可以说 kexue 上网工具是许多工具的基石，有了这个工具，就可以更好的去打开和探索新的世界。</p>
+<p>在自己使用了 3 年的情况下，已有 72 位朋友使用体验，因此可以很有信心的推荐给需要的朋友。</p>
+<p><img src="https://media.heptabase.com/v1/images/000623fa-7414-464a-a7e7-df56e0f3800b/4c831289-097e-4cd7-8a1f-4ba7f6a74154/threeyear.png" alt=""></p>
+<p><img src="https://media.heptabase.com/v1/images/000623fa-7414-464a-a7e7-df56e0f3800b/525c0538-834f-4937-a1f4-0628144546ce/WechatIMG66.jpeg" alt=""></p>
+<p>下载地址支持 Anfroid、iOS、Mac、Windows 等平台( <a href="https://ik11.net/20cd504" target="_blank" rel="noreferrer">https://ik11.net/20cd504</a> )</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[毛选中的经典语录]]></title>
+            <link>https://suimulearn.cn/blog//guide/毛选中的经典语录</link>
+            <guid>https://suimulearn.cn/blog//guide/毛选中的经典语录</guid>
+            <pubDate>Thu, 15 Sep 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>调查就像“十月怀胎”，解决问题就像“一朝分娩”。调查就是解决问题。</p>
+<p>我们说马克思主义是对的，决不是因为马克思这个人是什么“先哲”，而是因为他的理论，在我们的实践中，在我们的斗争中，证明了是对的</p>
+<p>真正的铜墙铁壁是什么？是群众，是千百万真心实意地拥护革命的群众。这是真正的铜墙铁壁，什么力量也打不破的，完全打不破的。</p>
+<p>指挥员的正确的部署来源于正确的决心，正确的决心来源于正确的判断，正确的判断来源于周到的和必要的侦察，和对于各种侦察材料的联贯起来的思索。</p>
+<p>读书是学习，使用也是学习，而且是更重要的学习。从战争学习战争——这是我们的主要方法。没有进学校机会的人，仍然可以学习战争，就是从战争中学习。革命战争是民众的事，常常不是先学好了再干，而是干起来再学习，干就是学习。</p>
+<p>列宁说：马克思主义的最本质的东西，马克思主义的活的灵魂，就在于具体地分析具体的情况。</p>
+<p>中国是一个大国——“东方不亮西方亮，黑了南方有北方”，不愁没有回旋的余地。</p>
+<p>广大根据地的丧失和红军的转移，这是暂时的和局部的失败，不是永远的和全部的失败，虽然这个局部是包括了党和军队和根据地的百分之九十</p>
+<p>革命和革命战争是进攻的，但是也有防御和后退——这种说法才是完全正确的。为了进攻而防御，为了前进而后退，为了向正面而向侧面，为了走直路而走弯路，是许多事物在发展过程中所不可避免的现象，何况军事运动。</p>
+<p>关于丧失土地的问题，常有这样的情形，就是只有丧失才能不丧失，这是“将欲取之必先与之”￼ 的原则。如果我们丧失的是土地，而取得的是战胜敌人，加恢复土地，再加扩大土地，这是赚钱生意。市场交易，买者如果不丧失金钱，就不能取得货物；卖者如果不丧失货物，也不能取得金钱。革命运动所造成的丧失是破坏，而其取得是进步的建设。睡眠和休息丧失了时间，却取得了明天工作的精力。</p>
+<p>经验对于干部是必需的，失败确是成功之母。但是虚心接受别人的经验也属必需，如果样样要待自己经验，否则固执己见拒不接受，这就是十足的“狭隘经验论”。我们的战争吃这种亏是不少的。</p>
+<p>退却阶段时必须计算到反攻阶段，反攻阶段时必须计算到进攻阶段，进攻阶段时又须计算到退却阶段。没有这种计算，束缚于眼前的利害，就是失败之道。</p>
+<p>退却阶段时必须计算到反攻阶段，反攻阶段时必须计算到进攻阶段，进攻阶段时又须计算到退却阶段。没有这种计算，束缚于眼前的利害，就是失败之道。</p>
+<p>照我的意见，在有强大敌军存在的条件下，无论自己有多少军队，在一个时间内，主要的使用方向只应有一个，不应有两个。我不反对作战方向有两个或两个以上，但主要的方向，在同一个时间内，只应有一个。中国红军以弱小者的姿态出现于内战的战场，其迭挫强敌震惊世界的战绩，依赖于兵力集中使用者甚大。</p>
+<p>人民的游击战争，从整个革命战争的观点看来，和主力红军是互为左右手，只有主力红军而无人民的游击战争，就像一个独臂将军。根据地的人民条件，具体地说来，特别是对于作战说来，就是有武装起来了的人民。敌人视为畏途，主要地也在这一点。</p>
+<p>人民的游击战争，从整个革命战争的观点看来，和主力红军是互为左右手，只有主力红军而无人民的游击战争，就像一个独臂将军。根据地的人民条件，具体地说来，特别是对于作战说来，就是有武装起来了的人民。敌人视为畏途，主要地也在这一点。</p>
+<p>把党的方针变为群众的方针，还须要我们长期坚持的、百折不挠的、艰苦卓绝的、耐心而不怕麻烦的努力。没有这样一种努力是一切都不成功的。抗日民族统一战线的组成、巩固及其任务的完成，民主共和国在中国的实现，丝毫也不能离开这一争取群众的努力。</p>
+<p>认识的真正任务在于经过感觉而到达于思维，到达于逐步了解客观事物的内部矛盾，了解它的规律性，了解这一过程和那一过程间的内部联系，即到达于论理的认识。</p>
+<p>你要有知识，你就得参加变革现实的实践。你要知道梨子的滋味，你就得变革梨子，亲口吃一吃。你要知道原子的组织同性质，你就得实行物理学和化学的实验，变革原子的情况。你要知道革命的理论和方法，你就得参加革命。一切真知都是从直接经验发源的。但人不能事事直接经验，事实上多数的知识都是间接经验的东西，这就是一切古代的和外域的知识。</p>
+<p>你要有知识，你就得参加变革现实的实践。你要知道梨子的滋味，你就得变革梨子，亲口吃一吃。你要知道原子的组织同性质，你就得实行物理学和化学的实验，变革原子的情况。你要知道革命的理论和方法，你就得参加革命。一切真知都是从直接经验发源的。但人不能事事直接经验，事实上多数的知识都是间接经验的东西，这就是一切古代的和外域的知识。</p>
+<p>一个闭目塞听、同客观外界根本绝缘的人，是无所谓认识的。认识开始于经验——这就是认识论的唯物论。第二是认识有待于深化，认识的感性阶段有待于发展到理性阶段——这就是认识论的辩证法。</p>
+<p>实践、认识、再实践、再认识，这种形式，循环往复以至无穷，而实践和认识之每一循环的内容，都比较地进到了高一级的程度。这就是辩证唯物论的全部认识论，这就是辩证唯物论的知行统一观。</p>
+<p>实践、认识、再实践、再认识，这种形式，循环往复以至无穷，而实践和认识之每一循环的内容，都比较地进到了高一级的程度。这就是辩证唯物论的全部认识论，这就是辩证唯物论的知行统一观。</p>
+<p>实践、认识、再实践、再认识，这种形式，循环往复以至无穷，而实践和认识之每一循环的内容，都比较地进到了高一级的程度。这就是辩证唯物论的全部认识论，这就是辩证唯物论的知行统一观。</p>
+<p>这是两个认识的过程：一个是由特殊到一般，一个是由一般到特殊。人类的认识总是这样循环往复地进行的，而每一次的循环（只要是严格地按照科学的方法）都可能使人类的认识提高一步，使人类的认识不断地深化。</p>
+<p>因此，研究任何过程，如果是存在着两个以上矛盾的复杂过程的话，就要用全力找出它的主要矛盾。捉住了这个主要矛盾，一切问题就迎刃而解了。</p>
+<p>因为我们承认总的历史发展中是物质的东西决定精神的东西，是社会的存在决定社会的意识；但是同时又承认而且必须承认精神的东西的反作用，社会意识对于社会存在的反作用，上层建筑对于经济基础的反作用。这不是违反唯物论，正是避免了机械唯物论，坚持了辩证唯物论。</p>
+<p>因为我们承认总的历史发展中是物质的东西决定精神的东西，是社会的存在决定社会的意识；但是同时又承认而且必须承认精神的东西的反作用，社会意识对于社会存在的反作用，上层建筑对于经济基础的反作用。这不是违反唯物论，正是避免了机械唯物论，坚持了辩证唯物论。</p>
+<p>矛盾着的事物依一定的条件有同一性，因此能够共居于一个统一体中，又能够互相转化到相反的方面去，这又是矛盾的特殊性和相对性。然而矛盾的斗争则是不断的，不管在它们共居的时候，或者在它们互相转化的时候，都有斗争的存在，尤其是在它们互相转化的时候，斗争的表现更为显著，这又是矛盾的普遍性和绝对性。</p>
+<p>中国共产党领导的红军，在今天，对于整个抗日战争，还只能起先锋队的作用，还不能在全国范围内起决定的作用，但是它的一些政治上、军事上、组织上的优点是足供全国友军采择的。这个军队也不是一开始就像现在的情形，它也曾经过许多的改造工作，主要地是肃清了军队内部的封建主义，实行了官兵一致和军民一致的原则。这个经验，可以供全国友军的借鉴。</p>
+<p>往往在敌人十分起劲自己十分困难的时候，正是敌人开始不利，自己开始有利的时候。往往有这种情形，有利的情况和主动的恢复，产生于“再坚持一下”的努力之中。</p>
+<p>真正的理论在世界上只有一种，就是从客观实际抽出来又在客观实际中得到了证明的理论，没有任何别的东西可以称得起我们所讲的理论。</p>
+<p>共产党员对任何事情都要问一个为什么，都要经过自己头脑的周密思考，想一想它是否合乎实际，是否真有道理，绝对不应盲从，绝对不应提倡奴隶主义。</p>
+<p>现在是在战争的时期，我们应该研究一下文章怎样写得短些，写得精粹些。延安虽然还没有战争，但军队天天在前方打仗，后方也唤工作忙，文章太长了，有谁来看呢？</p>
+<p>共产党员如果真想做宣传，就要看对象，就要想一想自己的文章、演说、谈话、写字是给什么人看、给什么人听的，否则就等于下决心不要人看，不要人听</p>
+<p>许多人常常以为自己写的讲的人家都看得很懂，听得很懂，其实完全不是那么一回事，因为他写的和讲的是党八股，人家哪里会懂呢？</p>
+<p>为什么语言要学，并且要用很大的气力去学呢？因为语言这东西，不是随便可以学好的，非下苦功不可。第一，要向人民群众学习语言。人民的语汇是很丰富的，生动活泼的，表现实际生活的。我们很多人没有学好语言，所以我们在写文章做演说时没有几句生动活泼切实有力的话，只有死板板的几条筋，像瘪三一样，瘦得难看，不像一个健康的人。第二，要从外国语言中吸收我们所需要的成分。我们不是硬搬或滥用外国语言，是要吸收外国语言中的好东西，于我们适用的东西。</p>
+<p>什么是宣传家？不但教员是宣传家，新闻记者是宣传家，文艺作者是宣传家，我们的一切工作干部也都是宣传家。比如军事指挥员，他们并不对外发宣言，但是他们要和士兵讲话，要和人民接洽，这不是宣传是什么？一个人只要他对别人讲话，他就是在做宣传工作。</p>
+<p>洗脸作比方，我们每天都要洗脸，许多人并且不止洗一次，洗完之后还要拿镜子照一照，要调查研究一番，（大笑）生怕有什么不妥当的地方。你们看，这是何等地有责任心呀！我们写文章，做演说，只要像洗脸这样负责，就差不多了。拿不出来的东西就不要拿出来。须知这是要去影响别人的思想和行动的啊！</p>
+<p>如果我们没有学会说群众懂得的话，那末广大群众是不能领会我们的决议的。我们远不是随时都善于简单地、具体地、用群众所熟悉和懂得的形象来讲话。我们还没有能够抛弃背得烂熟的抽象的公式。事实上，你们只要瞧一瞧我们的传单、报纸、决议和提纲，就可以看到：这些东西常常是用这样的语言写成的，写得这样地艰深，甚至于我们党的干部都难于懂得，更用不着说普通工人了。</p>
+<p>当你写东西或讲话的时候，始终要想到使每个普通工人都懂得，都相信你的号召，都决心跟着你走。要想到你究竟为什么人写东西，向什么人讲话。</p>
+<p>第一条：“留心各样的事情，多看看，不看到一点就写。”
+第二条：“写不出的时候不硬写。”
+第四条：“写完后至少看两遍，竭力将可有可无的字、句、段删去，毫不可惜。宁可将可作小说的材料缩成速写，决不将速写材料拉成小说。”
+第六条：“不生造除自己之外，谁也不懂的形容词之类。”</p>
+<p>如果连群众的语言都有许多不懂，还讲什么文艺创造呢？英雄无用武之地，就是说，你的一套大道理，群众不赏识。在群众面前把你的资格摆得越老，越像个“英雄”，越要出卖这一套，群众就越不买你的账。你要群众了解你，你要和群众打成一片，就得下决心，经过长期的甚至是痛苦的磨练</p>
+<p>文学艺术中对于古人和外国人的毫无批判的硬搬和模仿，乃是最没有出息的最害人的文学教条主义和艺术教条主义</p>
+<p>至于所谓“人类之爱”，自从人类分化成为阶级以后，就没有过这种统一的爱。过去的一切统治阶级喜欢提倡这个东西，许多所谓圣人贤人也喜欢提倡这个东西，但是无论谁都没有真正实行过，因为它在阶级社会里是不可能实行的。真正的人类之爱是会有的，那是在全世界消灭了阶级之后</p>
+<p>关于动机和效果的辩证唯物主义观点，我在前面已经讲过了。现在要问：效果问题是不是立场问题？一个人做事只凭动机，不问效果，等于一个医生只顾开药方，病人吃死了多少他是不管的。又如一个党，只顾发宣言，实行不实行是不管的。试问这种立场也是正确的吗？这样的心，也是好的吗？</p>
+<p>抗日的第五第六年，包含着这样的情况，即接近着胜利，但又有极端的困难，也就是所谓“黎明前的黑暗”的情况。</p>
+<p>有些同志不顾战争的需要，单纯地强调政府应施“仁政”，这是错误的观点。因为抗日战争如果不胜利，所谓“仁政”不过是施在日本帝国主义身上，于人民是不相干的。反过来，人民负担虽然一时有些重，但是战胜了政府和军队的难关，支持了抗日战争，打败了敌人，人民就有好日子过，这个才是革命政府的大仁政。</p>
+<p>任何领导人员，凡不从下级个别单位的个别人员、个别事件取得具体经验者，必不能向一切单位作普遍的指导。这一方法必须普遍地提倡，使各级领导干部都能学会使用。</p>
+<p>在我党的一切实际工作中，凡属正确的领导，必须是从群众中来，到群众中去。这就是说，将群众的意见（分散的无系统的意见）集中起来（经过研究，化为集中的系统的意见），又到群众中去作宣传解释，化为群众的意见，使群众坚持下去，见之于行动，并在群众行动中考验这些意见是否正确。然后再从群众中集中起来，再到群众中坚持下去。如此无限循环，一次比一次地更正确、更生动、更丰富。这就是马克思主义的认识论。</p>
+<p>对于任何工作任务（革命战争、生产、教育，或整风学习、检查工作、审查干部，或宣传工作、组织工作、锄奸工作等等）的向下传达，上级领导机关及其个别部门都应当通过有关该项工作的下级机关的主要负责人，使他们负起责任来，达到分工而又统一的目的（一元化）。</p>
+<p>日本人和汪精卫之所以特别爱好国民党和三民主义者，就是因为这个党这个主义当中有可以给他们利用的地方。这个党在第一次世界大战后，只有在一九二四年至一九二七年时期，孙中山先生把它改组了，把共产党人接受进去，形成了国共合作式的民族联盟，才被一切帝国主义者和汉奸们所痛恨，所不敢爱好，所极力图谋打倒。这个主义，也只有在同一时期，经过孙中山的手加以改造，成为载在《中国国民党第一次全国代表大会宣言》中的三民主义，即革命的三民主义，才被一切帝国主义者和汉奸们所痛恨，所不敢爱好，所极力图谋打倒。除此而外，这个党，这个主义，在排除了共产党、排除了孙中山革命精神的条件下，就受到一切帝国主义者和汉奸们的爱好，因此日本法西斯和汉奸汪精卫也爱好起来，如获至宝地加以养育，加以扶植。</p>
+<p>因为国民党在五年半以来消极抗日、积极反共的反动政策下所养成的极端腐化状态，今后必将遭到严重的挫败，到了那时，我党抗击敌伪的任务又将加重了。国民党以五年半的袖手旁观，得到了丧失战斗力的结果。共产党以五年半的苦战奋斗，得到了增强战斗力的结果。这一种情况，将决定今后中国的命运。——不要害怕逆境，逆境能锻炼人。</p>
+<p>列宁斯大林经常劝人要善于思索，我们也要这样劝人。脑筋这个机器的作用，是专门思想的。孟子说：“心之官则思。”</p>
+<p>因此，经验主义和教条主义的出发点虽然不同，但是在思想方法的本质上，两者却是一致的。他们都是把马克思列宁主义的普遍真理和中国革命的具体实践分割开来；他们都违背辩证唯物论和历史唯物论，把片面的相对的真理夸大为普遍的绝对的真理；他们的思想都不符合于客观的全面的实际情况。</p>
+<p>任何地方必须十分爱惜人力物力，决不可只顾一时，滥用浪费。任何地方必须从开始工作的那一年起，就计算到将来的很多年，计算到长期坚持战争，计算到反攻，计算到赶走敌人之后的建设。一面决不滥用浪费，一面努力发展生产。</p>
+<p>战争不但是军事的和政治的竞赛，还是经济的竞赛。我们要战胜日本侵略者，除其他一切外，还必须努力于经济工作，必须于两三年内完全学会这一门；而在今年——一九四五年，必须收到较前更大的成绩。</p>
+<p>中国的长期战争，使中国人民付出了并且还将再付出重大的牺牲；但是同时，正是这个战争，锻炼了中国人民。这个战争促进中国人民的觉悟和团结的程度，是近百年来中国人民的一切伟大的斗争没有一次比得上的。在中国人民面前，不但存在着强大的民族敌人，而且存在着强大的实际上帮助民族敌人的国内反动势力，这是一方面。但是另一方面，中国人民不但已经有了比过去任何时候都高的觉悟程度，而且有了强大的中国解放区和日益高涨着的全国性的民主运动。这是国内的有利条件。</p>
+<p>我们共产党人从来不隐瞒自己的政治主张。我们的将来纲领或最高纲领，是要将中国推进到社会主义社会和共产主义社会去的，这是确定的和毫无疑义的。我们的党的名称和我们的马克思主义的宇宙观，明确地指明了这个将来的、无限光明的、无限美妙的最高理想。每个共产党员入党的时候，心目中就悬着为现在的新民主主义革命而奋斗和为将来的社会主义和共产主义而奋斗这样两个明确的目标，而不顾那些共产主义敌人的无知的和卑劣的敌视、污蔑、谩骂或讥笑；对于这些，我们必须给以坚决的排击。对于那些善意的怀疑者，则不是给以排击而是给以善意的和耐心的解释。所有这些，都是异常清楚、异常确定和毫不含糊的。</p>
+<p>三次革命的经验，尤其是抗日战争的经验，给了我们和中国人民这样一种信心：没有中国共产党的努力，没有中国共产党人做中国人民的中流砥柱，中国的独立和解放是不可能的，中国的工业化和农业近代化也是不可能的。</p>
+<p>介石军事力量的优势，只是暂时的现象，只是临时起作用的因素；美国帝国主义的援助，也只是临时起作用的因素；蒋介石战争的反人民的性质，人心的向背，则是经常起作用的因素；而在这方面，人民解放军则占着优势</p>
+<p>新区土地改革应分两个阶段。第一阶段，打击地主，中立富农。又要分几个步骤：首先打击大地主，然后打击其他地主。对于恶霸和非恶霸，对于大、中、小地主，在待遇上要有区别。第二阶段，平分土地，包括富农出租和多余的土地在内。但在待遇上，对待富农应同对待地主有所区别。</p>
+<p>必须随时掌握工作进程，交流经验，纠正错误，不要等数月、半年以至一年后，才开总结会，算总账，总的纠正</p>
+<p>估计再打一个整年，即至明年春季的时候，敌我两军在数量上可能达到大体上平衡的程度。我们的方针是稳扎稳打，不求速效，只求平均每个月消灭国民党正规军八个旅左右，每年消灭敌军约一百个旅左右。事实上，从去年秋季以后，超过了这个数目；今后可能有更大的超过。五年左右（一九四六年七月算起）消灭国民党全军的可能性是存在的 ￼。</p>
+<p>马克思列宁主义的基本原则，就是要使群众认识自己的利益，并且团结起来，为自己的利益而奋斗。报纸的作用和力量，就在它能使党的纲领路线，方针政策，工作任务和工作方法，最迅速最广泛地同群众见面。</p>
+<p>我们党所进行的一切宣传工作，都应当是生动的，鲜明的，尖锐的，毫不吞吞吐吐。这是我们革命无产阶级应有的战斗风格。我们要教育人民认识真理，要动员人民起来为解放自己而斗争，就需要这种战斗的风格。用钝刀子割肉，是半天也割不出血来的。</p>
+<p>只有彻底地消灭了中国反动派，驱逐了美国帝国主义的侵略势力出中国，中国才能有独立，才能有民主，才能有和平，这个真理难道还不明白吗？</p>
+<p>处在革命高潮中的中国人民需要有自己的朋友，应当记住自己的朋友，而不要忘记他们。忠实于人民革命事业的朋友，努力保护人民利益而反对保护敌人利益的朋友，在中国无疑是不少，无疑是一个也不应被忘记和被冷淡的。</p>
+<p>一九四九年将要召集没有反动分子参加的以完成人民革命任务为目标的政治协商会议，宣告中华人民共和国的成立，并组成共和国的中央政府。这个政府将是一个在中国共产党领导之下的、有各民主党派各人民团体的适当的代表人物参加的民主联合政府。</p>
+<p>几千年以来的封建压迫，一百年以来的帝国主义压迫，将在我们的奋斗中彻底地推翻掉。一九四九年是极其重要的一年，我们应当加紧努力。</p>
+<p>中国人民解放军全体指挥员战斗员同志注意：在南京国民党反动政府接受并实现真正的民主的和平以前，你们丝毫也不应当松懈你们的战斗努力。对于任何敢于反抗的反动派，必须坚决、彻底、干净、全部地歼灭之。</p>
+<p>不论是全面的和平谈判，或者局部的和平谈判，我们都应当这样去准备。我们不应当怕麻烦、图清静而不去接受这些谈判，我们也不应当糊里糊涂地去接受这些谈判。我们的原则性必须是坚定的，我们也要有为了实现原则性的一切许可的和必需的灵活性。</p>
+<p>我们很快就要在全国胜利了。这个胜利将冲破帝国主义的东方战线，具有伟大的国际意义。夺取这个胜利，已经是不要很久的时间和不要花费很大的气力了；巩固这个胜利，则是需要很久的时间和要花费很大的气力的事情。资产阶级怀疑我们的建设能力。帝国主义者估计我们终久会要向他们讨乞才能活下去。</p>
+<p>夺取全国胜利，这只是万里长征走完了第一步。如果这一步也值得骄傲，那是比较渺小的，更值得骄傲的还在后头。在过了几十年之后来看中国人民民主革命的胜利，就会使人们感觉那好像只是一出长剧的一个短小的序幕。剧是必须从序幕开始的，但序幕还不是高潮。</p>
+<p>做学生，然后再做先生；先向下面干部请教，然后再下命令。各中央局、各前委处理问题的时候，除军事情况紧急和事情已经弄清楚者外，都应该这样办。这不会影响自己的威信，而只会增加自己的威信</p>
+<p>美国确实有科学，有技术，可惜抓在资本家手里，不抓在人民手里，其用处就是对内剥削和压迫，对外侵略和杀人。美国也有“民主政治”，可惜只是资产阶级一个阶级的独裁统治的别名</p>
+<p>中国人口众多是一件极大的好事。再增加多少倍人口也完全有办法，这办法就是生产。</p>
+<p>世间一切事物中，人是第一个可宝贵的。在共产党领导下，只要有了人，什么人间奇迹也可以造出来。</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[科目三考了三次有感]]></title>
+            <link>https://suimulearn.cn/blog//guide/科目三考了三次有感</link>
+            <guid>https://suimulearn.cn/blog//guide/科目三考了三次有感</guid>
+            <pubDate>Thu, 15 Sep 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>今天刚刚把科目三考完，历时一年考了三次，终于过了。</p>
+<p>对于有些人来说，从科目一到科目四都可以一把过，不用像我一样考的这么坎坷，这个我是肯定相信的。</p>
+<p>通过考驾驶证这个事，我不会认为是自己笨才考不过，我觉得考驾驶证与两个因素有关：</p>
+<p>首先就是驾驶证的考试规则越来越多了，如果哪个细节没注意到，就有可能挂；换句话说，考试的时候能不能通过，与当时考试的路况、天气、车辆、随机分配的考试线路等运气因素都有关。如果下次让我再一次考试科目三，我不敢说我一定能通过考试。</p>
+<p>再一个就是与自身在开车方面的刻意练习有关，刻意练习少了，在道路上行驶遇到状况，就会惊慌失措，忘记考试操作细节，这样就很容易挂科。</p>
+<p>我对刻意练习的理解，在考驾照的过程中也更加深刻了。</p>
+<p>每个人需要刻意练习的地方都不一样。你觉得很难的地方，我可以觉得没那么难；你觉得没那么难的地方，我可能觉得很难。</p>
+<p>我觉得通过科目三考试很难，但是做一桌菜却没觉得那么难；而另一个人却有相反的想法；一个同学觉得高中数学很简单，语文却很难；另一个同学却觉得数学学不懂，语文却简单。</p>
+<p>我们需要刻意练习的地方，每个人的情况都不一样。这就需要我们独自摸索和独立思考。</p>
+<p>没有针对自身情况的刻意思考和实践，找不到自己擅长和不擅长的，就会低水平的重复着努力着，花费了大量的时间精力，却没有自身的突破。这样的努力不是刻意练习，而是浪费时间，除了带来一点虚幻的自我感动。</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[个人笔记工具Obsidian]]></title>
+            <link>https://suimulearn.cn/blog//guide/个人笔记工具Obsidian</link>
+            <guid>https://suimulearn.cn/blog//guide/个人笔记工具Obsidian</guid>
+            <pubDate>Sun, 07 Aug 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://s2.loli.net/2022/08/07/dG9iEe1IQo5Vquk.png" alt="Obsidian.png"></p>
+<p>这几年尝试过许多的笔记软件，在摸索中趟过了各种各样的坑。在不断踩坑的过程中，也确立了对笔记软件的一些诉求。</p>
+<p>这个笔记工具需要做到跨多端并且笔记需要即时同步。</p>
+<p>这个笔记工具存储的数据需要牢牢掌握在自己的手中。</p>
+<p>这个笔记工具能够方便提取信息和提炼知识,做到笔记的不断迭代和更新；而不是变成海量笔记的垃圾场，除了第一次存入笔记，没有第二次操作查看笔记。</p>
+<p>这个笔记工具如果是免费的，就最好不过了。</p>
+<blockquote class="blockquote">为什么选择obsidian作为个人笔记库</blockquote>
+<p>完美适配 markdown 语法，布局和样式简约而不简单。</p>
+<p>Windows、Mac、iOS、iPadOS、Android 等多端( <a href="https://obsidian.md/mobile" target="_blank" rel="noreferrer">https://obsidian.md/mobile</a> )。</p>
+<p>使用 iCloud 或者 OneDrive( <a href="https://mp.weixin.qq.com/s/Y-7ap8wxQsLNoLhB1_WdbA" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/Y-7ap8wxQsLNoLhB1_WdbA</a> ) 等跨平台云存储工具多端同步笔记数据。</p>
+<p>所有的资料都保存在自己的云存储工具(iCloud 或者 OneDrive)的文件夹中，数据安全能够得到保障。</p>
+<p>强大的双链结构，将孤立的知识通过双链，形成知识网络，方便知识的提取、重组、迭代。这几步就保证了笔记是不断迭代完善的，而不是一潭死水。</p>
+<p>强大而丰富的核心插件库和社区插件库，甚至支持 vim 等编辑工具。</p>
+<p>对个人用户永久免费( <a href="https://obsidian.md/pricing" target="_blank" rel="noreferrer">https://obsidian.md/pricing</a> )。</p>
+<blockquote class="blockquote">Obsidian + iCloud，打造个人笔记库</blockquote>
+<p>如果你的电脑是 Mac,你的手机是 iOS 系统，强烈建议使用 iCloud + Obsidian，完成电脑端和手机端的数据同步。其中 iCloud 和 Obsidian 在电脑端、手机端都使用。</p>
+<p>如果你的电脑有 Mac 和 Windows，手机是 Android 系统的话，可以使用 OneDrive + Obsidian + One Markdown 来完成各端的数据同步。其中 OneDrive 在电脑端和手机端都可以使用，Obsidian 用在电脑端、One Markdown 用在手机端。</p>
+<p>接下来以 Obsidian+iCloud 为例说明。</p>
+<p><img src="https://s2.loli.net/2022/08/07/MGsrd6b9UJIzKvl.png" alt="Obsidian01.png"></p>
+<p><img src="https://s2.loli.net/2022/08/07/q9bDyKRaX5n64m1.png" alt="Obsidian02.png"></p>
+<p><img src="https://s2.loli.net/2022/08/07/GL3OqkjZ1sh2FCX.png" alt="Obsidian03.png"></p>
+<p><img src="https://s2.loli.net/2022/08/07/V6XMWsgtvNYFrai.png" alt="Obsidian04.png"></p>
+<p><img src="https://s2.loli.net/2022/08/07/axYQvMbF9zLugTV.png" alt="Obsidian05.png"></p>
+<p>这样就能 Obsidian 就能关联 iCloud 的本地文件夹了。</p>
+<p>最终展示一下 Obsiidian 在电脑端和手机的呈现情况。</p>
+<p><img src="https://s2.loli.net/2022/08/07/pUnjOskB5PtWzNd.png" alt="Obsidian06.png"></p>
+<p><img src="https://s2.loli.net/2022/08/07/YQyU8TlvE67ZhsA.jpg" alt="Obsidian07.jpg"></p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[OneDrive跨平台云存储]]></title>
+            <link>https://suimulearn.cn/blog//guide/OneDrive跨平台云存储</link>
+            <guid>https://suimulearn.cn/blog//guide/OneDrive跨平台云存储</guid>
+            <pubDate>Thu, 04 Aug 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>说到跨平台云存储工具，大家应该都不会陌生，印象笔记、有道云笔记、github ( <a href="https://mp.weixin.qq.com/s/Oh9pqwNNnkcNmzCQVoVGig" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/Oh9pqwNNnkcNmzCQVoVGig</a> )、百度网盘等都可以做云存储。有了今天这个 OneDrive,上述的那几个跨平台存储工具都用得少了。配合 markdown 语法在 PC 和手机端查看和编辑文件，随时随地的更新思考和想法。</p>
+<blockquote class="blockquote">为什么喜欢 OneDrive?</blockquote>
+<p>OneDrive 是微软公司开发出来的亲儿子，对 windows 系统的支持是没的说的，比如微软的 Office365 系列的文件 Word、Excel、PPT 等。</p>
+<p>不仅如此，OneDrive 在 Mac 电脑上、在平板电脑上、在 iOS 手机系统上、在安卓手机系统上，都能得到很好的支持。做到了真正的跨平台的即时同步。</p>
+<p>基本上免费的，获得 15G 的永久空间，只需要不到 5 块钱。</p>
+<blockquote class="blockquote">OneDrive 能做到什么？</blockquote>
+<p>OneDrive 能储存图片、视频、Office365 系列的文件，当然还有本人经常使用的 markdown 文件。</p>
+<p>利用 OneDrive 跨平台同步上传的特性，上班的灵感通过 Word、txt 记事本、typora 或者 Visual Studio Code 等记录下来，下班可以在家里的电脑继续处理，反之亦然。</p>
+<p>在上下班通勤的路上，同样的可以在手机上用 One Markdown 软件(在手机上怎么查看、编辑 markdownw 文件，且看下回分享，咱这一篇主要讲到的是 OneDrive 跨平台云端存储)编辑 markdown 语法的文档并同步到 OneDrive,也可以将编辑好的 markdown 文档转换成 HTML、图片 PDF 等格式，发送给其他人。</p>
+<blockquote class="blockquote">怎么获取 15G 永久的云端内存容量？</blockquote>
+<p>OneDrive 下载地址( <a href="https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download" target="_blank" rel="noreferrer">https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download</a> ),下载好并注册安装之后可以获得 5G 的永久地址。下载 OneDrive 不需要 kexue 上网，当然 kexue 上网之后下载注册会更顺畅（ <a href="https://mp.weixin.qq.com/s/Pc8l-PnEWIYYMr0l9CgxOw" target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/Pc8l-PnEWIYYMr0l9CgxOw</a> ）</p>
+<p>剩下的 10G 永久内存怎么获取呢？在某宝上搜索 OneDrive 永久扩容 10G 自己账号 邀请升级 官方活动 安全稳定，应该能找到你想要的。</p>
+<p>OneDrive， 分享给不断优化、持续迭代的你。</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[孙子兵法全篇及思想精要]]></title>
+            <link>https://suimulearn.cn/blog//guide/孙子兵法全篇及思想精要</link>
+            <guid>https://suimulearn.cn/blog//guide/孙子兵法全篇及思想精要</guid>
+            <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>《孙子兵法》又称《孙武兵法》、《吴孙子兵法》、《孙子兵书》、《孙武兵书》等，是中国现存最早的兵书，也是世界上最早的军事著作，被誉为“兵学圣典”。共有六千字左右，一共十三篇。</p>
+<h2 id="一、计篇" tabindex="-1">一、计篇 <a class="header-anchor" href="#一、计篇" aria-label="Permalink to &quot;一、计篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】孙子曰：兵者，国之大事，死生之地，存亡之道，不可不察也。</p>
+<p>【译文】 孙子说：战争，是国家的头等大事，是关系民众生死的所在，是决定国家存亡的途径，不能不认真加以考察、研究。</p>
+<p>【原文】故经之以五事校之以计而索其情：一曰道，二曰天，三曰地，四曰将、五曰法。道者，令民与上同意也，故可以与之死，可以与之生，而不畏危。天者，阴阳，寒暑、时制也。地者，远近、险易、广狭、死生也。将者，智、信、仁、勇、严也。法者，曲制、官道、主用也。凡此五者，将莫不闻，知之者胜，不知者不胜。故校之以计而索其情，曰：主孰有道？将孰有能？天地孰得？法令孰行？兵众孰强？士卒孰练？赏罚孰明？吾以此知胜负矣。</p>
+<p>【译文】应该以五个方面的情实为纲，通过具体比较双方的基本条件来探讨战争胜负的情形：一是'道'，二是'天'，三是'地'，四是'将'，五是'法'。所谓'道'，就是从政治上使民众与君主的思想一致，这样，民众就能与君主同生死共患难，誓死效命，毫无二心。所谓'天'，就是气候的阴晴、寒暑、四季节令的更替规律等。所谓'地'，就是指行程的远近、地势的险峻或平易，战地的广狭，是死地还是生地等。所谓'将'，就是看将领们是否具备智、信、仁、勇、严五种素质。所谓'法'，就是指部队的组织编制制度，军官的职责范围规定，军需物资的供应管理制度等。大凡这五个方面，将领们没有谁没听说过，但只有透彻掌握了的人才能取胜，没有透彻掌握的人则不能取胜。因而，还要通过比较双方的具体条件来探究战争胜负的情形。这些条件是：双方君主哪一方施政清明、有道？将领哪一方更有才能？天时、地利哪一方占得多？军中法令哪一方执行得好？兵力哪一方更强大？士兵哪一方更训练有素？奖赏与惩罚哪一方更严明？我凭着对这些情况的分析比较，就可知道战争胜负的情形了。</p>
+<p>【原文】将听吾计，用之必胜，留之；将不听吾计，用之必败，去之。计利以听，乃为之势，以佐其外。势者，因利而制权也。</p>
+<p>【译文】如果您能接受我的军事思想，任用我领兵作战一定胜利，我就留下；如果您不能接受我的军事思想，用我领兵作战必定失败，我就离开。我的军事思想您认为好并且能够接受，我将为您造成军事上的势，从外辅佐您。所谓造成军事上的势，就是在战争瞬息万变的情况中抓住有利的时机采取恰当的应变行动。</p>
+<p>【原文】兵者，诡道也。故能而示之不能，用而示之不用，近而示之远，远而示之近；利而诱之，乱而取之，实而备之，强而避之，怒而挠之，卑而骄之，佚而劳之，亲而离之。攻其无备，出其不意。此兵家之胜，不可先传也。</p>
+<p>【译文】用兵，是以诡诈为原则的。因而，'能'要使敌人看成'不能'，'用'要让敌人看作'不用'。'近'要让敌人看作'远'，'远'要让敌人看作'近'。敌人贪利，就诱之以利而消灭它；敌人混乱，就抓紧时机立刻消灭它；敌人实力雄厚，则须时刻戒备它；敌人精锐强大，就要注意避开它的锋芒；敌人褊急易怒，就挑逗它，使它失去理智；敌人小心谨慎，稳扎稳打，就设法使它骄傲起来；敌人内部和睦，就离间其关系。在敌人没有准备的情况下进攻，在敌人意想不到的条件下出击。这些，是军事家用兵之佳妙奥秘，是不可事先规定或说明的。</p>
+<p>【原文】夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。多算胜，少算不胜，而况于无算乎？吾以此观之，胜负见矣。</p>
+<p>【译文】未开战而在庙算中就认为会胜利的，是因为具备的致胜条件多；未开战而在庙算中就认为不能胜利的，是具备的致胜条件少。具备致胜条件多就胜，少就不胜，何况一个致胜条件也不具备的呢？我从这些对比分析来看，胜负的情形就得出来了！</p>
+<h2 id="二、作战篇" tabindex="-1">二、作战篇 <a class="header-anchor" href="#二、作战篇" aria-label="Permalink to &quot;二、作战篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】孙子曰：凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮，则内外之费，宾客之用，胶漆之材，车甲之奉，日费千金，然后十万之师举矣。其用战也胜，久则钝兵挫锐，攻城则力屈，久暴师则国用不足。夫钝兵挫锐，屈力殚货，则诸侯乘其弊而起，虽有智者，不能善其后矣。故兵闻拙速，未睹巧之久也。夫兵久而国利者，未之有也。故不尽知用兵之害者，则不能尽知用兵之利也。</p>
+<p>【译文】孙子说：根据一般作战常规，出动战车千乘，运输车千辆，统兵十万，沿途千里转运粮草，内外的日常开支，使者往来的费用，修缮武器用的胶漆、战车所需的膏油、修甲所需的金革等等，每日须耗费千金，作好了这些准备后，十万大军才能出动啊！所以，用兵打仗就要做到胜任裕如，举兵必克，否则，长久僵持，兵锋折损、锐气被挫，攻城就力竭，长期陈兵国外则国内资财不足。如果兵锋折损，锐气受挫、兵力耗尽、财政枯竭，那么，其他诸侯国就会趁这个困顿局面举兵进攻，即使睿智高明的人也难以收拾好这个局面。用兵打仗，只听说计谋不足但靠神速取胜的，没有听说有计谋却要拖延战争时日的。战争时间长而对国家有利这种事，从来就没有过。因此，不能全面了解战争害处的人，也就不能真正懂得战争的有利之处。</p>
+<p>【原文】善用兵者，役不再籍，粮不三载；取用于国，因粮于敌，故军食可足也。</p>
+<p>【译文】善于用兵的人，兵员不再次征调，粮饷不再三转运。各项军用从国内取得后，粮草补给在敌国就地解决，那么，军粮就可满足了。</p>
+<p>【原文】国之贫于师者远输，远输则百姓贫。近于师者贵卖，贵卖则百姓财竭，财竭则急于丘役。力屈、财殚，中原内虚于家。百姓之费，十去其七；公家之费，破车罢马，甲胄矢弩。戟蔽橹，丘牛大车，十去其六。</p>
+<p>【译文】国家由于兴兵而造成贫困的原因是长途运输。长途转运军需，百姓就会贫困。军队经过的地方物价高涨，物价上涨就会使百姓财物枯竭，财物枯竭就汲汲于应付赋役。民力耗尽，财物枯竭，国内家家空虚，百姓的资财耗去了十分之七。国家的资财，战车破损了，战马疲病了，盔甲、矢弩、矛盾、牛、车之类，耗去了十分之六。</p>
+<p>【原文】 故智将务食于敌。食敌一钟，当吾二十钟；秆一石，当吾二十石。</p>
+<p>【译文】因而，高明的将领务求从敌方夺取粮草。就地从敌方夺取粮食一钟，相当于自己从本国运出二十钟；就地夺取敌人饲草一石，相当于自己从本国运出二十石。</p>
+<p>【原文】故杀敌者，怒也；取敌之利者，货也。故车战得车十乘已上，赏其先得者，而更其旌旗，车杂而乘之，卒善而养之，是谓胜敌而益强。</p>
+<p>【译文】激励士卒奋勇杀敌，是使之威怒；鼓励将士夺取敌人资财，要用财物奖励。因此在车战中，凡缴获战车十辆以上的，奖赏那先夺得战车的士卒，并且更换敌战车上的旌旗，将其混合编入自己的车阵之中，对于俘虏，则予优待、抚慰，任用他们作战，这就是所谓战胜敌人而使自己日益强大。</p>
+<p>【原文】 故兵贵胜，不贵久。故知兵之将，生民之司命，国家安危之主也。</p>
+<p>【译文】 所以，用兵作战以胜任裕如，举兵必克为贵，不主张力不从心，僵持消耗。深知用兵之法的将帅，是民众命运的掌握者，是国家安危的啊！</p>
+<h2 id="三、谋攻篇" tabindex="-1">三、谋攻篇 <a class="header-anchor" href="#三、谋攻篇" aria-label="Permalink to &quot;三、谋攻篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】孙子曰：凡用兵之法，全国为上，破国次之，全军为上，破军次之；全旅为上，破旅次之；全卒为上，破卒次之；全伍为上，破伍次之。是故百战百胜，非善之善者也；不战而屈人之兵，善之善者也。</p>
+<p>【译文】孙子说：大凡用兵的原则，使敌举国不战而降是上策，击破敌国使之降服是次一等用兵策略；使敌全军不战而降是上策，击破而取胜是次一等用兵策略；使敌全旅不战而降是上策，击破敌旅而取胜是次一等用兵策略；使敌全卒不战而降是上策，击破敌卒使之降服是次一等策略；使敌全伍不战而降是上策，击破敌伍而取胜是次一等策略。因此，百战百胜，并非好的用兵策略中最好的，不交战而使敌屈服，才是用兵策略中最好的。</p>
+<p>【原文】故上兵伐谋，其次伐交，其次伐兵，其下攻城。攻城之法为不得已。修橹，具器械，三月而后成，距又三月而后已。将不胜其忿而蚁附之，杀士三分之一而城不拔者，此攻之灾也。</p>
+<p>【译文】因而，最好的用兵策略是以谋略胜敌，其次是以外交手段胜敌，再其次是通过野战交兵胜敌，最下等的是攻城。攻城是在不得已的情况下才采取的（办法）。为了攻城，修造望楼车、车，准备各种攻城器械，三个月才能完成；堆积攻城的土丘，又需三个月才能完成。这时，将帅们已焦躁忿怒异常了，驱赶着士兵像蚂蚁一样去爬城，士卒伤亡三分之一而城还不能攻下，这便是攻城的灾害啊！</p>
+<p>【原文】故善用兵者，屈人之兵而非战也，拔人之城而非攻也，毁人之国而非久也，必以全争于天下。故兵不顿而利可全，此谋攻之法也。</p>
+<p>【译文】因此，善于用兵的人，使敌军屈服而不用野战交兵的办法，夺取敌城不用蚁附攻城的办法，消灭敌国而不采用长久用兵的办法。一定本着不诉诸兵刃就使敌完整地屈服的原则争横天下，做到军队不受挫而胜利可全得，这便是谋攻的原则。</p>
+<p>【原文】故用兵之法，十则围之，五则攻之，倍则分之，敌则能战之，少则能逃之，不若则能避之。故小敌之坚，大敌之擒也。</p>
+<p>【译文】根据用兵规律，有十倍于敌人的兵力就包围歼灭敌人，有五倍于敌人的兵力就猛烈进攻敌人，有多一倍于敌人的兵力就分割消灭敌人，有与敌相当的兵力则可以抗击，比敌人兵力少时就摆脱敌人，不如敌人兵力强大就避免与敌争锋。小股兵力如果顽固硬拼，就会被强大的对方俘获。</p>
+<p>【原文】夫将者，国之辅也。辅周，则国必强；辅隙，则国必弱。</p>
+<p>【译文】将帅，是国君的辅佐。辅佐得周密，国家就强盛；辅佐有疏漏，国家必然衰弱。</p>
+<p>【原文】故君之所以患于军者三：不知军之不可以进而谓之进，不知军之不可以退而谓之退，是谓'縻军'；不知三军之事，而同三军之政者，则军士惑矣；不知三军之权，而同三军之任，则军士疑矣。三军既惑且疑，则诸侯之难至矣，是谓'乱军引胜'。</p>
+<p>【译文】君主对军队造成危害的情况有三个方面：不懂得军队不可以前进而命令他们前进，不懂得军队不可以后退而命令他们后退，这叫束缚、羁縻军队；不懂军中事务却干涉军中行政管理，那么，军士就会迷惑；不知军中权谋之变而参与军队指挥，那么将士就会疑虑。如果三军将士既迷惑又疑虑，诸侯乘机起而攻之的灾难就到来了。这就叫自乱其军而丧失了胜利。</p>
+<p>【原文】故知胜有五：知可以战与不可以战者胜，识众寡之用者胜，上下同欲者胜，以虞待不虞者胜，将能而君不御者胜。此五者，知胜之道也。</p>
+<p>【译文】预测胜负有五条：懂得什么条件下可以战，什么条件下不可以战的，胜；懂得众与寡的灵活运用的，胜；上下一心，同仇敌忾的，胜 以有准备之师击无准备之敌的，胜 将领富于才能而君主又不从中干预牵制的，胜。这五条就是预知胜负的途径。</p>
+<p>【原文】故曰：知彼知己者，百战不殆；不知彼而知己，一胜一负，不知彼，不知己，每战必殆。</p>
+<p>【译文】因此，可以说：了解对方也了解自己的，百战不败；不了解对方而了解自己的，胜负各半；不了解对方，也不了解自己的，每战必败。</p>
+<h2 id="四、形篇" tabindex="-1">四、形篇 <a class="header-anchor" href="#四、形篇" aria-label="Permalink to &quot;四、形篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】孙子曰：昔之善战者，先为不可胜，以待敌之可胜。不可胜在己，可胜在敌。故善战者，能为不可胜，不能使敌之可胜。故曰：胜可知而不可为。</p>
+<p>【译文】孙子说：古代善于指挥作战的人，总是先创造条件使自己处于不可战胜的地位，然后等待敌人能被我战胜的时机。做到不可战胜，关键在于自己创造充分的条件；可以战胜敌人，关键在于敌人出现可乘之隙。因而，善于作战的人，能做到自己不可战胜，不能使敌人一定被我战胜。所以说，胜利可以预测，但不可强求。</p>
+<p>【原文】不可胜者，守也；可胜者，攻也。守则不足，攻则有余（竹简为：守则有余，攻则不足）。善守者，藏于九地之下，善攻者，动于九天之上，故能自保而全胜也。</p>
+<p>【译文】有了不可战胜的条件，就可以守；敌方出现了可胜之隙，就可以攻。守，应依靠自己不可战胜，力有裕如；攻，要针对敌方弱点、不足，举兵必克。善于防守的人，如同深藏于地底，使敌人无形可窥；善于进攻的人，如同神兵自九天而降，使敌措手不及。因而，既能有效地保全自己，又能获取全面的胜利。</p>
+<p>【原文】见胜不过众人之所知，非善之善者也；战胜而天下曰善，非善之善者也。故举秋毫不为多力，见日月不为明目，闻雷霆不为聪耳。古之所谓善战者，胜于易胜者也。故善战者之胜也，无智名，无勇功。故其战胜不忒，不忒者，其所措必胜，胜已败者也。故善战者，立于不败之地，而不失敌之败也。是故胜兵先胜而后求战，败兵先战而后求胜。善用兵者，修道而保法，故能为胜败之政。</p>
+<p>【译文】预见胜利不超过一般人的见识，不算高明中最高明的 经过力战而胜，天下人都说好，也不算好中最好的。就像举起秋毫不算力大，看见太阳、月亮不算眼明，听见雷霆不算耳聪一样。古代善战的人，总是取胜于容易战胜的敌人。因而，这些善战者的胜利，既没有智谋的名声，也没有勇武的功劳。他所进行的战争的胜利是不会有丝毫误差的，之所以没有误差，是因为他们所进行的战斗举动是必胜的，是战胜那已处于失败地位的敌人。善于作战的人，总是自己先立于不败之地，而不放过任何一个打败敌人的时机。因此，胜利之师是先具备必胜条件然后再去交战，失败之师总是先同敌人交战，然后期求从苦战中侥幸取胜。善于用兵的人，总是注意修明政治，确保治军法度，所以能成为战争胜负的主宰。</p>
+<p>【原文】兵法：一曰度，二曰量，三曰数，四曰称，五曰胜。地生度，度生量，量生数，数生称，称生胜。故胜兵若以镒称铢，败兵若以铢称镒。胜者之战民也，若决积水于千仞之溪者，形也。</p>
+<p>【译文】用兵必须注意：一是土地幅员，二是军赋物资，三是部队兵员战斗实力，四是双方力量对比，五是胜负优劣。度产生于土地幅员的广狭，土地幅员决定军赋物资的多少，军赋物资的多少决定兵员的质量，兵员质量决定部队的战斗力，部队的战斗力决定胜负优劣。所以胜利之师如同以镒对铢，是以强大的军事实力取胜于弱小的敌方，败亡之师如同以铢对镒，是以弱小的军事实力对抗强大的敌方。高明的人指挥部队作战，就像决开千仞之高的山涧积水一样，一泻万丈，这就是强大军事实力啊！</p>
+<h2 id="五、势篇" tabindex="-1">五、势篇 <a class="header-anchor" href="#五、势篇" aria-label="Permalink to &quot;五、势篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】孙子曰：凡治众如治寡，分数是也；斗众如斗寡，形名是也；三军之众，可使必受敌而无败者，奇正是也；兵之所加，如以投卵者，虚实是也。</p>
+<p>【译文】孙子说：大凡治理大部队与治理小分队原理是一样的，抓住编制员额有异这个特点就行了；指挥大部队战斗与指挥小分队战斗基本原理是一样的，掌握部队建制规模及其相应的名称不同这个特点就行了。统帅三军兵士，能让他们一定立于受敌而不败的地位的话，就在于巧妙地运用奇兵、正兵；军队所指之处，像以石击卵一样，就在于灵活运用虚实，以实击虚。</p>
+<p>【原文】凡战者，以正合，以奇胜。故善出奇者，无穷如天地，不竭如江河。终而复始，日月是也；死而复生，四时是也。声不过五，五声之变，不可胜听也；色不过五，五色之变，不可胜观也；味不过五，五味之变，不可胜尝也；战势不过奇正，奇正之变，不可胜穷也。奇正相生，如循环之无端，孰能穷之？</p>
+<p>【译文】大凡作战，以正兵交合，以奇兵取胜。善于出奇制胜的人，他的妙法是丰富多彩、层出不穷的，就像天地万物的变化无穷，就像江河流水的奔腾不息。周而复始，日月运行就是这样；去了又来，四季更替就是这样。音阶不过五个，但五个音阶融合演奏的音乐却是赏听不尽的；原色不过五种，但五种颜色调和绘成的画图之美是观赏不完的；原味不过五种，但五味调配的滋味却是品尝不尽的；作战的基本方式，不外乎奇正两种，但奇正的变化运用，却是无穷无尽的。奇与正相互转化，就像顺着圆环旋转一样没有尽头，有谁能穷尽它呢？</p>
+<p>【原文】激水之疾，至于漂石者，势也；鸷鸟之疾，至于毁折者，节也。是故善战者，其势险，其节短。势如弩，节如发机。</p>
+<p>【译文】湍急的流水疾速奔泻，以至于能冲走石头，这便是势 鸷鸟疾飞，竟至于毁折，这是击发节奏掌握得准确。因而，善于作战的人，他所造成的态势是险峻的，他发动攻势的节奏是短促的。势就像张满待发的弓弩，节就是触发的弩机。</p>
+<p>【原文】纷纷纭纭，斗乱而不可乱也；浑浑沌沌，形圆而不可败也。乱生于治，怯生于勇，弱生于强。治乱，数也；勇怯，势也；强弱，形也。故善动敌者，形之，敌必从之；予之，敌必取之，以利动之，以卒待之。</p>
+<p>【译文】人马攒动，纷纷纭纭，在混战中指挥战斗一定不可使行阵混乱 浑浑沌沌，结为圆阵就不会战败。战场上，一方的混乱产生于对方的严整；一方的怯懦产生于对方的勇敢；一方的弱小产生于对方的强大。或严整或混乱，是由各自部队素质决定的；或勇或怯，是由各自所处态势决定的；或强或弱，是由各自的军队实力表现出来的。因而，善于调动敌人的高明的指挥员，就善于故意给对方以假的表象，敌人就会根据这个假像作出相应的错误举动；给敌人一点利益，敌人就一定来取。以小利来调动敌人，以严整的伏兵来等待敌人进入圈套。</p>
+<p>【原文】故善战者，求之于势，不责于人，故能择人而任势。任势者，其战人也，如转木石。木石之性，安则静，危则动，方则止，圆则行。故善战人之势，如转圆石于千仞之山者，势也</p>
+<p>【译文】因此，高明的指挥员，总是从自己造'势'中去追求胜利，而不苛求部下以苦战取胜。因而，他能恰当地选择人材巧妙地任用'势'。善于任用'势'的人，他指挥军队作战，就像转动木、石一样。木、石的禀性，置于平地则静止，置于高峭之地则滑动；方形静止，圆形滚动。善于指挥作战的人所造成的态势就像从千仞之高的山上滚下圆石一样。这便是兵法上的'势'。</p>
+<h2 id="六、虚实篇" tabindex="-1">六、虚实篇 <a class="header-anchor" href="#六、虚实篇" aria-label="Permalink to &quot;六、虚实篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】孙子曰：凡先处战地而待敌者佚，后处战地而趋战者劳，故善战者，致人而不致于人。能使敌人自至者，利之也；能使敌人不得至者，害之也。故敌佚能劳之，饱能饥之，安能动之。</p>
+<p>【译文】孙子说：大凡先到达战地而等待敌人到来就沉稳、安逸，后到达战地而疾行奔赴应战就紧张、劳顿。因而，善于指挥作战的人，总是设法调动敌人而自己不为敌人所调动。能使敌人主动来上钩的，是诱敌以利；能使敌人不得前来的，是相逼以害。因而，敌若闲逸，可使它劳倦，敌若饱食，可使它饥饿，敌若安稳，可使它动乱。</p>
+<p>【原文】出其所不趋，趋其所不意。行千里而不劳者，行于无人之地也。攻而必取者，攻其所不守也；守而必固者，守其所不攻也。故善攻者，敌不知其所守；善守者，敌不知其所攻。微乎微乎，至于无形；神乎神乎，至于无声，故能为敌之司命。进而不可御者，冲其虚也；退而不可追者，速而不可及也。故我欲战，敌虽高垒深沟，不得不与我战者，攻其所必救也；我不欲战，画地而守之，敌不得与我战者，乖其所之也。</p>
+<p>【译文】在敌人无法紧急救援的地方出击，在敌人意想不到的条件下进攻。行军千里而不劳顿的原因，是行进在敌人无设防的地方；进攻而必取的原因，是进攻敌人不能固守的地方；防守而一定稳固，是在敌人不可能进攻的地方防守。因而，善于进攻的人，敌人不知该于何处设防；善于防守的人，敌人不知该于何处进攻。微妙啊，微妙啊，达到了无形可窥的境界；神奇啊，神奇啊，以至于不露一丝声息的程度，因而能成为敌人命运的主宰者。进攻而敌方不可抵御，那是冲击在敌人的薄弱环节；撤退而敌人不可追及，那是行动神速，敌人追之不及。我想与敌交战，虽然敌人高筑防御工事也不得不出来与我交战，是因为我攻击它必然要救援的地方；我不想同敌交战，只要在地上画个界线便可守住，敌人无法与我交锋，是因为我设法调动它，使它背离所要进攻的方向。</p>
+<p>【原文】故形人而我无形，则我专而敌分；我专为一，敌分为十，是以十攻其一也，则我众而敌寡；能以众击寡者，则吾之所与战者约矣。吾所与战之地不可知，不可知，则敌所备者多；敌所备者多，则吾所与战者寡矣。故备前则后寡，备后则前寡；备左则右寡，备右则左寡；无所不备，则无所不寡。寡者，备人者也；众者，使人备己者也。</p>
+<p>【译文】因此，示敌以假像而我不露真情，那么，我就可以集中兵力而敌势必分散兵力。我集中兵力为一处，敌分散兵力为十处，这就形成局部的以十攻一的态势，那么，我就兵力众多而敌人就兵力寡少了；能以众多兵力对付寡少兵力，与我交战的敌人就陷入困境了。我与敌交战的地点敌人不知道，不知道，那么敌人防备的方面就多；敌人防备的方面多，在局部与我交战的敌兵就少了啊。着重防备前方，后方就薄弱；着重防备后方，前方就薄弱；着重防备左翼，右翼就薄弱；着重防备右翼，左翼就薄弱；无处不防备，那就无处不薄弱。造成兵力薄弱的原因就是处处设防啊，形成兵力集中的优势在于迫使敌人处处防备我啊。</p>
+<p>【原文】故知战之地、知战之日，则可千里而会战；不知战地、不知战日，则左不能救右、右不能救左，前不能救后、后不能救前，而况远者数十里、近者数里乎？以吾度之，越人之兵虽多，亦奚益于胜败哉？故曰：胜可为也。敌虽众，可使无斗。</p>
+<p>【译文】知道作战的地点、知道作战的时间，哪怕奔赴千里也可如期会合交战；不知作战地点、不知作战时间，那就左翼也难救右翼，右翼也难救左翼；前军难救后军，后军难救前军；何况远者相隔几十里、近者相隔几里的呢？依我推测，越国的兵力虽然众多，又于胜利有何补益呢？敌人虽多，可使它无法战斗。</p>
+<p>【原文】故策之而知得失之计，作之而知动静之理，形之而知死生之地，角之而知有余不足之处。故形兵之极，至于无形。无形，则深间不能窥、智者不能谋。因形而错胜于众，众不能知。人皆知我所以胜之形，而莫知吾所以制胜之形。故其战胜不复，而应形于无穷。</p>
+<p>【译文】分析研究双方情况，可得知双方所处条件的优劣得失；挑动敌人，可了解敌人的行动规律；侦察战地，可知战地各处是否利于攻守进退；小规模的兵力与敌试探性较量，可知敌人兵力部署的或有余或不足等虚实情况。以假像迷惑敌人的用兵方法运用到极至程度，就会不露一丝真迹，使人无形可窥，那么，即使埋藏很深的间谍也不能窥测到实情，即使很有智谋的人也无法设谋。通过以假像迷惑敌人的'示形'方法取得的胜利放置在众人面前，众人不能了解其中的因由，众人都知道我取胜的外在作战状况，而没有谁了解我导致胜利所用的内在方略。因而，我取胜的谋略方法不重复，而随着敌情变化所采取的应变'示形'方法是无穷无尽的。</p>
+<p>【原文】夫兵形象水。水之形，避高而趋下；兵之形，避实而击虚。水因地而制流，兵因敌而制胜。故兵无常势，水无常形，能因敌变化而取胜者，谓之神。故五行无常胜，四时无常位，有短长，月有死生。</p>
+<p>【译文】用兵的规律有如流水的规律。流水的规律是避开高处趋向低处；用兵的规律是避开实处攻击虚处。水流根据地形决定流向，用兵根据敌情采取致胜方略。战争无固定不变的态势，流水无固定不变的流向。能随着敌情发展变化而采取灵活变化的措施取胜的人，才称得上是神秘莫测的高明者。须知五行是没有常胜的，四时是没有不更替的，日照的时间也有短有长，月亮也有晦有朔。</p>
+<h2 id="七、军争篇" tabindex="-1">七、军争篇 <a class="header-anchor" href="#七、军争篇" aria-label="Permalink to &quot;七、军争篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】 孙子曰：凡用兵之法，将受命 于君，合军聚众，交和而舍，莫难于军争。军争之难者，以迂为直，以患为利。故迂其途，而诱之以利，后人发，先人至，此知迂直之计者也。</p>
+<p>【译文】孙子说：根据一般战争规律，将帅向君主领受命令，聚集民众，组编军队，到与敌军两相对垒，没有什么比两军相对争夺制胜条件更难的了。两军相对争利之所以难，就难在以迂回的手段达到直捷的目的，就难在化祸患为有利。采取迂回的途径，但引诱凝滞敌人，后于敌人发动，却先于敌人达到目的，这便是懂得变迂为直谋略的人。</p>
+<p>【原文】故军争为利，军争为危。举军而争利，则不及；委军而争利，则辎重捐。是故卷甲而趋，日夜不处，倍道兼行，百里而争利，则擒三将军；劲者先，疲者后，其法十一而至；五十里而争利，则蹶上将军，其法半至；三十里而争利，则三分之二至。是故军无辎重则亡，无粮食则亡，无委积则亡。</p>
+<p>【译文】军争是有利的，军争也是危险的。全军带着全部辎重去争利，就会行动迟缓而赶不上；全军舍弃笨重器械去争利，那么辎车又损失了。卷起铠甲，轻装快跑，日夜不停，以加倍的速度兼程行进，奔袭百里去争利的话，那么，三军将领都可能被擒；精悍的士卒在前面，疲弱的士卒在后面，按通常规律只有十分之一的人能到达；像这样奔赴五十里去争利的话，那么前军将领必然受挫，按通常规律只有一半人能到达；像这样急行三十里去争利的话，也只有三分之二的人能到达。然而，军队没有辎重就会灭亡，军队没有粮食就会灭亡，军队没有物资储备就会灭亡。</p>
+<p>【原文】故不知诸侯之谋者，不能豫交；不知山林、险阻、沮泽之形者，不能行军；不用乡导者，不能得地利。故兵以诈立，以利动，以分合为变者也。故其疾如风，其徐如林，侵掠如火，不动如山，难知如阴，动如雷震。掠乡分众，廓地分利，悬权而动。先知迂直之计者胜，此军争之法也。</p>
+<p>【译文】不了解诸侯国的企图，不能参与结交；不了解并善于利用山林、险阻、沼泽等地形条件，不能率军行进；不使用向导，就不能得到有利的地形。用兵靠诡诈立威，依利益行动，把分散与集中作为变化手段。部队快速行动起来犹如疾风；舒缓行进起来犹如森林；侵掠起来犹如烈火；不动时候稳如山岳；难以窥测有如阴云蔽日；发起进攻有如迅雷猛击。掠夺敌乡，应分兵进行；开拓疆土，应区别利害。这些都须比较利害、权衡轻重后才能采取行动。先懂得以迂为直计谋的人才会取得胜利，这就是军争的原则。【原文】《军政》曰：'言不相闻，故为金鼓；视不相见，故为旌旗。'夫金鼓旌旗者，所以一人之耳目也；人既专一，则勇者不得独进，怯者不得独退，此用众之法也。故夜战多火鼓，昼战多旌旗，所以变人之耳目也。</p>
+<p>【译文】《军政》上说：'用言语指挥听不清就用金鼓，用手势指挥看不清就用旌旗。'金鼓旌旗这些工具是用来统一军队视听的。军队行动统一以后，那么，勇武的人不得擅自前进，怯懦的人也不能单独后退，这就是指挥大部队作战的办法。夜间作战，多使用火与鼓；白天作战，多使用旌旗。这是适应将士们视听的办法。</p>
+<p>【原文】故三军可夺气，将军可夺心。是故朝气锐，昼气惰，暮气归。故善用兵者，避其锐气，击其惰归，此治气者也。以治待乱，以静待哗，此治心者也。以近待远，以佚待劳，以饱待饥，此治力者也。无邀正正之旗，勿击堂堂之陈，此治变者也。</p>
+<p>【译文】敌之兵众，可剥夺其士气；敌之将领，可动摇其决心。初战时气锐，继战时气衰，战至后期，士气就消亡了。因而，善于用兵的人，总是避开敌人的锐气，攻击敌人的惰气、归气（乘敌士气衰败、消亡时实施攻击。）这是从士气上制伏、战胜敌人的办法。用严整的部队对付混乱的部队，用沉着、冷静的部队对付浮躁喧乱的部队，这就是从心理上制伏、战胜敌人的办法，用靠近战场的部队等待远途来奔的敌军，用休整良好的部队等待疲劳困顿的敌军，用饱食的部队对付饥饿的部队，这就是从体力上制伏、战胜敌人的办法。不要拦截敌人严整的军队，不要攻击敌人盛大的军阵，这是以权变对付敌人的办法。</p>
+<p>【原文】故用兵之法：高陵勿向，背丘勿逆，佯北勿从，锐卒勿攻，饵兵勿食，归师勿遏，围师必阙，穷寇勿迫，此用兵之法也。</p>
+<p>【译文】用兵的原则是：占据高地的敌人，不要去仰攻；背靠山丘的敌人，不要去迎击；假装败退的敌人，不可跟踪追赶；精锐的敌军，不要去进攻；充当诱饵的小部队，不要去吃掉；回撤的敌人，不要去遏止；包围敌人要网开一面；陷入绝境的敌人，不可逼迫太甚。这些都是用兵的原则啊。</p>
+<h2 id="八、九变篇" tabindex="-1">八、九变篇 <a class="header-anchor" href="#八、九变篇" aria-label="Permalink to &quot;八、九变篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】 孙子曰：凡用兵之法，将受命于君，合军聚众，圮地无舍，衢地交合，绝地无留，围地则谋，死地则战。途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。故将通于九变之地利者，知用兵矣；将不通于九变之利者，虽知地形，不能得地之利矣。治兵不知九变之术，虽知五利，不能得人之用矣。</p>
+<p>【译文】 孙子说：根据用兵的规律，将领向国君领受命令，聚集民众组成军队，在'圮地'不要驻扎，在'衢地'要结交诸侯，在'绝地'不可滞留，在'围地'要巧出奇谋，在'死地'则殊死奋战。有的道路不宜通过，有的敌军可以不击，有的城邑可以不攻，有的地盘可以不争，甚至国君的命令有的也可以不接受。将领能通晓灵活机变的好处的，就算懂得用兵了；将领不通于灵活机变的好处，即使了解地形，也不能得到地利；治军不了解机变的权术，即使懂得'有的道路不宜通过'等'五利'，也不能充分发挥士卒们最大的战斗能力和作用。</p>
+<p>【原文】 是故智者之虑，必杂于利害。杂于利而务可信也；杂于害而患可解也。</p>
+<p>【译文】 因而，高明的将领考虑问题，一定兼顾利与害两个方面。在不利的条件下看到有利的一面，事情就可以顺利进行；在有利条件下看到不利的因素，祸患便可及早解除。</p>
+<p>【原文】 是故屈诸侯者以害，役诸侯者以业，趋诸侯者以利。</p>
+<p>【译文】 这就是要以祸患威逼诸侯屈服，以各种貌似正经的大事来役使诸侯，用各种小利来引诱诸侯疲于奔命。</p>
+<p>【原文】 故用兵之法：无恃其不来，恃吾有以待也；无恃其不攻，恃吾有所不可攻也。</p>
+<p>【译文】 打仗的原则是：不要寄希望于敌人不来，而要依靠自己有充分准备，严阵以待；不要寄希望于敌人不会进攻，而要依靠自己有敌人不可攻破的条件。</p>
+<p>【原文】 故将有五危：必死，可杀也；必生，可虏也；忿速，可侮也；廉洁，可辱也；爱民，可烦也。凡此五者，将之过也，用兵之灾也。覆军杀将，必以五危，不可不察也。</p>
+<p>【译文】 将领有五个方面的性格偏执是危险的：勇而无谋、一味死拼，可以诱杀；贪生怕死，畏葸疑惧，可以俘获；浮燥易怒，刚忿偏急，可以凌侮；矜于名节，可以污辱；过于仁慈，可予烦扰。大凡这五个方面，都是将领素质上的缺陷，是用兵的大害。全军覆没，将领被杀，一定因为这五个方面的危险因素，因而，不能不看清这个道理啊。</p>
+<h2 id="九、行军" tabindex="-1">九、行军 <a class="header-anchor" href="#九、行军" aria-label="Permalink to &quot;九、行军&quot;">&ZeroWidthSpace;</a></h2>
+<p>孙子曰：</p>
+<p>1.凡处军相敌，绝山依谷，视生处高，战隆无登，此处山之军也。绝水必远水，客绝水而来，勿迎之于水内，令半渡而击之利，欲战者，无附于水而迎客，视生处高，无迎水流，此处水上之军也。绝斥泽，唯亟去无留，若交军于斥泽之中，必依水草而背众树，此处斥泽之军也。平陆处易，右背高，前死后生，此处平陆之军也。凡此四军之利，黄帝之所以胜四帝也</p>
+<p>2.凡军好高而恶下，贵阳而贱阴，养生而处实，军无百疾，是谓必胜。丘陵堤防，必处其阳而右背之，此兵之利，地之助也。上雨水流至，欲涉者，待其定也。</p>
+<p>3.凡地有绝涧、天井、天牢、天罗、天陷、天隙，必亟去之，勿近也。吾远之，敌近之；吾迎之，敌背之。军旁有险阻、潢井、葭苇、林木、翳荟者，必谨覆索之，此伏奸之所处也。</p>
+<p>4.敌近而静者，恃其险也； 远而挑战者，欲人之进也； 其所居易者，利也； 众树动者，来也； 众草多障者，疑也； 鸟起者，伏也； 兽骇者，覆也；</p>
+<p>尘高而锐者，车来也； 卑而广者，徒来也； 散而条达者，樵采也； 少而往来者，营军也；</p>
+<p>5.辞卑而益备者，进也； 辞强而进驱者，退也； 轻车先出居其侧者，陈也； 无约而请和者，谋也； 奔走而陈兵者，期也； 半进半退者，诱也；</p>
+<p>6.杖而立者，饥也； 汲而先饮者，渴也； 见利而不进者，劳也； 鸟集者，虚也； 夜呼者，恐也； 军扰者，将不重也； 旌旗动者，乱也； 吏怒者，倦也；</p>
+<p>杀马肉食者，军无粮也； 悬缸不返其舍者，穷寇也； 谆谆翕翕，徐与人言者，失众也； 数赏者，窘也； 数罚者，困也； 先暴而后畏其众者，不精之至也；</p>
+<p>来委谢者，欲休息也。 兵怒而相迎，久而不合，又不相去，必谨察之。</p>
+<p>7.兵非贵益多也，惟无武进，足以并力、料敌、取人而已。夫惟无虑而易敌者，必擒于人。卒未亲而罚之，则不服，不服则难用。卒已亲附而罚不行，则不可用。故合之以文，齐之以武，是谓必取。令素行以教其民，则民服；令素不行以教其民，则民不服。令素行者，与众相得也。</p>
+<p>译文：</p>
+<p>1、孙子说：在各种不同地形上处置军队和观察判断敌情时，应该注意：通过山地，必须依靠有水草的山谷，驻扎在居高向阳的地方，敌人占领高地，不要仰攻，这是在山地上对军队的处置原则。横渡江河，应远离水流驻扎，敌人渡水来战，不要在江河中迎击，而要等它渡过一半时再攻击，这样较为有利。如果要同敌人决战，不要紧靠水边列阵；在江河地带扎营，也要居高向阳，不要面迎水流，这是在江河地带上对军队处置的原则。通过盐碱沼泽地带，要迅速离开，不要逗留；如果同敌军相遇于盐碱沼泽地带，那就必须靠近水草而背靠树林，这是在盐碱沼泽地带上对军队处置的原则。在平原上应占领开阔地域，而侧翼要依托高地，前低后高。这是在平原地带上对军队处置的原则。以上四中'处军'原则的好处，就是黄帝之所以能战胜其他四帝的原因。</p>
+<p>2、大凡驻军总是喜欢干燥的高地，避开潮湿的洼地；重视向阳之处，避开阴暗之地；靠近水草地区，军需供应充足，将士百病不生，这样就有了胜利的保证。在丘陵堤防行军，必须占领它向阳的一面，并把主要侧翼背靠着它。这些对于用兵有利的措施，是利用地形作为辅助条件的。上游下雨，洪水突至，禁止徒涉，应等待水流稍平缓以后。</p>
+<p>3、凡遇到或通过'绝涧'、'天井'、'天牢'、'天罗'、'天陷'、'天隙'这几种地形，必须迅速离开，不要接近。我们应该远离这些地形，而让敌人去靠近它；我们应面向这些地形，而让敌人去背靠它。军队两旁遇到有险峻的隘路、湖沼、水网、芦苇、山林和草木茂盛的地方，必须谨慎地反复搜索，这些都是敌人可能埋设伏兵和隐伏奸细的地方。</p>
+<p>4、敌人离我很近而安静的，是依仗它占领险要地形；敌人离我很远但挑战不休，是想诱我前进；敌人之所以驻扎在平坦地方，是因为对它有某种好处。许多树木摇动，是敌人隐蔽前来；草丛中有许多遮障物，是敌人布下的疑阵；群鸟惊飞，是下面有伏兵；野兽骇奔，是敌人大举突袭；尘土高而尖，是敌人战车驶来；尘土低而宽广，是敌人的步兵开来；尘土疏散飞扬，是敌人正在拽柴而走；尘土少而时起时落；是敌人正在扎营。</p>
+<p>5、敌人使者措辞谦卑却又在加紧战备的，是准备进攻；措辞强硬而军队又做出前进姿态的，是准备撤退；轻车先出动，部署在两翼的，是在布列阵势；敌人尚未受挫而来讲和的，是另有阴谋；敌人急速奔跑并排并列阵的，是企图约期同我决战；敌人半进半退的，是企图引诱我军。</p>
+<p>6、抵兵倚着兵器而站立的，是饥饿的表现；供水兵打水自己先饮的，是干渴的表现；敌人见利而不进兵争夺的，是疲劳的表现；敌人营寨上聚集鸟雀的，下面是空营；敌人夜间惊叫的，是恐慌的表现；敌营惊扰纷乱的，是敌将没有威严的表现；旌旗摇动不整齐的，是敌人队伍已经混乱。敌人军官易怒的，是全军疲倦的表现；用粮食喂马，杀马吃肉，收拾起汲水器具，部队不返营房的，是要拼死的穷寇；低声下气同部下讲话的，是敌将失去人心；不断犒赏士卒的，是敌军没有办法；不断惩罚部属的，是敌人处境困难；先粗暴然后又害怕部下的，是最不精明的将领；派来使者送礼言好的，是敌人想休兵息战；敌人逞怒同我对阵，但久不交锋又不撤退的，必须谨慎地观察他的企图。</p>
+<p>7、打仗不在于兵力越多越好，只要不轻敌冒进，并集中兵力、判明敌情，取得部下的信任和支持，也就足够了。那种既无深谋远虑而又轻敌的人，必定会被敌人俘虏。士卒还没有亲近依附就执行惩罚，那么他们会不服，不服就很难使用。士卒已经亲近依附，如果不执行军纪军法，也不能用来作战。所以，要用怀柔宽仁使他们思想统一，用军纪军法使他们行动一致，这样就必能取得部下的敬畏和拥戴。平素严格贯彻命令，管教士卒，士卒就能养成服从的习惯；平素从来不严格贯彻命令，管教士卒，士卒就会养成不服从的习惯。平时命令能贯彻执行的，表明将帅同士卒之间相处融洽。</p>
+<h2 id="十、地形" tabindex="-1">十、地形 <a class="header-anchor" href="#十、地形" aria-label="Permalink to &quot;十、地形&quot;">&ZeroWidthSpace;</a></h2>
+<ol>
+<li>孙子曰：</li>
+</ol>
+<p>地形有通者、有挂者、有支者、有隘者、有险者、有远者。我可以往，彼可以来，曰通。通形者，先居高阳，利粮道，以战则利。可以往，难以返，曰挂。挂形者，敌无备，出而胜之，敌若有备，出而不胜，难以返，不利。我出而不利，彼出而不利，曰支。支形者，敌虽利我，我无出也，引而去之，令敌半出而击之利。隘形者，我先居之，必盈之以待敌。若敌先居之，盈而勿从，不盈而从之。险形者，我先居之，必居高阳以待敌；若敌先居之，引而去之，勿从也。远形者，势均难以挑战，战而不利。凡此六者，地之道也，将之至任，不可不察也。</p>
+<p>2.凡兵有走者、有驰者、有陷者、有崩者、有乱者、有北者。凡此六者，非天地之灾，将之过也。夫势均，以一击十，曰走；卒强吏弱，曰驰；吏强卒弱，曰陷；大吏怒而不服，遇敌怼而自战，将不知其能，曰崩；将弱不严，教道不明，吏卒无常，陈兵纵横，曰乱；将不能料敌，以少合众，以弱击强，兵无选锋，曰北。凡此六者，败之道也，将之至任，不可不察也。</p>
+<p>3.夫地形者，兵之助也。料敌制胜，计险隘远近，上将之道也。知此而用战者必胜，不知此而用战者必败。故战道必胜，主曰无战，必战可也；战道不胜，主曰必战，无战可也。故进不求名，退不避罪，唯民是保，而利于主，国之宝也。</p>
+<p>4.视卒如婴儿，故可以与之赴深溪；视卒如爱子，故可与之俱死。厚而不能使，爱而不能令，乱而不能治，譬若骄子，不可用也。</p>
+<p>知吾卒之可以击，而不知敌之不可击，胜之半也；知敌之可击，而不知吾卒之不可以击，胜之半也；知敌之可击，知吾卒之可以击，而不知地形之不可以战，胜之半也。</p>
+<p>5.故知兵者，动而不迷，举而不穷。故曰：知彼知己，胜乃不殆；知天知地，胜乃可全。</p>
+<p>译文：</p>
+<p>1、孙子说：地形有'通'、'挂'、'支'、'隘'、'险'、'远'等六种。凡是我们可以去，敌人也可以来的地域，叫做'通'；在'通'形地域上，应抢先占开阔向阳的高地，保持粮道畅通，这样作战就有利。凡是可以前进，难以返回的地域，称作'挂'；在挂形的地域上，假如敌人没有防备，我们就能突击取胜。假如敌人有防备，出击又不能取胜，而且难以回师，这就不利了。凡是我军出击不利，敌人出击不利的地域叫做'支'。在'支'形地域上，敌人虽然以利相诱，我们也不要出击，而应该率军假装退却，诱使敌人出击一半时再回师反击，这样就有利。在'隘'形地域上，我们应该抢先占领，并用重兵封锁隘口，以等待敌人的到来；如果敌人已先占据了隘口，并用重兵把守，我们就不要去进攻；如果敌人没有用重兵据守隘口，那么就可以进攻。在'险'形地域上，如果我军先敌占领，就必须控制开阔向阳的高地，以等待敌人来犯；如果敌人先我占领，就应该率军撤离，不要去攻打它。在'远'形地域上，敌我双方地势均同，就不宜去挑战，勉强求战，很是不利。以上六点，是利用地形的原则。这是将帅的重大责任所在，不可不认真考察研究。</p>
+<p>2、军队打败仗有'走'、'驰'、'陷'、'崩'、'乱'、'北'六种情况。这六种情况的发生，不是天时地理的灾害，而是将帅自身的过错。地势均同的情况下，以一击十而导致失败的，叫做'走'。士卒强捍，军官懦弱而造成失败的，叫做'驰'。将帅强悍，士卒儒弱而失败的，叫做'陷'。偏将怨仇不服从指挥，遇到敌人擅自出战，主将又不了解他们能力，因而失败的，叫做'崩'。将帅懦弱缺乏威严，治军没有章法，官兵关系混乱紧张，列兵布阵杂乱无常，因此而致败的，叫做'乱'。将帅不能正确判断敌情，以少击众，以弱击强，作战又没有精锐先锋部队，因而落败的，叫做'北'。以上六种情况，均是导致失败的原因。这是将帅的重大责任之所在，是不可不认真考察研究的。</p>
+<p>3、地形是用兵打仗的辅助条件。正确判断敌情，考察地形险易，计算道路远近，这是高明的将领必须掌握的方法，懂得这些道理去指挥作战的，必定能够胜利；不了解这些道理去指挥作战的，必定失败。所以，根据分析有必胜把握的，即使国君主张不打，坚持打也是可以的；根据分析没有必胜把握的，即使国君主张打，不打也是可以的。所以，战不谋求胜利的名声，退不回避失利的罪责，只求保全百姓，符合国君利益，这样的将帅，才是国家的宝贵财富。</p>
+<p>4、对待士卒象对待婴儿，士卒就可以同他共患难：对待士卒象对待自己的儿子，士卒就可以跟他同生共死。如果对士卒厚待却不能使用，溺爱却不能指挥，违法而不能惩治，那就如同骄惯了的子女，是不可以用来同敌作战的。只了解自己的部队可以打，而不了解敌人不可打，取胜的可能只有一半；只了解敌人可以打，而不了解自己的部队不可以打，取胜的可能也只有一半。知道敌人可以打，也知道自己的部队能打，但是不了解地形不利于作战，取胜的可能性仍然只有一半。</p>
+<p>5、所以说：懂得用兵的人，他行动起来不会迷惑，他的战术变化无穷。知彼知己，胜乃不殆；知天知地，胜乃可全。</p>
+<h2 id="十一、九地篇" tabindex="-1">十一、九地篇 <a class="header-anchor" href="#十一、九地篇" aria-label="Permalink to &quot;十一、九地篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】孙子曰：用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有圮地，有围地，有死地。诸侯自战其地，为散地。入人之地而不深者，为轻地。我得则利，彼得亦利者，为争地。我可以往，彼可以来者，为交地。诸侯之地三属，先至而得天下之众者，为衢地。入人之地深，背城邑多者，为重地。行山林、险阻、沮泽，凡难行之道者，为圮地。所由入者隘，所从归者迂，彼寡可以击吾之众者，为围地。疾战则存，不疾战则亡者，为死地。是故散地则无战，轻地则无止，争地则无攻，交地则无绝，衢地则合交，重地则掠，圮地则行，围地则谋，死地则战。</p>
+<p>【译文】孙子说：根据用兵的原则，战地有散地、轻地、争地、交地、衢地、重地、圮地、围地、死地等多种。诸侯在自己领地内作战，这种战地称为散地。进入敌境不远的战地，称为轻地。我先占领于我有利，敌先占领于敌有利，此为争地。我可以前往，敌人也可以进来，此为交地。多国交界，先得到便容易取得天下支持的，为衢地。入敌境纵深，穿过敌境许多城邑的地方，称为重地。山森、险阻、沼泽等大凡难行的地方，称为圮地。进入的道路狭隘，回归的道路迂远，敌人以少数兵力便可抗击我大部队的地方，称为围地。迅速奋战便可生存，不迅速奋战就会灭亡的为死地。因而，在散地不宜交战；在轻地不要停留；在争地，敌若占据，不可进攻；在衢地则注意结交诸侯；在重地，则掠取资粮；在圮地则迅速通过；在围地则巧设计谋；在死地则殊死奋战。</p>
+<p>【原文】 所谓古之善用兵者，能使敌人前后不相及，众寡不相恃，贵贱不相救，上下不相收，卒离而不集，兵合而不齐。合于利而动，不合于利而止。敢问：敌众整而将来，待之若何？曰：先夺其所爱，则听矣。兵之情主速，乘人之不及，由不虞之道，攻其所不戒也。</p>
+<p>【译文】 通常人们称赞的古代善于用兵的人，能使敌人前后不相连续，大部队与小部队无法相依恃，官与兵无法相救援，上下级无法相统属，士卒离散而不能集合，即使集合也无法统一行动。符合自己的利益就立即行动，不符合自己利益就停止行动。或许有人问：'敌军甚众，且又整肃，将向我进攻，我该如何对付它？'回答是：先干掉敌人所珍爱所依恃的方面，那么，敌人就被动屈从了。用兵的情理是以神速为主，乘敌人措手不及的时机，经由敌人料想不到的道路，攻击敌人未加戒备的地方。</p>
+<p>【原文】 凡为客之道，深入则专，主人不克；掠于饶野，三军足食；谨养而勿劳，并气积力；运兵计谋，为不可测。投之无所往，死且不北，死焉不得，士人尽力。兵士甚陷则不惧；无所往则固，深入则拘，不得已则斗。是故其兵不修而戒，不求而得，不约而亲，不令而信，禁祥去疑，至死无所之。吾士无余财，非恶货也；无余命，非恶寿也。令发之日，士卒坐者涕沾襟，偃卧者涕交颐。投之无所往者，诸、刿之勇也。</p>
+<p>【译文】 大凡进入敌国境内作战的一般规律是：深入敌人腹地，士卒们心志专一，敌人不能战胜我；掠夺敌人富饶的乡野，三军的粮食给养就充足了；认真养练部队，不使他们疲劳，鼓舞士气，积聚力量；部署兵力，设计谋略，要使敌无法测知我方虚实、意图；把士卒置于无路可走的境地，至死也不会败退，死都不怕，士卒自然人人尽力作战。士卒真正深陷危亡之境就无所畏惧；无路可走时反而军心稳固；入敌境纵深之地，士卒自然依附而不敢涣散；在不得已的情况下，必然会拼死战斗。因而，在这种情况下，军队不用整治，也会加强戒备；不用征求，下情自然上达；不用约束，也能亲和互助；不用申令也能遵纪守法；迷信活动自然停止，士兵也不再疑虑，至死也不会逃逸。士卒们不留多余的财物 ，不是他们厌恶财物；士卒们不顾生命危险，不是他们不想活命。作战命令发布的时候，士卒们坐着的泪湿衣襟，仰卧的泪流满面，一旦把他们置于无路可走的境地时，便都有专诸、曹刿一般的勇敢了。</p>
+<p>【原文】 故善用兵者，譬如率然；率然者，常山之蛇也。击其首则尾至，击其尾则首至，击其中则首尾俱至。敢问：兵可使如率然乎？曰：可。夫吴人与越人相恶也，当其同舟而济，遇风，其相救也如左右手。是故方马埋轮，未足恃也；齐勇若一，政之道也；刚柔皆得，地之理也。故善用兵者，携手若使一人，不得已也。</p>
+<p>【译文】 善于用兵的人，他指挥的部队就如'率然'一样。'率然'，是常山的一种蛇。击它的头部，它的尾部弹过来救应，击它的尾部，它的头部弹过来救应，击它的腰部，它的头尾一齐弹过来救应。或问：军队可指挥得像率然一样吗？回答是 可以。吴人与越人是相互仇视的，当他们同船过渡突遇大风时，他们相互救助起来如同左右手。因此，缚马埋轮，是不足以倚恃的稳定军阵的办法；三军严整、勇敢如一人，靠的是治军有方；勇敢的人和怯弱的人都得以发挥其战斗力，靠的是巧妙地运用地形。古代善于用兵的人，能使部队携手如同一个人一样服从指挥，是将部队置于不得已的情况下形成的。</p>
+<p>【原文】 将军之事：静以幽，正以治。能愚士卒之耳目，使之无知。易其事，革其谋，使人无识；易其居，迂其途，使人不得虑。帅与之期，如登高而去其梯；帅与之深入诸侯之地而发其机，焚舟破釜，若驱群羊，驱而往，驱而来，莫知所之。聚三军之众，投之于险，此谓将军之事也。九地之变，屈伸之利，人情之理，不可不察。</p>
+<p>【译文】 统帅军队这种事，要沉着镇静而幽密深邃，公平严正而整肃有方，能蒙蔽士卒的耳目，使他们无知。常改变所行之事，常变更所设之谋，使人无法识破用意；驻扎常变地方，行军常迂回绕道，使人无法捉摸真实意图。将帅给部队下达战斗命令，像登高抽去梯子一样，使士卒有进无退；将帅与士卒深入诸侯重地，捕捉战机，发起攻势，焚舟毁桥，砸烂锅灶，像驱赶群羊一样，赶过去，赶过来，没有谁明白到底要到哪里去。聚集三军之众，将他们置于危险的境地，这就是领兵作战的职责。各种地形的灵活运用，攻守进退的利害关系，士卒在不同环境中的心理变化规律，不能不认真加以考察。</p>
+<p>【原文】 凡为客之道：深入则专，浅则散。去国越境而师者，绝地也；四达者，衢地也；入深者，重地也；入浅者，轻地也；背固前隘者，围地也；无所往者，死地也。是故散地，吾将一其志；轻地，吾将使之属；争地，吾将趋其后；交地，吾将谨其守；衢地，吾将固其结；重地，吾将继其食；圮地，吾将进其途；围地，吾将塞其阙；死地，吾将示之以不活。故兵之情：围则御，不得已则斗，过则从。</p>
+<p>【译文】 大凡进入敌国作战的规律是：进入敌境越深，军心越专一 越浅，士卒越容易离散。离开本土穿越边境去敌国作战的地方，称为绝地 四通八达的战地为衢地 进入敌境纵深的地方叫重地；进入敌境不远的地方叫轻地 背靠险固前路狭窄的地方叫围地 无路可走的地方叫死地。因此，在散地，我将很好地统一士卒心志，在轻地，我将注意使部队保持连续 遇争地，我将紧紧地从后驱赶部队快速前进 在交地，我就要谨慎地加强防守 在衢地，我将巩固与加强同诸侯国的联系；在重地，我将注意保证军需粮饷的不断供应；在圮地，我将率部迅速通过；在围地，我将堵住可逃生的缺口；在死地，我将向士卒表示必死的决心。士兵的心理变化规律是：被包围就会合力抵御，不得已时就会殊死奋战，陷于深重危难境地就非常听从指挥。</p>
+<p>【原文】 是故不知诸侯之谋者，不能预交；不知山林、险阻、沮泽之形者，不能行军；不用乡导者，不能得地利。四五者，不知一，非霸王之兵也。夫霸王之兵，伐大国，则其众不得聚；威加于敌，则其交不得合。是故不争天下之交，不养天下之权，信己之私，威加于敌，故其城可拔，其国可隳。施无法之赏，悬无政之令，犯三军之众，若使一人。犯之以事，勿告以言；犯之以利，勿告以害。投之亡地然后存，陷之死地然后生。夫众陷于害，然后能为胜败。故为兵之事，在于顺详敌之意，并敌一向，千里杀将，此谓巧能成事者也。</p>
+<p>【译文】 不清楚各诸侯国企图的人，不能参与外交，不熟悉山林、险阻、沼泽等地形及其运用原则的人，不能领军作战；不用向导的人，得不到有利的地形，类似这四五个方面的事，有一个方面不知道，就不能算霸王的军队。所谓霸王的军队，攻伐大国，迅猛得使敌国无法及时调动民众与集结军队；兵威指向敌人，那么敌人的外交就无法成功。因而，不必争着与任何国家结交，也不随便培植他国的权威，多多施恩于自己的民众、士卒，把兵刃指向敌国，那么，敌国城池可拔，国都可毁。实行破格的奖赏，颁发非常的政令，驱使三军部队像使唤一个人一样。授以任务，不说明意图；告诉他有利的条件，不告诉他危险的一面。把士卒投入危亡境地，士卒才会拼死奋战获得生存，士卒陷于死地，必然舍命奋战以求生。兵士们陷入危险境地，才能主动地奋力夺取胜利。领兵作战这种事，就在于假装顺着敌人的意图，我则集中精锐兵力指向敌人一处，哪怕奔袭千里也可斩杀敌将，这便是通常说的机智能成就大事。</p>
+<p>【原文】 是故政举之日，夷关折符，无通其使，厉于廊庙之上，以诛其事。敌人开阖，必亟入之。先其所爱，微与之期。践墨随敌，以决战事。是故始如处女，敌人开户，后如脱兔，敌不及拒。</p>
+<p>【译文】 决定实施战争的时候，就封锁关口，废除通行凭证，停止与敌国的使节往来。在庙堂上反复研讨，制定战争计划。敌人出现可乘之隙，一定马上攻入，首先夺取敌人所心爱的部位，不要与敌约期决战。执行作战计划一定要随敌情变化而灵活处置，来争取战争的胜利。因而，开始要像处女一般沉静，使敌人放松戒备；然后突然发动攻击，如同脱逃的兔子一般敏捷，使敌人来不及抗拒 。</p>
+<h2 id="十二、火攻篇" tabindex="-1">十二、火攻篇 <a class="header-anchor" href="#十二、火攻篇" aria-label="Permalink to &quot;十二、火攻篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】 孙子曰：凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。行火必有因，烟火必素具，发火有时，起火有日。时者，天之燥也；日者，月在箕、壁、翼、轸也。凡此四宿者，起风之日也。</p>
+<p>【译文】 孙子说：火攻有五种，一是焚敌营栅人马，二是焚敌'委积'，三是焚敌辎重，四是焚敌武库，五是焚敌交通要道设施。实施火攻需具备一定条件，点火器材必须平日准备好。发动火攻要依据一定天时，具体点火要有恰当日子。所谓天时，指气候干燥的时期；所谓恰当的日子，就是月亮运行到箕、壁、翼、轸四星所在位置的日子。大凡月亮运行到这四个星宿的日子，都是风起的日子。</p>
+<p>【原文】 凡火攻，必因五火之变而应之。火发于内，则早应之于外。火发兵静者，待而勿攻；极其火力，可从而从之，不可从而止。火可发于外，无待于内，以时发之。火发上风，无攻下风。昼风久，夜风止。凡军必知有五火之变，以数守之。</p>
+<p>【译文】 大凡火攻，一定根据五种火攻所引起的情况变化采取相应的策应措施。从敌方内部放火，则早派兵在外策应。火已烧起敌兵仍镇静的，要等待观察，不要急于进攻；待到火势最旺时，可进攻就进攻，不可进攻就停止。火也可从外施放，不必等待内应，按准确的时机发火就行。火施放在上风，不要从下风进攻。白天发火以兵从攻，晚上发火不要从攻。大凡领导作战一定要熟悉五种火攻所引起的情况变化，并根据火攻应循遗的自然规律紧紧把握住火攻的时机。</p>
+<p>【原文】 故以火佐攻者明，以水佐攻者强。水可以绝，不可以夺。</p>
+<p>【译文】 用火来辅助进攻者高明，以水来辅助进攻者强大。水可以阻隔敌人，但不如火攻那样直接剥夺敌军实力。</p>
+<p>【原文】 夫战胜攻取而不修其功者凶，命曰费留。故曰：明主虑之，良将修之。非利不动，非得不用，非危不战。主不可以怒而兴师，将不可以愠而致战。合于利而动，不合于利而止。怒可以复喜，愠可以复悦，亡国不可以复存，死者不可以复生。故明君慎之，良将警之，此安国全军之道也。</p>
+<p>【译文】 仗打胜了，城攻取了，但不能因之建立功业、巩固政权，那是危险的，这叫白费力气。因此说，英明的君主应该很好考虑这个问题，贤良的将帅应该认真研究这个问题。不是于国有利就不要采取军事行动，没有必胜的把握就不要用兵，不是处于危险境地不要交战。君主不可因为一时愤怒而发动战争，将领也不能因为一时恼火而命令作战。合于国家长远利益就行动，不合符国家长远利益就停止。愤怒可以转化为高兴，恼火可以转化为喜悦，但灭亡了的国家却不可再存在，死掉人也不可能再活过来。因而，明智的君主应慎重地对待这个问题，优良的将帅应该警惕这个问题，这是安定国家保全军队的根本原则啊！</p>
+<p>本篇的要点在于修，即修功，巩固胜果，把敌人的力量吸收到自己内部，人员，武器，物资等，来增强自己的力量。</p>
+<p>孙子重利的原则在此篇得到完全体现。合于利则动，不合于利则止。只有在合于利益的情况下，才可以采取行动。世俗之人则恰恰相反，以性格、情绪、恩怨......为行动的一时动因。结果逞一时之快，得来的只是利益的损失，陷入更恼火、更后悔的境地。</p>
+<p>不能简单地把利看作钱、财富，它有更广泛的含义。比如主动权、士气、人心、信誉、威慑等。</p>
+<p>开战前，不应立即考虑如何打胜仗，而要考虑此仗的结果是否对己有利。如果是，才可以集中精力考虑如何取胜；如果否，应该坚决地避免战斗的发生。</p>
+<h2 id="十三、用间篇" tabindex="-1">十三、用间篇 <a class="header-anchor" href="#十三、用间篇" aria-label="Permalink to &quot;十三、用间篇&quot;">&ZeroWidthSpace;</a></h2>
+<p>【原文】 孙子曰：凡兴师十万，出征千里，百姓之费，公家之奉，日费千金；内外骚动，怠于道路，不得操事者七十万家。相守数年，以争一日之胜，而爱爵禄百金，不知敌之情者，不仁之至也，非人之将也，非主之佐也，非胜之主也。故明君贤将，所以动而胜人，成功出于众者，先知也。先知者，不可取于鬼神，不可象于事，不可验于度，必取于人，知敌之情者也。</p>
+<p>【译文】 孙子说：大凡出兵十万，出征千里，百姓的耗费、公家的开支，每日耗资千金；国家内外动荡，人们疲惫地奔波于道路，不能安心从事耕作的达七十万家。相持数年来争夺一朝的胜利，却因吝啬爵禄金银，不愿使用间谍，以至不知敌方情实的人，是不懂仁爱到了极点啊！这种人，不配为军中统帅，不配为君主的辅臣，也不是胜利的把握者。英明的君主、贤能的将帅，之所以动辄就能战胜敌人，成功高于一般的人，就在于他们事先了解敌情。要事先了解敌情，不可从鬼神取得，不可从往事中去类比，也不能用度数去应验，一定只能从人的口中得知，这种人，就是了解敌情的人。</p>
+<p>【原文】 故用间有五：有因间，有内间，有反间，有死间，有生间。五间俱起，莫知其道，是谓神纪，人君之宝也。因间者，因其乡人而用之。内间者，因其官人而用之。反间者，因其敌间而用之。死间者，为诳事于外，令吾间知之，而传于敌间也。生间者，反报也。</p>
+<p>【译文】 使用间谍有五种：有因间、有内间、有反间、有死间、有生间。五种间谍一齐使用，没有谁能知道其中奥秘，这便可称为一条神妙的纲纪，是国君的法宝。所谓因间，就是利用敌国乡人为间谍；所谓内间，就是利用敌国朝内官员做间谍；所谓反间，就是利用敌方派来的间谍，使之反过来为我效力；所谓死间，就是故意在外散布假情况，让我方间谍明白并有意识传给敌间；所谓生间，就是能亲自回来报告敌情的间谍。</p>
+<p>【原文】 故三军之事，莫亲于间，赏莫厚于间，事莫密于间。非圣智不能用间，非仁义不能使间，非微妙不能得间之实。微哉！微哉！无所不用间也。间事未发，而先闻者，间与所告者皆死。</p>
+<p>【译文】 军中的亲信，没有比间谍更亲密的了；军中的奖赏，没有比对间谍的奖赏更丰厚的了；军中的机密事务，没有比用间更为机密的了。不是英明睿智的人不能任用间谍；没有仁义的德行不足以驱使间谍，没有精微神妙的分析判断能力不能得到真实的情报。微妙啊，微妙啊，无处不用间谍。用间所谋之事未行却先被人知道，间谍以及他所告诉的人都要被处死。</p>
+<p>【原文】 凡军之所欲击，城之所欲攻，人之所欲杀，必先知其守将、左右、谒者、门者、舍人之姓名，令吾间必索知之，必索敌人之间来间我者，因而利之，导而舍之，故反间可得而用也；因是而知之，故乡间、内间可得而使也；因是而知之，故死间为诳事，可使告敌；因是而知之，故生间可使如期。五间之事，主必知之，知之必在于反间，故反间不可不厚也。</p>
+<p>【译文】 凡是要攻击某敌军，夺取某城邑，斩杀敌方某重要人员，一定要事先了解敌方主管将帅、左右亲信、传达报告的官员、守门的官吏、门客幕僚诸人的姓名，命令我方间谍一定查探清楚。一定要查出敌方派来的间谍，获得后以重金收买，诱导他为我所用，这样，反间就可以得到使用了。从反间了解到情况，就能从敌方找到恰当人选，乡间、内间就可得到使用了。从反间那里了解了情况，死间就可散布假情报，并可让他告诉敌人；由于从反间了解了情况，避开了危险，生间就可如期回报。五种间谍的情况，主君必须掌握，掌握这些情况的关键在于反间。所以反间的待遇不能不特别优厚。</p>
+<p>【原文】 昔殷之兴也，伊挚在夏；周之兴也，吕牙在殷。故惟明君贤将，能以上智为间者，必成大功。此兵之要，三军之所恃而动也。</p>
+<p>【译文】 从前，殷代兴起之际，伊挚在夏当间谍；周代兴起之时，姜子牙在殷搜集情报。因此，明君贤将中，能够以很有智谋的人做间谍，必定成就大功。这是军事的要点，是军队行动的依靠。</p>
+<p>本篇的要点在于：微。即没有哪个地方不用到间谍，没有哪个间谍不是微妙的。微哉，非智者不能用间！</p>
+<h2 id="孙子兵法的九大思想精要" tabindex="-1">孙子兵法的九大思想精要 <a class="header-anchor" href="#孙子兵法的九大思想精要" aria-label="Permalink to &quot;孙子兵法的九大思想精要&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>《孙子兵法》是讲 以强胜弱，而不是以弱胜强，因为弱胜不了强</li>
+<li>《孙子兵法》是讲 打得赢也要算代价，如果打得赢，但是打不起，也不要打。</li>
+<li>《孙子兵法》是讲 先胜后战，赢了再打。表白是成功的烟花，而不是进攻的号角。</li>
+<li>《孙子兵法》是讲 要能等待，能忍耐，不要因为焦虑就频频动作。一辈子不作为就是可以忍受的，因为作就有可能是 NO ZUO NO DIE</li>
+<li>《孙子兵法》是讲 以正合，以奇（ji）胜,分战法是基本的战术原则。余奇（ji）就是预备队，是手里捏着还没有打出去的牌，你要留在关键的时候打出去制胜，这叫出奇（ji）制胜,又叫分战法。</li>
+<li>《孙子兵法》是讲 诡道不重要。打仗跟我们平时做事一样，不能靠诡计，还是靠踏踏实实的努力。</li>
+<li>《孙子兵法》是讲 知己知彼，关键在知己，因为'不可胜在己'。自己强大了不失误，别人就无可奈何，自己就能立于不败之地。如果千方百计的去知彼，可能还着了别人的诡道。</li>
+<li>《孙子兵法》是讲 不是教你打赢，首先是教你认输。为什么不战呢？ 知道自己要输所以才不战。</li>
+</ul>
+<p>通过学习孙子兵法，让我们能够学会接受失败。你能指代好多事我们都搞不定，都不能做，我们要接受失败。这样一个消极的态度，它有什么积极的价值呢？他能够堵塞所有错误的源头。</p>
+<p>通过孙子兵法我们可以了解到：腐朽就是腐朽，它是化不了神奇的，想成功就必须苦练基本功，坚持基本原则，所有的一切都是基本面。</p>
+<p>这个世界上最深刻的道理就是平平常常的大道理，最有价值的谈话其实就是那几句老生常谈，而关键的关键，是你要把这些老生常谈的大道理知行合一，切实笃行，真正做到。做到了你才知道，原来这些道理这么厉害。</p>
+]]></content:encoded>
+            <author>shuimu0579@gmail.com (suimu)</author>
+        </item>
+        <item>
+            <title><![CDATA[心理偏差--查理芒格]]></title>
+            <link>https://suimulearn.cn/blog//guide/心理偏差--查理芒格</link>
+            <guid>https://suimulearn.cn/blog//guide/心理偏差--查理芒格</guid>
+            <pubDate>Sun, 31 Jul 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2 id="一、奖励和惩罚超级反应倾向" tabindex="-1">一、奖励和惩罚超级反应倾向 <a class="header-anchor" href="#一、奖励和惩罚超级反应倾向" aria-label="Permalink to &quot;一、奖励和惩罚超级反应倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>“千万别问理发师你是否需要理发。”</li>
+<li>好的激励机制会将目的和激励联系起来。举个例子：在古罗马，当一座桥竣工通行时，工程师必须站在桥拱下。这种机制相当好，会鞭策工程师将桥建得足够稳固。</li>
+<li>一旦有激励加入游戏或改变了激励，人们就会迅速而剧烈地改变自己的行为；第二，人们是对激励做出反应，而不是对激励背后的目的做出反应。</li>
+<li>激励机制和惩罚机制，改变人的认知和行为</li>
+</ul>
+<h2 id="二、喜欢-热爱倾向" tabindex="-1">二、喜欢/热爱倾向 <a class="header-anchor" href="#二、喜欢-热爱倾向" aria-label="Permalink to &quot;二、喜欢/热爱倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>引起我们极度的热爱和倾慕的人，往往能够发挥榜样的作用，榜样的力量是无穷的</li>
+<li>看着别人做很重要，激活我们的镜像神经元，让我们学的更快</li>
+</ul>
+<h2 id="三、讨厌-憎恨倾向" tabindex="-1">三、讨厌/憎恨倾向 <a class="header-anchor" href="#三、讨厌-憎恨倾向" aria-label="Permalink to &quot;三、讨厌/憎恨倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>讨厌/憎恨倾向，一种致命的扭曲通常使得相互仇视的双方很难或者不可能握手言和</li>
+</ul>
+<h2 id="四、避免怀疑倾向" tabindex="-1">四、避免怀疑倾向 <a class="header-anchor" href="#四、避免怀疑倾向" aria-label="Permalink to &quot;四、避免怀疑倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>困惑和压力，引发我们出现避免怀疑倾向</li>
+<li>人类的大脑天生就有一种尽快作出决定，以此消除怀疑的倾向。</li>
+</ul>
+<h2 id="五、避免不一致性倾向" tabindex="-1">五、避免不一致性倾向 <a class="header-anchor" href="#五、避免不一致性倾向" aria-label="Permalink to &quot;五、避免不一致性倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>从一开始就读好书，不然读坏脑子要纠正就难了。就是人类头脑和人类卵子的运作方式非常相似。当一个精子进入卵子，卵子就会自动启动一种封闭机制，阻止其他精子的进入。人类头脑强烈地趋向于与此相同的结果。</li>
+<li>在生活中维持许多好习惯，避免或者戒除许多坏习惯，这样的生活才是明智的。</li>
+<li>为了节省运算空间，人类的大脑会不愿意作出改变。无论是好习惯还是坏习惯，人类都不愿做出改变</li>
+</ul>
+<h2 id="六、好奇心倾向" tabindex="-1">六、好奇心倾向 <a class="header-anchor" href="#六、好奇心倾向" aria-label="Permalink to &quot;六、好奇心倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>好奇心则能帮助人们防止或者减少其他心理倾向造成的糟糕后果</li>
+</ul>
+<h2 id="七、康德式公平倾向" tabindex="-1">七、康德式公平倾向 <a class="header-anchor" href="#七、康德式公平倾向" aria-label="Permalink to &quot;七、康德式公平倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>想要让别人怎么对我，我要先怎么对待别人</li>
+</ul>
+<h2 id="八、艳羡-妒忌倾向" tabindex="-1">八、艳羡/妒忌倾向 <a class="header-anchor" href="#八、艳羡-妒忌倾向" aria-label="Permalink to &quot;八、艳羡/妒忌倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>兄弟姐妹之间的妒忌明显是非常强大的，并且儿童往往比成年更容易妒忌自己的兄弟姐妹。这种妒忌通常比因陌生人而发的妒忌更加强烈</li>
+</ul>
+<h2 id="九、回馈倾向-互惠偏误" tabindex="-1">九、回馈倾向（互惠偏误） <a class="header-anchor" href="#九、回馈倾向-互惠偏误" aria-label="Permalink to &quot;九、回馈倾向（互惠偏误）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>如果下回在超市里有人主动跟你搭讪，让你品尝葡萄酒、奶酪、火腿或橄榄，你就知道你为什么最好是拒绝他了。</li>
+<li>互惠偏误：发现人们几乎都不能忍受对别人亏欠，总想回报别人，哪怕收获与回报别人的付出不成正比。</li>
+<li>以眼还眼，以牙还牙。你对我好，我也要回馈你</li>
+<li>聪明的雇主试图压制从事采购工作的职员的回馈倾向。最简单的对策最有效：别让他们从供应商那里得到任何好处。</li>
+</ul>
+<h2 id="十、受简单联想影响的倾向-联想偏误" tabindex="-1">十、受简单联想影响的倾向（联想偏误） <a class="header-anchor" href="#十、受简单联想影响的倾向-联想偏误" aria-label="Permalink to &quot;十、受简单联想影响的倾向（联想偏误）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>我们应该注意，一个经历里隐藏着多少智慧，我们就只吸取多少——不要多；好让我们不像坐过热灶台的猫一样。被烫过的猫永远不会再坐到热灶台上去——这是对的；但它也永远不会再坐到冷灶台上去了。”</li>
+<li>一朝被蛇咬，十年怕井绳</li>
+<li>不服高人有罪。你看到别人代码写的好，伤了自己脆弱的自尊，就回避和不喜欢人家</li>
+<li>受惠者可能会妒忌施惠者优越的处境，从而讨厌施惠者。在这样的情况下，由于施惠的举动让受惠者联想起自身的不幸遭遇，受惠者不但会讨厌那个帮助他的人，还会试图去伤害他。</li>
+<li>有关某个人或者某个讨厌结果的简单联想也会造成另外一种常见的恶果，这可以从“波斯信使综合征”中看出来。古代波斯人真的会把信使杀掉，而这些信使唯一的过错是把真实的坏消息（比如说战败）带回家。</li>
+<li>广告商了解单纯联想的威力。所以你们不会看到可口可乐的广告中有儿童死亡的场面；与之相反，可口可乐广告画面中的生活总是比现实生活更加快乐。</li>
+</ul>
+<h2 id="十一、简单的、避免痛苦的心理否认" tabindex="-1">十一、简单的、避免痛苦的心理否认 <a class="header-anchor" href="#十一、简单的、避免痛苦的心理否认" aria-label="Permalink to &quot;十一、简单的、避免痛苦的心理否认&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>不吸烟、不喝酒。人们应该避免任何有可能养成化学物质依赖性的行为。由于这种依赖性会造成极大的伤害，所以哪怕只有很少的概率会染上，也应该坚决避免。</li>
+<li>现实太过痛苦，令人无法承受，所以人们会扭曲各种事实，直到它们变得可以承受。</li>
+</ul>
+<h2 id="十二、自视过高的倾向" tabindex="-1">十二、自视过高的倾向 <a class="header-anchor" href="#十二、自视过高的倾向" aria-label="Permalink to &quot;十二、自视过高的倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>人们倾向于过度自信。觉得自己再不济都在平均线以上。</li>
+<li>my is better 偏差</li>
+<li>那种过度称赞自己的私人物品的“禀赋效应”强化了人们对自己的结论的热爱。</li>
+<li>这种过度高估自己的私人物品的现象在心理学里面有个名称：“禀赋效应”。人们作出决定之后，就会觉得自己的决定很好，甚至比没作出这种决定之前所认为的还要好。</li>
+</ul>
+<h2 id="十三、过度乐观倾向" tabindex="-1">十三、过度乐观倾向 <a class="header-anchor" href="#十三、过度乐观倾向" aria-label="Permalink to &quot;十三、过度乐观倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>解决愚蠢的乐观主义的正确方法是通过学习，习惯性地应用费马和帕斯卡的概率论。</li>
+<li>“一个人想要什么，就会相信什么。”</li>
+</ul>
+<h2 id="十四、被剥夺超级反应-沉默成本-稀少性谬误" tabindex="-1">十四、被剥夺超级反应（沉默成本）（稀少性谬误） <a class="header-anchor" href="#十四、被剥夺超级反应-沉默成本-稀少性谬误" aria-label="Permalink to &quot;十四、被剥夺超级反应（沉默成本）（稀少性谬误）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>得不到的永远在骚动。我们的一个物品被人夺走了，我们就会认为失去的物品更有魅力。这种反应在心理学里也称为“罗密欧朱丽叶效应”：莎士比亚笔下两个悲剧性青年男女的爱情因为被禁而更加强烈。</li>
+<li>为什么会有沉默成本？理性的决定意味着忽视已经投入的成本。你已经投资了什么并不重要，唯一重要的是现在的形势及你对未来的评估。</li>
+<li>人们对损失的忍耐很弱。一个一百八十度的景观哪怕损失了一度，有时候也足够引起让邻居反目成仇的被剥夺超级反应倾向。我买过一座房子，原来的房东和他的邻居因为他们之中一人新种了一颗小树苗而结下深仇大恨。</li>
+<li>人们在失去——或者有可能失去——财产、爱情、友谊、势力范围、机会、身份或者其他任何有价值的东西时，通常会做出不理性的激烈反应，哪怕只失去一点点时也是如此</li>
+</ul>
+<h2 id="十五、社会认同倾向-从众心理" tabindex="-1">十五、社会认同倾向（从众心理） <a class="header-anchor" href="#十五、社会认同倾向-从众心理" aria-label="Permalink to &quot;十五、社会认同倾向（从众心理）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>团体迷思是从众心理的一种特殊情况。如果你是一个智囊团的成员，无论何时，你都要讲出你的看法——哪怕这看法不是很中听。你要仔细考虑没有讲出的意见，必要时要甘冒被隔离在温暖团体之外的风险。如果你领导着一支团队，请你指定某人唱反调。他将不是团队里最受欢迎的人，但也许是最重要的人。</li>
+<li>从众心理（有时被含糊地称为随大溜）是指：只要别人做什么我也跟着做什么，我的行为就是正确的。换言之，越多的人认为一个想法正确，这个想法就更加正确</li>
+<li>社会认同倾向通常以一种变态的方式和艳羡/妒忌倾向、被剥夺超级反应倾向结合在一起。在这些因素的共同作用之下，许多年前曾发生了一件让我们家里人后来想起来就忍俊不禁的事情。当时我的表弟罗斯三岁，我四岁，我们俩为了一块小木板而争夺和喊叫，而实际上周围有许多同样的小木板。</li>
+<li>人们在感到困惑或者有压力的时候，尤其是在既困惑又有压力的时候，最容易受社会认同倾向影响。</li>
+</ul>
+<h2 id="十六、对比错误反应倾向" tabindex="-1">十六、对比错误反应倾向 <a class="header-anchor" href="#十六、对比错误反应倾向" aria-label="Permalink to &quot;十六、对比错误反应倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>如果你是女人，想找一个男人，你千万不要让你的模特儿等级的朋友陪你一起出去。男人会因此发觉不到你的真实魅力。你独自去就好。更好的办法是：你带上两个比你难看的朋友去参加舞会。</li>
+<li>为了节约 10 欧元，人们会走 10 分钟的路去购买一种食物。可是，如果能在街道另一端花 979 欧元而不是 989 欧元买一套西服，谁也不会想到要去走这 10 分钟的路</li>
+<li>温水煮青蛙。当一个人逐步逐步走向灭亡时，如果他每一步都很小，大脑的对比错误反应倾向通常会任由这个人走向万劫不复的境地。</li>
+<li>经纪人故意先带着这位顾客看了三套条件十分糟糕而且价格贵得离谱的房子，然后他又带着顾客去看一套条件一般糟糕、价格也一般贵的房子。这样一来，经纪人通常很容易就能达成交易。</li>
+<li>大规模的破坏经常会毁掉终身的幸福，比如说有的女性很优秀，可是她的父母特别糟糕，结果她可能会嫁给一个只有跟她父母比起来才算不错的男人。或者说有的男性娶的第二位妻子只有跟第一位妻子比起来才算过得去。</li>
+</ul>
+<h2 id="十七、压力影响倾向" tabindex="-1">十七、压力影响倾向 <a class="header-anchor" href="#十七、压力影响倾向" aria-label="Permalink to &quot;十七、压力影响倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>轻度的压力能够轻微地改善人们的表现，比如说在考试中；而沉重的压力则会引发彻底失调。</li>
+</ul>
+<h2 id="十八、-现成偏误-错误衡量易得性倾向" tabindex="-1">十八、（现成偏误）错误衡量易得性倾向 <a class="header-anchor" href="#十八、-现成偏误-错误衡量易得性倾向" aria-label="Permalink to &quot;十八、（现成偏误）错误衡量易得性倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>应对现成偏误的办法：请与跟你想法不同的人合作，跟那些与你拥有截然不同经验的人合作。因为你独自战胜不了现成偏误。</li>
+<li>现成偏误是指：我们依据现成的例子来想象世界。这当然是愚蠢的，因为外界现实中的某种东西不会因为我们更容易想到而出现得更频繁。这就好像你身在一座没有地图的陌生城市里，但你口袋里有另一座城市的地图，于是你就使用了那张地图。你宁可用一张错误的地图，也不愿没有地图。</li>
+<li>你想思考，给自己的观点做压力测试。寻找并聘请一些知识渊博、富于怀疑精神、能言善辩的人，请他们扮演现有观点的反方角色。</li>
+<li>如果我爱的女孩不在身边，我就爱身边的女孩。”人类的大脑是有限和不完美的，它很容易满足于容易得到的东西。</li>
+</ul>
+<h2 id="十九、不用就忘倾向" tabindex="-1">十九、不用就忘倾向 <a class="header-anchor" href="#十九、不用就忘倾向" aria-label="Permalink to &quot;十九、不用就忘倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>人们只要勤奋就能降低不用就忘倾向的影响。如果人们能够熟练地掌握一种技能，而不是草草学来应付考试，那么这种技能将会较难以丢失，而且一旦生疏之后，只要重新学习，很快就能够被重新掌握</li>
+<li>聪明人在学习重要技能的过程中，如果没有做到真正精通这种技能，他是不会停下来的。</li>
+</ul>
+<h2 id="二十、化学物质错误影响" tabindex="-1">二十、化学物质错误影响 <a class="header-anchor" href="#二十、化学物质错误影响" aria-label="Permalink to &quot;二十、化学物质错误影响&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>不喝酒不抽烟</li>
+</ul>
+<h2 id="二十一、衰老——错误影响倾向" tabindex="-1">二十一、衰老——错误影响倾向 <a class="header-anchor" href="#二十一、衰老——错误影响倾向" aria-label="Permalink to &quot;二十一、衰老——错误影响倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>带着快乐不断地思考和学习在某种程度上能够延缓不可避免的衰退过程。</li>
+</ul>
+<h2 id="二十二、权威偏误" tabindex="-1">二十二、权威偏误 <a class="header-anchor" href="#二十二、权威偏误" aria-label="Permalink to &quot;二十二、权威偏误&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>不管什么时候遇到一位专家，我都会设法向他挑战。请你也这么做。你对权威的批判性越强，你就越自由，就越相信自己有更多的能力。</li>
+<li>选择将权力交给谁时要很谨慎，因为权威人物一旦上台，将会得到权威——错误影响倾向的帮助，那就很难被推翻。</li>
+<li>人类社会被正式组织成等级分明的权力结构，这些结构的文化则增强了人类天生就有的追随领袖的倾向。</li>
+</ul>
+<h2 id="二十三、废话倾向" tabindex="-1">二十三、废话倾向 <a class="header-anchor" href="#二十三、废话倾向" aria-label="Permalink to &quot;二十三、废话倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>作为一种拥有语言天赋的社会动物，人类天生就有本事啰里啰唆，说出一大堆会给正在专心做正经事的人造成许多麻烦的废话。</li>
+</ul>
+<h2 id="二十四、重视理由倾向-错误的因果关系" tabindex="-1">二十四、重视理由倾向（错误的因果关系） <a class="header-anchor" href="#二十四、重视理由倾向-错误的因果关系" aria-label="Permalink to &quot;二十四、重视理由倾向（错误的因果关系）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>相互关系不等于因果关系。你要看仔细。有时两者之间因果恰恰相反，有时两者之间根本就没有因果关系——就像仙鹤和婴儿一样。</li>
+<li>重视理由倾向这种不幸的副作用其实是一种条件反射，会出现这样的条件反射，是因为大多数人都认为有理由的事情是很重要的。</li>
+<li>人们只有一丝不苟地把某个想法的原因都摆出来，这个想法才最容易被接受。</li>
+</ul>
+<h2 id="二十五、lollapalooza-倾向——数种心理倾向共同作用造成极端后果的倾向" tabindex="-1">二十五、lollapalooza 倾向——数种心理倾向共同作用造成极端后果的倾向 <a class="header-anchor" href="#二十五、lollapalooza-倾向——数种心理倾向共同作用造成极端后果的倾向" aria-label="Permalink to &quot;二十五、lollapalooza 倾向——数种心理倾向共同作用造成极端后果的倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>许多的学科或者因素，共同影响或作用。</li>
+<li>某些邪教组织为什么能够极其成功地通过各种手段将许多心理倾向引起的压力施加在传教目标身上，从而迫使他们皈依。</li>
+</ul>
+<h2 id="幸存者偏差" tabindex="-1">幸存者偏差 <a class="header-anchor" href="#幸存者偏差" aria-label="Permalink to &quot;幸存者偏差&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>死人是不会说话的</li>
+<li>幸存偏误是指：由于日常生活中更容易看到成功、看不到失败，你会系统性地高估成功的希望。不了解现实的你（与雷托一样）对成功抱有一种幻想，认识不到成功的概率有多微弱</li>
+</ul>
+<h2 id="不是游泳让身材好-而是本身身材就好而其刚好在游泳池" tabindex="-1">不是游泳让身材好，而是本身身材就好而其刚好在游泳池 <a class="header-anchor" href="#不是游泳让身材好-而是本身身材就好而其刚好在游泳池" aria-label="Permalink to &quot;不是游泳让身材好，而是本身身材就好而其刚好在游泳池&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>那些上了 MBA 而涨薪的人，可能不上 MBA 还是会涨薪。</li>
+<li>不上大学不读名校的人，前途不一定会比读名校的人差。关键是本人的雄心、勤奋和信念。</li>
+</ul>
+<h2 id="确认偏误-在好转之前会先恶化-的陷阱" tabindex="-1">确认偏误（“在好转之前会先恶化”的陷阱） <a class="header-anchor" href="#确认偏误-在好转之前会先恶化-的陷阱" aria-label="Permalink to &quot;确认偏误（“在好转之前会先恶化”的陷阱）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>“在好转之前会先恶化”的陷阱是确认偏误的一种变体。如果有人说：“在好转之前会先恶化”，你脑子里就应该敲响警钟。不过请小心：确实有那样的情形，先是再次下滑然后回升。事业的转换可能会耗费时间，会造成停发工资。一个企业的重组也需要一定的时间。但所有这些情况，人们很快就能看出措施是否有效。里程碑是明确的，是可以检测的。请你望着里程碑，而不是望着天空。</li>
+<li>请你写下你的信条——有关世界观、投资、婚姻、健康预防措施、节食、成功策略的，然后寻找反驳证据。干掉自己最心爱的理论，这是一桩艰苦的工作，但作为聪明人士，你不会躲避的。</li>
+<li>确认偏误是所有思维错误之父——它倾向于这样诠释新信息，让它们与我们现有的理论、世界观和信念相兼容。</li>
+</ul>
+<h2 id="故事偏误-关联谬误-我们喜欢听故事" tabindex="-1">故事偏误（关联谬误）（我们喜欢听故事） <a class="header-anchor" href="#故事偏误-关联谬误-我们喜欢听故事" aria-label="Permalink to &quot;故事偏误（关联谬误）（我们喜欢听故事）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>请你忘记“左半脑和右半脑”的说法吧，更重要的是直觉思维和有意识的思维之间的区别。直觉思维偏好可信的故事，作重要决定时不顺从它们对你是有好处的。</li>
+<li>我们为什么会掉进关联谬误的陷阱呢？因为我们会直觉地理解“和谐的”或“可信的”故事。</li>
+<li>多阅读非虚构类的书，少阅读虚构类的书</li>
+<li>故事偏误是指：用故事扭曲和简化现实，它们排斥不合适编进故事的一切。</li>
+<li>我们喜欢听故事，不喜欢听抽象事实。这是一种不幸，因为为了不重要的方面，重要方面被忽视了。</li>
+</ul>
+<h2 id="事后诸葛亮倾向" tabindex="-1">事后诸葛亮倾向 <a class="header-anchor" href="#事后诸葛亮倾向" aria-label="Permalink to &quot;事后诸葛亮倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>通过事后寻找原因，忽略了事情发展过程中的诸多可能性。从现在回望过去，看似明明白白，其实在当时的情境下，有许多的可能性。</li>
+<li>事后诸葛亮偏误绝对是最顽固的思维错误之一，可以恰如其分地称为“我早知道现象”，即事后回顾时一切都显得是可以理解的、不可避免的。</li>
+</ul>
+<h2 id="司机的知识和真正的知识" tabindex="-1">司机的知识和真正的知识 <a class="header-anchor" href="#司机的知识和真正的知识" aria-label="Permalink to &quot;司机的知识和真正的知识&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>他认为知识有两种：一种是真知识，来自那些投入大量时间和思考以获得知识的人们；另一种就是司机的知识，按芒格故事里的意思，司机是指那些装得好像他们知道的人。他们会模仿别人表演，他们也可能拥有动听的声音或具有说服力的形象。但他们传播的知识是空洞的，他们高谈阔论地挥霍着华丽词汇。</li>
+</ul>
+<h2 id="控制错觉-你比你以为能控制的更少" tabindex="-1">控制错觉：你比你以为能控制的更少 <a class="header-anchor" href="#控制错觉-你比你以为能控制的更少" aria-label="Permalink to &quot;控制错觉：你比你以为能控制的更少&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>请你将注意力集中于你真正能影响的少量东西——坚定不移地只关注其中最重要的那些。其他的，听之任之吧。</li>
+<li>控制错觉是指：相信我们能够控制或影响某种我们客观上无法控制或影响的东西的倾向。</li>
+</ul>
+<h2 id="公地悲剧" tabindex="-1">公地悲剧 <a class="header-anchor" href="#公地悲剧" aria-label="Permalink to &quot;公地悲剧&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>如果有人真想解决公地问题，只有两种可能：将公地私有化或加强管理。具体地说，就是将这块沃土交到私人手里，或封住草地的入口。比如管理，就意味着由国家制定规则：也许是收取使用费，也许是进行时间限制，也许是根据眼睛的颜色（或眉毛、奶牛的颜色）来决定谁享有优先使用权。</li>
+<li>凡好处归个人而成本由集体承担的地方，就潜伏着公地悲剧</li>
+</ul>
+<h2 id="结果偏误-结果好的不一定就做对了-可能是运气" tabindex="-1">结果偏误--结果好的不一定就做对了，可能是运气 <a class="header-anchor" href="#结果偏误-结果好的不一定就做对了-可能是运气" aria-label="Permalink to &quot;结果偏误--结果好的不一定就做对了，可能是运气&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>可能错误的逻辑取得了好的结果；正确的逻辑取得了不好的结果。</li>
+<li>除非不断的成功，才有更大可能是实力或者能力。一次的成功可能是运气。</li>
+<li>请你切勿以结果判断决定。结果差并不一定意味着当时所做的决定不对，反之亦然。你最好仔细研究一下这样作决定的原因，而不是吐槽一个被证明是错误的决定，或者为一个也许是纯属偶然地获得成功的决定感到庆幸</li>
+</ul>
+<h2 id="选择的悖论-过多的选择会降低生活质量" tabindex="-1">选择的悖论--过多的选择会降低生活质量 <a class="header-anchor" href="#选择的悖论-过多的选择会降低生活质量" aria-label="Permalink to &quot;选择的悖论--过多的选择会降低生活质量&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>只有最好的才适合你吗？在存在无限选择的年代，情况恰恰相反：适合你的才是最好的。</li>
+<li>第一，选择范围太大会导致无所适从。：第一，选择范围太大会导致无所适从。第三，选择范围大会导致不满。你如何能够保证从 200 个选项中做出完美的选择？答案是：你不能。选择越多，你在选择后就越没有把握，因而也就越不满。</li>
+<li>选择多是进步的标尺。有所选择是将我们与计划经济和石器时代区分开的东西。是的，有所选择令人幸福。但这也有一个“度”，过多的选择会降低生活质量。专业术语称之为选择的悖论。</li>
+</ul>
+<h2 id="讨喜偏误-对方讨人喜欢而产生的偏误" tabindex="-1">讨喜偏误--对方讨人喜欢而产生的偏误 <a class="header-anchor" href="#讨喜偏误-对方讨人喜欢而产生的偏误" aria-label="Permalink to &quot;讨喜偏误--对方讨人喜欢而产生的偏误&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>“复制”是销售的标准技巧。销售者设法复制对方的手势、语言和表情。如果买方语速特别慢、声音特别低、经常抓挠额头，卖方也同样又慢又低地讲话、不时地抓挠额头就很有意义。这会让买方觉得他讨人喜欢，做成生意的可能性就更大。</li>
+<li>你在判断一笔生意时应该坚持不受卖方影响。请你不要考虑他，更好的办法是：请你想象他是个不讨人喜欢的家伙。</li>
+<li>讨喜偏误很容易理解，可我们却一再犯这个错误。它是指：某人越讨喜，我们就越倾向于从这个人那儿买东西或者帮助他。</li>
+</ul>
+<h2 id="禀赋效应-赋予我们的物品额外的情感溢价" tabindex="-1">禀赋效应--赋予我们的物品额外的情感溢价 <a class="header-anchor" href="#禀赋效应-赋予我们的物品额外的情感溢价" aria-label="Permalink to &quot;禀赋效应--赋予我们的物品额外的情感溢价&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>请不要死抱着某种东西不放，请将你拥有的视作“宇宙”临时留给你的某种东西。要知道你拥有的一切随时又会被拿走。</li>
+<li>禀赋效应不仅神化了我们已经拥有的财产，甚至神化了我们可能会拥有的财产。你应聘一份工作却没有成功，你会很失望。如果你知道，你一直坚持到了最终环节，然后被拒绝了，你的失望还要大得多——这是没有道理的。因为你要么成功，要么不成功，其他的一切都无关紧要。</li>
+<li>下子就超过了 53 000 欧元——否则我就会马上卖掉它。这背后的思维错误是：禀赋效应。我们感觉我们拥有的东西比我们没有拥有的更有价值。换句话说：当我们出售某物时，我们要求的钱多于我们自己愿意为它支付的钱。</li>
+</ul>
+<h2 id="忽视概率偏误-忽视基本概率" tabindex="-1">忽视概率偏误（忽视基本概率） <a class="header-anchor" href="#忽视概率偏误-忽视基本概率" aria-label="Permalink to &quot;忽视概率偏误（忽视基本概率）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>马库斯是个瘦瘦的男人，他戴眼镜，爱听莫扎特的音乐。根据以上描述，下列哪种情况的可能性更大呢？（1）马库斯是卡车司机；（2）马库斯是法兰克福的文学教授。大多数人会选（2)。这是错的。德国的卡车司机要比法兰克福的文学教授多得多。因此马库斯是一位卡车司机的可能性更大——即使他爱听莫扎特的音乐。为什么大多数人都会选错呢？精确描述误导了我们，让冷静的目光偏离了统计真相。科学里称这种思维错误为忽视基本概率。</li>
+<li>如果你是一个智囊团的成员，无论何时，你都要讲出你的看法——哪怕这看法不是很中听。你要仔细考虑没有讲出的意见，必要时要甘冒被隔离在温暖团体之外的风险。如果你领导着一支团队，请你指定某人唱反调。他将不是团队里最受欢迎的人，但也许是最重要的人。</li>
+</ul>
+<h2 id="零风险偏误-为零风险而付出过高代价" tabindex="-1">零风险偏误--为零风险而付出过高代价 <a class="header-anchor" href="#零风险偏误-为零风险而付出过高代价" aria-label="Permalink to &quot;零风险偏误--为零风险而付出过高代价&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>放弃 100%的安全感。请你告别零风险的想象，学会怀着“没有什么是安全的”想法生活——无论是你的积蓄、你的健康、你的婚姻、你的友谊、你的敌人，还是你的土地。</li>
+<li>我们常愿意投资过多的钱，就为了彻底消除微小的剩余风险。几乎在所有情况下，人们本来都能更好地投资这笔钱，更显著地降低另一种风险。人们把这种思维错误称为零风险偏误。</li>
+</ul>
+<h2 id="赌徒谬误-不能理解独立事件" tabindex="-1">赌徒谬误--不能理解独立事件 <a class="header-anchor" href="#赌徒谬误-不能理解独立事件" aria-label="Permalink to &quot;赌徒谬误--不能理解独立事件&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>请你仔细观看，看你面对的是否是独立的事件——不过这主要存在于赌场、彩票和理论书籍里。现实生活中这些事件大多有着相互联系——已经发生的事情，会影响未来将要发生的事情。</li>
+<li>人们相信命运具有一种平衡力量。这就是常说的赌徒谬误，但独立事件不存在平衡的力量。</li>
+</ul>
+<h2 id="锚定效应" tabindex="-1">锚定效应 <a class="header-anchor" href="#锚定效应" aria-label="Permalink to &quot;锚定效应&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>每当我们进行估计时——莱茵河的长度、俄罗斯的人口密度、法国的核电厂数量——我们都会使用锚定效应。我们选取某种熟悉的东西，大胆地从那里闯入陌生地。</li>
+<li>许多产品在包装袋上刊印的“建议销售价”也是一个锚定。职业销售人员知道，他们必须先设定一个锚——远在他们报价之前。</li>
+</ul>
+<h2 id="归纳法谬误" tabindex="-1">归纳法谬误 <a class="header-anchor" href="#归纳法谬误" aria-label="Permalink to &quot;归纳法谬误&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>我们需要归纳法，但我们不可以忘记，所有确信都只是暂时的。本杰明·富兰克林怎么说来着？“除了死亡和税收，没有什么是肯定的。”</li>
+<li>我们大家都有由观察个体得出普遍适用的结论的倾向。这是危险的。</li>
+</ul>
+<h2 id="规避损失倾向" tabindex="-1">规避损失倾向 <a class="header-anchor" href="#规避损失倾向" aria-label="Permalink to &quot;规避损失倾向&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>我们无法改变：恶比善更有影响力。我们对不利东西的反应要比对有利东西的反应敏感。走在大街上，一张凶恶的脸要比一张友善的脸更容易引起我们注意。恶行要比善行更久地留存在我们的记忆里。</li>
+<li>如果你想说服某人，请不要用可能的收益做论据，而要说他这样做可以规避一种可能的损失。</li>
+<li>损失要比同样多的收益对我们的影响更大。科学里称之为规避损失。</li>
+</ul>
+<h2 id="三个和尚没水吃-社会性懈怠" tabindex="-1">三个和尚没水吃--社会性懈怠 <a class="header-anchor" href="#三个和尚没水吃-社会性懈怠" aria-label="Permalink to &quot;三个和尚没水吃--社会性懈怠&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>出于同样的原因，团队有甘冒比个人更大风险的倾向。人们称这一效应为风险分摊。事实证明，团队讨论会导致做出比人们独自作决定时更冒险的决定。因为大家都会想：“一旦出事，不是我一个人承担责任。”</li>
+<li>社会性懈怠是一种理性行为：假如使出一半力就行，又不会引起注意，为什么要使出全力呢？一句话，社会性懈怠是一种我们让自己亏欠所有人的欺骗形式。这一欺骗大多不是故意的，而是不知不觉地发生的——就像马拉车一样。</li>
+</ul>
+<h2 id="赢家的诅咒" tabindex="-1">赢家的诅咒 <a class="header-anchor" href="#赢家的诅咒" aria-label="Permalink to &quot;赢家的诅咒&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>那我们什么会沦为赢家的诅咒的受害者呢？一方面，因为一种货物的真实价值是不确定的。出价方越多，报价过高的概率就越大。另一方面，因为我们想排挤竞争对手。</li>
+<li>赢家的诅咒是指：拍卖的赢家大多是事实上的输家。</li>
+</ul>
+<h2 id="基本特征谬误" tabindex="-1">基本特征谬误 <a class="header-anchor" href="#基本特征谬误" aria-label="Permalink to &quot;基本特征谬误&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>看到个人的力量，更要看到历史的趋势，或者事件的随机性</li>
+<li>尤其是在面对负面事件时，基本特征谬误会体现得更明显。我们将战争的“罪责”推给个人——第二次世界大战是希特勒的错，第一次世界大战是萨拉热窝行刺者的错。虽然战争是不可预见的事件，我们至今无法理解它的成因。</li>
+<li>基本特征谬误是指，系统性地高估人的影响，在解释某些东西时低估情境因素。</li>
+</ul>
+<h2 id="光环效应" tabindex="-1">光环效应 <a class="header-anchor" href="#光环效应" aria-label="Permalink to &quot;光环效应&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>结论：光环效应挡住了我们的视线，让我们看不到真实的特征。因此你要看仔细。请你排除醒目的特征。</li>
+<li>如果某人的某一个方面（比如美貌、社会地位、年龄）造成了正面或负面的印象，那么它将“普照”其他的一切，从而过度影响其总体印象。</li>
+<li>光环效应是指：我们让某一个方面照花了眼睛，并由此推及全貌。</li>
+</ul>
+<h2 id="替代途径-相同的结果后面不同的风险" tabindex="-1">替代途径--相同的结果后面不同的风险 <a class="header-anchor" href="#替代途径-相同的结果后面不同的风险" aria-label="Permalink to &quot;替代途径--相同的结果后面不同的风险&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>长期定投赚到的钱和加杠杆做合约赚到的钱不一样</li>
+<li>风险从来不是一眼就能看到的。因此，请你时刻考虑你有什么样的替代途径。比起你通过无惊险的平凡途径（比如从事律师、牙医、滑雪教练、飞行员或企业顾问的辛苦工作）获得的成功，别拿通过冒险的替代途径获得的成功太当真。</li>
+<li>替代途径是无形的，因此我们很少会想到它们。任何玩垃圾债券、期权和信用违约互换，挣到数百万欧元的人，都不该忘记，他同时有一堆危险的替代途径，它们会直接将他拖进毁灭。在这么大风险下获得的 1 000 万欧元，价值远不及通过数年的辛苦劳动挣到的 1 000 万欧元。不管会计怎样声称 1 000 万欧元就是 1 000 万欧元。</li>
+<li>替代途径是指，所有同样可能发生但没有发生的事情</li>
+</ul>
+<h2 id="框架效应-同一件事-表达不同-我的反应不同" tabindex="-1">框架效应--同一件事，表达不同，我的反应不同 <a class="header-anchor" href="#框架效应-同一件事-表达不同-我的反应不同" aria-label="Permalink to &quot;框架效应--同一件事，表达不同，我的反应不同&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>盲人摸象，不同的角度，不同的看法和结论</li>
+<li>如果我们只关注整体的一个方面或少数方面，我们也是在顺从框架效应的规则。比如，在购买一辆二手车时我们的注意力会集中在行驶里程上，而忽视了发动机、刹车装置和内饰的状况。因此我们的购买决定会受到行驶里程的影响。</li>
+<li>框架效应是指：视表达方式的不同，我们会对同样的事情做出不同的反应。</li>
+</ul>
+<h2 id="行动偏误-等待也是一种策略" tabindex="-1">行动偏误--等待也是一种策略 <a class="header-anchor" href="#行动偏误-等待也是一种策略" aria-label="Permalink to &quot;行动偏误--等待也是一种策略&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>如果花时间等待刚好让你做出了正确决定，你得不到荣誉、得不到勋章、得不到刻有你名字的雕像。相反，如果你表现果断、行动敏捷，形势好转了（哪怕纯属偶然），那么，你就大有机会受到祝贺或成为年度最佳员工。社会更喜欢下意识的行动，而不喜欢有意义的等待。</li>
+<li>上工治未病，但是社会奖励的是救火队长</li>
+<li>但我们今天的世界与过去不同——与行动相比，今天的世界奖励深刻的思考。这一转向让我们很难适应。</li>
+<li>为什么会有行动偏误？在一个狩猎采野果的环境中，行动比思考价值大得多。在过去，闪电式反应关乎生死存亡，思考则可能会致命。</li>
+<li>社会和他人鼓励行动。行动偏误：即使毫无用处，也要采取行动。</li>
+</ul>
+<h2 id="自利偏误-成功归于自己-失败归于外因" tabindex="-1">自利偏误--成功归于自己，失败归于外因 <a class="header-anchor" href="#自利偏误-成功归于自己-失败归于外因" aria-label="Permalink to &quot;自利偏误--成功归于自己，失败归于外因&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>社会和他人鼓励行动。行动偏误：即使毫无用处，也要采取行动。</li>
+<li>婚姻里也是如此：科学证明，不管是男人还是女人，他们对自己为伴侣关系正常运转所做贡献的评价都高于 50%。</li>
+<li>成功归于自己，失败归于外因。这就是自利偏误。</li>
+</ul>
+<h2 id="享乐适应症-巨大的快乐和痛苦都不会持续太久" tabindex="-1">享乐适应症--巨大的快乐和痛苦都不会持续太久 <a class="header-anchor" href="#享乐适应症-巨大的快乐和痛苦都不会持续太久" aria-label="Permalink to &quot;享乐适应症--巨大的快乐和痛苦都不会持续太久&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>这里有一些科学的建议：（1）请你避免很长时间也不会习惯的负面效应，例如往返交通、噪声、慢性疲累等；（2）请你对物质的东西只期待短期效果，例如汽车、房屋、分红、中彩票、得金奖等；（3）持续的正面效应主要与你如何利用你的时间有关。你要设法让自己得到尽可能多的自由时间和自主权。请你做你最爱做的事情——哪怕你要付出部分收入。</li>
+<li>当一段恋情破裂时，世界就崩溃了。受尽折磨者坚信，他们永远不会再感觉到哪怕一丝幸福了——但平均三个月之后他们就又快活起来了。</li>
+<li>事业上迈进了一步的人在平均三个月后的幸福感又与先前一样了。就连那些非要驾驶最新款保时捷的人也一样。</li>
+</ul>
+<h2 id="自我选择偏误-不要顾影自怜-你并不特殊" tabindex="-1">自我选择偏误--不要顾影自怜，你并不特殊 <a class="header-anchor" href="#自我选择偏误-不要顾影自怜-你并不特殊" aria-label="Permalink to &quot;自我选择偏误--不要顾影自怜，你并不特殊&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>不识庐山真面目，只缘身在此山中</li>
+<li>你就在样本中，这样你是分析不出样本的全貌的。</li>
+<li>一家公司想查明每个家庭平均有多少部电话（包括座机和手机）。在分析调查结果时，他们居然对没有一个家庭声称没有电话而感到吃惊。这真是太可笑了！</li>
+</ul>
+<h2 id="新手的运气-假如开始时一切顺利-请多加小心" tabindex="-1">新手的运气--假如开始时一切顺利，请多加小心 <a class="header-anchor" href="#新手的运气-假如开始时一切顺利-请多加小心" aria-label="Permalink to &quot;新手的运气--假如开始时一切顺利，请多加小心&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>从哪一刻开始就不再是新手的运气，而是天才呢？没有明确的分界，但有两条线索。第一，如果你长期比其他人成功，你可以认为，自己的才华可能起到作用，但你绝不能过于自信、自满。第二，参与的人越多，某人出于纯粹的运气长期成功的概率就越大。也许你就是这个某人。如果你在一个只有 10 名竞争者的市场上脱颖而出，这说明你有一定的才华。如果你在一个拥有千万名竞争者的市场上成功了，你就不应该太骄傲（比如说在金融市场上）。这种情况下你应该认为，你只是很幸运。</li>
+</ul>
+<h2 id="认知失调-吃不到葡萄说葡萄酸" tabindex="-1">认知失调--吃不到葡萄说葡萄酸 <a class="header-anchor" href="#认知失调-吃不到葡萄说葡萄酸" aria-label="Permalink to &quot;认知失调--吃不到葡萄说葡萄酸&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>假设你要申请一份工作，但人家选择了另一位候选人而没选你。你不会承认是你资质不够，而是会劝自己你其实根本不想要这份工作，你只是想再测试一下你的“市场价值”，看看人家到底还会不会请你去面试。</li>
+</ul>
+<h2 id="双曲贴现-延迟满足的能力" tabindex="-1">双曲贴现--延迟满足的能力 <a class="header-anchor" href="#双曲贴现-延迟满足的能力" aria-label="Permalink to &quot;双曲贴现--延迟满足的能力&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>是否拥有延迟满足的能力是他们后来事业是否成功的一个可靠的指示器。</li>
+<li>科学里称这一现象为双曲贴现。意思是：一个决定离现在越近，我们的“情感利息”就越多。</li>
+</ul>
+]]></content:encoded>
             <author>shuimu0579@gmail.com (suimu)</author>
         </item>
     </channel>
