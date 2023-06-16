@@ -131,7 +131,7 @@ export default defineConfig({
       site_url: hostname,
       feed_url: `${hostname}/blog/feed.xml`,
       language: "zh-CN",
-      image_url: "${hostname}/blog/avatar.jpeg",
+      image_url: `${hostname}/blog/avatar.jpeg`,
       favicon: `${hostname}/blog/favicon.ico`,
     });
     // You might need to adjust this if your Markdown files
