@@ -7,13 +7,13 @@ const { Layout } = DefaultTheme;
 <template>
   <Layout>
     <template #aside-ads-before>
-      <a
+      <!-- <a
         href="https://twitter.com/shuimu19"
         target="_blank"
         class="advertising"
       >
         <span> 联系我 </span>
-      </a>
+      </a> -->
     </template>
   </Layout>
 </template>

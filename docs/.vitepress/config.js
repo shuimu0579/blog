@@ -1,11 +1,6 @@
 const path = require("path");
-import { writeFileSync } from "fs";
-import { Feed } from "feed";
-import { defineConfig, createContentLoader } from "vitepress";
 
-const hostname = "https://suimulearn.cn";
-
-export default defineConfig({
+export default {
   lang: "zh-CN",
   title: "suimu blog",
   description: "suimu blog",
@@ -38,12 +33,16 @@ export default defineConfig({
         collapsed: false,
         items: [
           {
+            text: "常用工具汇总",
+            link: "/guide/常用工具汇总",
+          },
+          {
             text: "微信读书App很好，但Reader让人惊艳",
             link: "/tools/readwise-reader",
           },
           {
-            text: "常用工具汇总",
-            link: "/guide/常用工具汇总",
+            text: "思考工具Hepta",
+            link: "/tools/heptabase",
           },
           {
             text: "1Password 注册使用教程",
@@ -79,10 +78,6 @@ export default defineConfig({
             link: "/guide/微信读书和zlibrary的双剑合璧",
           },
           {
-            text: "思考工具Hepta",
-            link: "/guide/思考工具Hepta",
-          },
-          {
             text: "找到想要的电子书",
             link: "/guide/找到想要的电子书",
           },
@@ -114,7 +109,7 @@ export default defineConfig({
           },
           {
             text: "怎么学习一个新的东西",
-            link: "/guide/怎么学习一个新的东西",
+            link: "/guide/how-to-learn",
           },
           {
             text: "科目三考了三次有感",
@@ -124,47 +119,4 @@ export default defineConfig({
       },
     ],
   },
-  buildEnd: async (config) => {
-    const feed = new Feed({
-      title: "suimu blog",
-      description: "suimu blog",
-      id: hostname,
-      link: hostname,
-      language: "zh-CN",
-      image: "/avatar.jpeg",
-      favicon: `${hostname}/favicon.ico`,
-      copyright: "Copyright (c) 2023-present, suimu",
-    });
-
-    // You might need to adjust this if your Markdown files
-    // are located in a subfolder
-    const posts = await createContentLoader("*.md", {
-      excerpt: true,
-      render: true,
-    }).load();
-
-    posts.sort(
-      (a, b) => +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
-    );
-
-    for (const { url, excerpt, frontmatter, html } of posts) {
-      feed.addItem({
-        title: frontmatter.title,
-        id: `${hostname}${url}`,
-        link: `${hostname}${url}`,
-        description: excerpt,
-        content: html,
-        author: [
-          {
-            name: "suimu",
-            email: "shuimu0579@gmail.com",
-            link: "https://twitter.com/shuimu19",
-          },
-        ],
-        date: frontmatter.date,
-      });
-    }
-
-    writeFileSync(path.join(config.outDir, "feed.rss"), feed.rss2());
-  },
-});
+};
